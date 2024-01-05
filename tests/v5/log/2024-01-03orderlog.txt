@@ -1,0 +1,167 @@
+order meet the stoplose:2024-01-03 00:00:50
+
+making order 做多:2024-01-03 09:29:35
+
+closing order 做多:2024-01-03 09:30:45
+
+making order 做空:2024-01-03 09:30:50
+
+order meet the stoplose:2024-01-03 09:37:05
+
+making order 做多:2024-01-03 09:41:05
+
+making order 做多:2024-01-03 09:57:00
+
+making order 做空:2024-01-03 10:16:05
+
+closing order 做空:2024-01-03 10:29:10
+
+making order 做多:2024-01-03 10:30:05
+
+closing order 做多:2024-01-03 10:41:00
+
+making order 做空:2024-01-03 10:41:05
+
+closing order 做空:2024-01-03 11:02:00
+
+making order 做多:2024-01-03 11:02:05
+
+making order 做多:2024-01-03 11:19:00
+
+order meet the stoplose:2024-01-03 11:21:50
+
+making order 做空:2024-01-03 11:28:05
+
+making order 做多:2024-01-03 11:48:05
+
+closing order 做多:2024-01-03 12:09:25
+
+making order 做空:2024-01-03 12:09:30
+
+order meet the stoplose:2024-01-03 12:17:30
+
+making order 做多:2024-01-03 12:19:00
+
+closing order 做多:2024-01-03 12:32:00
+
+making order 做空:2024-01-03 12:32:05
+
+closing order 做空:2024-01-03 12:48:05
+
+making order 做多:2024-01-03 12:48:10
+
+closing order 做多:2024-01-03 12:57:10
+
+making order 做空:2024-01-03 12:57:15
+
+closing order 做空:2024-01-03 12:57:20
+
+making order 做多:2024-01-03 13:00:05
+
+closing order 做多:2024-01-03 13:00:30
+
+making order 做空:2024-01-03 13:00:35
+
+closing order 做空:2024-01-03 13:00:45
+
+making order 做多:2024-01-03 13:10:00
+
+closing order 做多:2024-01-03 13:10:30
+
+making order 做多:2024-01-03 13:18:10
+
+order meet the stoplose:2024-01-03 13:55:30
+
+making order 做空:2024-01-03 14:35:00
+
+closing order 做空:2024-01-03 14:46:00
+
+making order 做多:2024-01-03 14:46:05
+
+closing order 做多:2024-01-03 14:46:40
+
+making order 做空:2024-01-03 14:46:45
+
+closing order 做空:2024-01-03 14:47:05
+
+making order 做多:2024-01-03 14:47:10
+
+closing order 做多:2024-01-03 15:07:00
+
+making order 做空:2024-01-03 15:07:05
+
+order meet the stoplose:2024-01-03 15:08:35
+
+making order 做多:2024-01-03 15:10:35
+
+closing order 做多:2024-01-03 15:10:40
+
+making order 做空:2024-01-03 15:10:45
+
+closing order 做空:2024-01-03 15:11:00
+
+making order 做多:2024-01-03 15:11:05
+
+order meet the stoplose:2024-01-03 15:20:10
+
+making order 做空:2024-01-03 15:22:05
+
+order meet the stoplose:2024-01-03 15:25:40
+
+making order 做多:2024-01-03 15:30:05
+
+order meet the stoplose:2024-01-03 15:35:40
+
+making order 做空:2024-01-03 15:37:00
+
+closing order 做空:2024-01-03 15:55:00
+
+making order 做多:2024-01-03 16:05:00
+
+closing order 做多:2024-01-03 16:40:35
+
+making order 做空:2024-01-03 16:40:40
+
+closing order 做空:2024-01-03 16:40:50
+
+making order 做多:2024-01-03 16:55:00
+
+closing order 做多:2024-01-03 17:40:05
+
+making order 做空:2024-01-03 17:52:05
+
+order meet the stoplose:2024-01-03 17:54:10
+
+making order 做多:2024-01-03 18:09:30
+
+closing order 做多:2024-01-03 18:19:00
+
+making order 做空:2024-01-03 18:19:05
+
+closing order 做空:2024-01-03 18:57:00
+
+making order 做多:2024-01-03 18:57:05
+
+order meet the stoplose:2024-01-03 19:07:10
+
+making order 做空:2024-01-03 19:08:05
+
+closing order 做空:2024-01-03 19:25:00
+
+making order 做多:2024-01-03 19:43:05
+
+closing order 做多:2024-01-03 19:44:35
+
+making order 做空:2024-01-03 19:44:40
+
+closing order 做空:2024-01-03 19:44:45
+
+making order 做多:2024-01-03 19:44:50
+
+closing order 做多:2024-01-03 19:47:00
+
+making order 做空:2024-01-03 19:47:05
+
+closing order 做空:2024-01-03 19:52:10
+
+making order 做多:2024-01-03 20:27:05order meet the stoplose:2024-01-03 20:27:15making order 做多:2024-01-03 22:09:00order meet the stoplose:2024-01-03 22:13:55making order 做空:2024-01-03 23:26:05order meet the stoplose:2024-01-03 23:34:35
