@@ -45,7 +45,7 @@ $before1minprice=0;//上1分钟市场价钱
 $before2minprice=0;//上2分钟市场价钱
 $allowtoclose=0;
 
-
+$diffrange=0;
 
 
 try {
@@ -75,7 +75,9 @@ logger2("start account balance: ".$totalAccountBalance);
 // $action="short";
 // $position ="long to short";
 
-// $buyingprice="43903.90";
+// $buyingprice="43627.20";
+// 43627.20
+
 
 
 
@@ -229,7 +231,12 @@ if($is_running_order==0){
         //做多
         logger2('position:'.$position);
 
+        $diffrange=$finalema10-$finalema20;
+        if($diffrange>50){
 
+
+
+           
         if($position =="long to short"){
         
             // $array = $closePrice4;
@@ -250,7 +257,7 @@ if($is_running_order==0){
 
             $diffprice =  $currentprice-$buyingprice;
 
-            if($diffprice>300){
+            if($diffprice>150){
                 $canbuy+=1;
             }
 
@@ -286,7 +293,7 @@ if($is_running_order==0){
                     'positionIdx'=> 0,
                     'preCreateId'=>'',
                     // 'price'=>'42838.8',
-                    'qty'=>'0.008',
+                    'qty'=>'0.001',
                     'qtyType'=>0,
                     'qtyTypeValue'=>0,
                     //'qtyX'=>"100000",
@@ -327,14 +334,24 @@ if($is_running_order==0){
 
         }
         logger2('running order 做多:'.date('Y-m-d H:i:s',$time));
+
+
+
+
+
+        }
       
 
 
     }else if($finalema10<$finalema20){
-        
         //做空
       
         logger2('position:'.$position);
+
+        $diffrange=$finalema20-$finalema10;
+        if($diffrange>50){
+
+
 
 
         if($position =="short to long"){
@@ -355,7 +372,7 @@ if($is_running_order==0){
 
             $diffprice =  $buyingprice-$currentprice;
 
-            if($diffprice>300){
+            if($diffprice>150){
                 $canbuy+=1;
             }
 
@@ -391,7 +408,7 @@ if($is_running_order==0){
                     'positionIdx'=> 0,
                     'preCreateId'=>'',
                     // 'price'=>'42803.2',
-                    'qty'=>'0.008',
+                    'qty'=>'0.001',
                     'qtyType'=>0,
                     'qtyTypeValue'=>0,
                     //'qtyX'=>"100000",
@@ -433,6 +450,12 @@ if($is_running_order==0){
         }
 
         logger2('running order 做空:'.date('Y-m-d H:i:s',$time));
+
+
+
+        
+
+        }
        
     }
 
@@ -493,7 +516,7 @@ if($is_running_order==0){
 
 
             $diffema=$finalema10-$finalema20;
-            // if(($diffema<5)){
+           
             if(($diffema<0.1)||$allowtoclose==1){
                 // $closingprice=$closePrice20[0];
                 logger2('close 做多:'.date('Y-m-d H:i:s',$time));
@@ -509,7 +532,7 @@ if($is_running_order==0){
                         'orderType'=>'Market',
                         'positionIdx'=> '0',
                         'price'=>'0',
-                        'qty'=>'0.008',
+                        'qty'=>'0.001',
                         //'qtyX'=>"100000",
                         'side'=>"Sell",
                         'symbol'=>"BTCUSDT",
@@ -579,7 +602,7 @@ if($is_running_order==0){
 
 
             $diffema=$finalema20-$finalema10;
-            // if($diffema<5){
+            
             if(($diffema<0.1)||$allowtoclose==1){
                 // $closingprice=$closePrice20[0];
                 logger2('close 做空:'.date('Y-m-d H:i:s',$time));
@@ -595,7 +618,7 @@ if($is_running_order==0){
                         'orderType'=>'Market',
                         'positionIdx'=> '0',
                         'price'=>'0',
-                        'qty'=>'0.008',
+                        'qty'=>'0.001',
                         //'qtyX'=>"100000",
                         'side'=>"Buy",
                         'symbol'=>"BTCUSDT",
@@ -697,7 +720,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
                 'orderType'=>'Market',
                 'positionIdx'=> '0',
                 'price'=>'0',
-                'qty'=>'0.008',
+                'qty'=>'0.001',
                 //'qtyX'=>"100000",
                 'side'=>"Sell",
                 'symbol'=>"BTCUSDT",
@@ -727,7 +750,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
                 'orderType'=>'Market',
                 'positionIdx'=> '0',
                 'price'=>'0',
-                'qty'=>'0.008',
+                'qty'=>'0.001',
                 //'qtyX'=>"100000",
                 'side'=>"Buy",
                 'symbol'=>"BTCUSDT",
