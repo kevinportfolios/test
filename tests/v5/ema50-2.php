@@ -39,6 +39,7 @@ $canbuy=0;
 
 $buyingprice=0;//进场价钱
 // $closingprice=0;
+$overprice=0;
 
 $currentprice=0;//当前市场价钱
 $before1minprice=0;//上1分钟市场价钱
@@ -232,9 +233,12 @@ if($is_running_order==0){
         logger2('position:'.$position);
 
         $diffrange=$finalema10-$finalema20;
+
+        if($diffrange>0&&$diffrange<10){
+            $overprice=$finalema20;
+        }
+
         if($diffrange>50){
-
-
 
            
         if($position =="long to short"){
@@ -255,13 +259,13 @@ if($is_running_order==0){
 
 
 
-            $diffprice =  $currentprice-$buyingprice;
+            $diffprice =  $currentprice-$overprice;
 
-            if($diffprice>150){
+            if($diffprice>80){
                 $canbuy+=1;
             }
 
-            logger2('canbuy 做多:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';buyingprice:'.$buyingprice);
+            logger2('canbuy 做多:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';overprice:'.$overprice);
 
             //60s
             if ($canbuy>12) {
@@ -323,6 +327,7 @@ if($is_running_order==0){
                 }
 
                 orderlogger2('making order 做多:'.date('Y-m-d H:i:s',$time));
+                orderlogger2('overprice:'.$overprice);
 
             }catch (\Exception $e){
                 $error = 'order 做多 error: '.$e->getMessage();
@@ -337,8 +342,6 @@ if($is_running_order==0){
 
 
 
-
-
         }
       
 
@@ -349,6 +352,11 @@ if($is_running_order==0){
         logger2('position:'.$position);
 
         $diffrange=$finalema20-$finalema10;
+
+        if($diffrange>0&&$diffrange<10){
+            $overprice=$finalema20;
+        }
+
         if($diffrange>50){
 
 
@@ -370,13 +378,13 @@ if($is_running_order==0){
             // logger2('allBigger 做空:'.$allBigger);
             // logger2('closePrice4: '.json_encode($closePrice4));
 
-            $diffprice =  $buyingprice-$currentprice;
+            $diffprice =  $buyingprice-$overprice;
 
-            if($diffprice>150){
+            if($diffprice>80){
                 $canbuy+=1;
             }
 
-            logger2('canbuy 做空:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';buyingprice:'.$buyingprice);
+            logger2('canbuy 做空:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';overprice:'.$overprice);
 
            //60s
            if ($canbuy>12) {
@@ -439,6 +447,8 @@ if($is_running_order==0){
 
 
                 orderlogger2('making order 做空:'.date('Y-m-d H:i:s',$time));
+                orderlogger2('overprice:'.$overprice);
+
 
             }catch (\Exception $e){
                 $error = 'order 做空 error: '.$e->getMessage();
@@ -547,6 +557,7 @@ if($is_running_order==0){
                     }else{
                         $position ="long to short";
                         $allowtoclose =0;
+                        $overprice = $currentprice;
                     }
 
                     
@@ -632,6 +643,7 @@ if($is_running_order==0){
                     }else{
                         $position ="short to long";
                         $allowtoclose =0;
+                        $overprice = $currentprice;
                     }
 
                     orderlogger2('closing order 做空:'.date('Y-m-d H:i:s',$time));
