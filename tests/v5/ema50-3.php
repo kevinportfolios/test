@@ -109,7 +109,7 @@ try {
         $getKline=$bybit->market()->getKline([
             'category'=>'linear',
             'symbol'=>'BTCUSDT',
-            'interval'=>'5',
+            'interval'=>'1',
             'limit'=>'100',
         ]);
     }catch (\Exception $e){

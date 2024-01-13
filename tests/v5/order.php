@@ -132,25 +132,25 @@ $bybit->setOptions([
 
 
 
-try {
-    $getKline=$bybit->market()->getKline([
-        'category'=>'spot',
-        'symbol'=>'BTCUSDT',
-        'interval'=>'5',
-        'limit'=>'20',
-    ]);
-}catch (\Exception $e){
-    print_r($e->getMessage());
-}
+// try {
+//     $getKline=$bybit->market()->getKline([
+//         'category'=>'spot',
+//         'symbol'=>'BTCUSDT',
+//         'interval'=>'5',
+//         'limit'=>'20',
+//     ]);
+// }catch (\Exception $e){
+//     print_r($e->getMessage());
+// }
 
 
 
-$closePrice10=array();
-$closePrice20=array();
-foreach ($getKline["result"]["list"] as $r) {
-    $closePrice20[]=$r["4"];
-}
-$closePrice10 = array_slice($closePrice20, 0, -10);
+// $closePrice10=array();
+// $closePrice20=array();
+// foreach ($getKline["result"]["list"] as $r) {
+//     $closePrice20[]=$r["4"];
+// }
+// $closePrice10 = array_slice($closePrice20, 0, -10);
 
-$latestPrice = $closePrice20[0];
-echo $latestPrice;
+// $latestPrice = $closePrice20[0];
+// echo $latestPrice;

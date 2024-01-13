@@ -62,3 +62,20 @@ function orderlogger2($log){
 
     file_put_contents($filename,$contents);
 }
+
+
+function testlogger($log){
+	$time=time()+(7*3600);
+	$folderName = 'log';  // folder name
+	$filename= $folderName . '/' .date('Y-m-d',$time).'logtest.txt';
+	if(!file_exists($filename)){
+	   file_put_contents($filename,'');
+	}
+	
+	$contents = file_get_contents($filename);
+	$contents .= "$log";
+
+    file_put_contents($filename,$contents);
+
+
+}

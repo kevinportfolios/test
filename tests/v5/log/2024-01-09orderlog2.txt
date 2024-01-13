@@ -1,0 +1,65 @@
+making order 做多:2024-01-09 11:20:00
+
+overprice:0
+
+order meet the stoplose:2024-01-09 11:21:25
+
+making order 做多:2024-01-09 11:25:15
+
+overprice:0
+
+order meet the stoplose:2024-01-09 11:38:25
+
+making order 做多:2024-01-09 11:39:45
+
+overprice:0
+
+order meet the stoplose:2024-01-09 11:44:10
+
+making order 做空:2024-01-09 13:45:05
+
+overprice:46757.524
+
+order meet the stoplose:2024-01-09 13:49:10
+
+making order 做多:2024-01-09 15:45:00
+
+overprice:46808.028
+
+order meet the stoplose:2024-01-09 16:04:25
+
+
+
+
+
+
+making order 做空:2024-01-09 17:08:20
+
+overprice:46793.266
+
+order meet the stoplose:2024-01-09 17:16:20
+
+
+
+making order 做空:2024-01-09 17:20:05
+
+overprice:46793.266
+
+order meet the stoplose:2024-01-09 17:35:30
+
+
+
+making order 做空:2024-01-09 17:45:05
+
+overprice:46793.266
+
+order meet the stoplose:2024-01-09 18:21:25
+
+
+
+
+making order 做空:2024-01-09 18:31:15
+
+overprice:46793.266
+
+making order 做多:2024-01-09 21:52:35overprice:46620.872order meet the stoplose:2024-01-09 21:55:45making order 做多:2024-01-09 22:05:00overprice:46620.872order meet the stoplose:2024-01-09 22:07:10making order 做多:2024-01-09 22:15:05overprice:46620.872order meet the stoplose:2024-01-09 22:15:25making order 做多:2024-01-09 22:25:00overprice:46620.872order meet the stoplose:2024-01-09 22:25:50making order 做空:2024-01-09 23:15:05overprice:46666.182order meet the stoplose:2024-01-09 23:15:40making order 做多:2024-01-09 23:45:05overprice:46692.532order meet the stoplose:2024-01-09 23:45:15

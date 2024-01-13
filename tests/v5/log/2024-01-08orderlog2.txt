@@ -1,0 +1,172 @@
+making order 做多:2024-01-08 14:05:00
+
+overprice:43570.254
+
+closing order 做多:2024-01-08 14:21:55
+
+making order 做多:2024-01-08 14:23:00
+
+overprice:43570.254
+
+order meet the stoplose:2024-01-08 14:23:05
+
+making order 做多:2024-01-08 14:24:10
+
+overprice:43570.254
+
+order meet the stoplose:2024-01-08 14:35:45
+
+making order 做多:2024-01-08 14:36:50
+
+overprice:43570.254
+
+order meet the stoplose:2024-01-08 14:39:40
+
+making order 做多:2024-01-08 14:40:45
+
+overprice:43570.254
+
+order meet the stoplose:2024-01-08 14:49:50
+
+making order 做多:2024-01-08 14:50:55
+
+overprice:43570.254
+
+order meet the stoplose:2024-01-08 14:52:40
+
+making order 做多:2024-01-08 14:53:50
+
+overprice:43570.254
+
+order meet the stoplose:2024-01-08 15:37:15
+
+making order 做多:2024-01-08 15:38:20
+
+overprice:43570.254
+
+closing order 做多:2024-01-08 17:31:00
+
+
+
+//ok
+making order 做多:2024-01-08 18:55:05
+
+overprice:43919.276
+
+order meet the stoplose:2024-01-08 19:18:40
+
+//ok
+making order 做多:2024-01-08 19:20:15
+
+overprice:43919.276
+
+closing order 做多:2024-01-08 19:48:15
+
+
+//ok
+making order 做多:2024-01-08 19:55:00
+
+overprice:44354.8
+
+closing order 做多:2024-01-08 20:01:45
+
+
+
+
+making order 做多:2024-01-08 20:04:05
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:04:10
+
+
+
+
+making order 做多:2024-01-08 20:07:35
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:07:50
+
+
+
+
+
+
+
+making order 做多:2024-01-08 20:09:10
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:09:30
+
+
+
+
+making order 做多:2024-01-08 20:11:05
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:16:40
+
+
+
+
+making order 做多:2024-01-08 20:17:45
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:18:00
+
+
+
+
+making order 做多:2024-01-08 20:44:00
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:44:40
+
+making order 做多:2024-01-08 20:47:15
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 20:47:50
+
+making order 做多:2024-01-08 20:51:45
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 21:30:15
+
+making order 做多:2024-01-08 21:31:20
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 21:32:25
+
+making order 做多:2024-01-08 21:33:30
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 21:35:55
+
+making order 做多:2024-01-08 21:37:00
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 21:48:50
+
+making order 做多:2024-01-08 21:57:50
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 22:02:45
+
+making order 做多:2024-01-08 22:12:55
+
+overprice:44855.1
+
+order meet the stoplose:2024-01-08 22:19:50
+
+making order 做空:2024-01-08 23:43:35overprice:0order meet the stoplose:2024-01-08 23:43:40

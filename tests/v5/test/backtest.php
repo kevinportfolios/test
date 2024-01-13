@@ -1,5 +1,6 @@
 <?php
 /**
+ *
  * using ema 50 and ema 100  
  * 5minutes
  * */
@@ -11,20 +12,20 @@ include 'key_secret.php';
 include 'cal_ema.php';
 include 'log.php';
 
-$bybit=new BybitV5($key,$secret);
+// $bybit=new BybitV5($key,$secret);
 
-//You can set special needs
-$bybit->setOptions([
-    //Set the request timeout to 60 seconds by default
-    'timeout'=>10,
+// //You can set special needs
+// $bybit->setOptions([
+//     //Set the request timeout to 60 seconds by default
+//     'timeout'=>10,
 
-    'headers'=>[
-        //X-Referer or Referer - 經紀商用戶專用的頭參數
-        //X-BAPI-RECV-WINDOW 默認值為5000
-        //cdn-request-id
-        'X-BAPI-RECV-WINDOW'=>'6000',
-    ]
-]);
+//     'headers'=>[
+//         //X-Referer or Referer - 經紀商用戶專用的頭參數
+//         //X-BAPI-RECV-WINDOW 默認值為5000
+//         //cdn-request-id
+//         'X-BAPI-RECV-WINDOW'=>'6000',
+//     ]
+// ]);
 
 
 
@@ -49,17 +50,17 @@ $allowtoclose=0;
 $diffrange=0;
 
 
-try {
-    $getWalletBalance=$bybit->account()->getWalletBalance([
-        'accountType'=>'UNIFIED',
-    ]);
-}catch (\Exception $e){
-    $error = 'getWalletBalance error: '.$e->getMessage();
-    logger2($error);
-}
+// try {
+//     $getWalletBalance=$bybit->account()->getWalletBalance([
+//         'accountType'=>'UNIFIED',
+//     ]);
+// }catch (\Exception $e){
+//     $error = 'getWalletBalance error: '.$e->getMessage();
+//     logger2($error);
+// }
 
-$totalAccountBalance=$getWalletBalance["result"]["list"][0]["totalWalletBalance"];
-logger2("start account balance: ".$totalAccountBalance);
+// $totalAccountBalance=$getWalletBalance["result"]["list"][0]["totalWalletBalance"];
+// logger2("start account balance: ".$totalAccountBalance);
 
 
 
@@ -110,7 +111,7 @@ try {
             'category'=>'linear',
             'symbol'=>'BTCUSDT',
             'interval'=>'5',
-            'limit'=>'100',
+            'limit'=>'50',
         ]);
     }catch (\Exception $e){
         $error = 'getKline error: '.$e->getMessage();
@@ -126,7 +127,7 @@ try {
     }
 
     // echo json_encode($closePrice20);
-    $closePrice4 = array_slice($closePrice20, 0, 5);//checking for order again
+    $closePrice4 = array_slice($closePrice20, 0, 3);//checking for order again
     // echo PHP_EOL; echo PHP_EOL;
     // echo json_encode($closePrice4);
 
@@ -262,10 +263,8 @@ if($is_running_order==0){
 
             $diffprice =  $currentprice-$overprice;
 
-            if($diffprice>150){
+            if($diffprice>180){
                 $canbuy+=1;
-            }else{
-                $canbuy=0;
             }
 
             logger2('canbuy 做多:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';overprice:'.$overprice);
@@ -383,10 +382,8 @@ if($is_running_order==0){
 
             $diffprice = $overprice -$currentprice;
 
-            if($diffprice>150){
+            if($diffprice>180){
                 $canbuy+=1;
-            }else{
-                $canbuy=0;
             }
 
             logger2('canbuy 做空:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';overprice:'.$overprice);
