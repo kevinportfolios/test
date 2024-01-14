@@ -1,1 +1,49 @@
-making order 做空:2024-01-13 17:15:05overprice:43169.048order meet the stoplose:2024-01-13 17:43:25
+making order 做空:2024-01-13 17:15:05
+
+overprice:43169.048
+
+order meet the stoplose:2024-01-13 17:43:25
+
+
+
+making order 做多:2024-01-13 20:10:00
+
+overprice:42657.068
+
+order meet the stoplose:2024-01-13 20:10:25
+
+
+
+
+making order 做空:2024-01-13 20:21:00
+
+overprice:42650.964
+
+order meet the stoplose:2024-01-13 20:22:35
+
+
+
+making order 做多:2024-01-13 20:50:50
+
+overprice:42641.226
+
+order meet the stoplose:2024-01-13 21:02:30
+
+
+
+
+making order 做空:2024-01-13 22:13:00
+
+overprice:42759.808
+
+order meet the stoplose:2024-01-13 22:21:30
+
+
+
+
+making order 做多:2024-01-13 22:37:00
+
+overprice:42727.782
+
+closing order 做多:2024-01-13 23:10:25
+
