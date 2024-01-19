@@ -1,0 +1,1 @@
+making order 做多:2024-01-16 10:15:05overprice:42596.83order meet the stoplose:2024-01-16 10:40:10making order 做多:2024-01-16 11:36:20overprice:42669.074order meet the stoplose:2024-01-16 11:43:35making order 做多:2024-01-16 23:16:40overprice:0closing order 做多:2024-01-16 23:19:55

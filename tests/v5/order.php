@@ -23,6 +23,48 @@ $bybit->setOptions([
     ]
 ]);
 
+$result=$bybit->order2()->postCreate([
+    'category'=>'linear',
+    'action'=>'open',
+    // 'basePrice'=>'42838.8',
+    'closeOnTrigger'=>false,
+    'coin'=>'BTC',
+    'leverage'=>'100',
+    'leverageE2'=>'10000',
+    'needGeneratePid'=>true,
+    'orderType'=>'Market',
+    'positionIdx'=> 0,
+    'preCreateId'=>'',
+    // 'price'=>'42838.8',
+    'qty'=>'0.001',
+    'qtyType'=>0,
+    'qtyTypeValue'=>0,
+    //'qtyX'=>"100000",
+    'reduceOnly'=>false,
+    'side'=>"Buy",
+    // 'slOrderType'=>"Market",
+    'slTriggerBy'=>"LastPrice",
+    // 'stopLoss'=> (string)$stopLoss,
+    'symbol'=>"BTCUSDT",
+    'takeProfit'=>"",
+    'timeInForce'=>"ImmediateOrCancel",
+    // 'tpOrderType'=>"Market",
+    // 'tpSlMode'=>"Full",
+    'tpTriggerBy'=>"LastPrice",
+    'triggerBy'=>"LastPrice",
+    'triggerPrice'=>"",
+    'type'=>"Activity",
+
+]);
+
+if($result["retCode"]!=0){
+    $error = 'order 做多 error: '.$result["retCode"].';'.$result["retMsg"];
+    logger2($error);
+}else{
+    $position="";
+    $canbuy=0;
+}
+
 
 // try {
 //     $result=$bybit->order()->postCreate([
@@ -61,15 +103,6 @@ $bybit->setOptions([
 // }catch (\Exception $e){
 //     print_r($e->getMessage());
 // }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -154,3 +187,6 @@ $bybit->setOptions([
 
 // $latestPrice = $closePrice20[0];
 // echo $latestPrice;
+
+
+
