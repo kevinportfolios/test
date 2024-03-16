@@ -28,8 +28,8 @@ try {
     $result=$bybit->market()->getKline([
         'category'=>'linear',
         'symbol'=>'BTCUSDT',
-        'interval'=>'3',
-        'limit'=>'20',
+        'interval'=>'5',
+        // 'limit'=>'20',
     ]);
     // print_r($result);
 }catch (\Exception $e){
@@ -38,14 +38,22 @@ try {
 
 
 
-$closePrice20=array();
+$volume =array();
    
 foreach ($result["result"]["list"] as $r) {
-    $closePrice20[]=$r["0"].";".$r["4"].";".$r["5"];
+    $volume[]=$r["5"];
 }
 
-echo json_encode($closePrice20);
-echo PHP_EOL; echo PHP_EOL;
+echo json_encode($volume);
+
+// $closePrice20=array();
+   
+// foreach ($result["result"]["list"] as $r) {
+//     $closePrice20[]=$r["0"].";".$r["4"].";".$r["5"];
+// }
+
+// echo json_encode($closePrice20);
+// echo PHP_EOL; echo PHP_EOL;
 
 
 
