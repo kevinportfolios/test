@@ -40,12 +40,7 @@ $buyingprice=0;//进场价钱
 $currentprice=0;//当前市场价钱
 $allowtoclose=0;
 
-// $canbuy=0;
-// $closingprice=0;
-// $overprice=0;
-// $before1minprice=0;//上1分钟市场价钱
-// $before2minprice=0;//上2分钟市场价钱
-// $diffrange=0;
+
 
 
 try {
@@ -66,23 +61,10 @@ logger2("start account balance: ".$totalAccountBalance);
 
 
 
-//aldready got order
-// $isfirstorder=0;
-
-// $action="long";
-// $position ="short to long";
-
-// $action="short";
-// $position ="long to short";
-
-// $buyingprice="43627.20";
-
-
-
 
 
 while(1){
-$time=time()+(7*3600);
+$time=time()+(8*3600);
 $start=1596446400;
 
 if($time>$start){
@@ -91,7 +73,7 @@ if($time>$start){
     //if(is_int($t/86400)){
 
     //方便测试每10秒执行一次
-    if(is_int($t/5)){
+    if(is_int($t/10)){
         // echo 'Process Time:'.date('Y-m-d H:i:s',$time).PHP_EOL;
         $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
         logger2($processtime);
@@ -104,7 +86,7 @@ try {
         $getKline=$bybit->market()->getKline([
             'category'=>'linear',
             'symbol'=>'BTCUSDT',
-            'interval'=>'3',
+            'interval'=>'1',
             'limit'=>'100',
         ]);
     }catch (\Exception $e){
@@ -114,7 +96,7 @@ try {
     }
    
 
-  
+    // $closePrice3=array();
     $closePrice4=array();
     $closePrice20=array();
    
@@ -124,41 +106,22 @@ try {
     }
 
     $volume=$getKline["result"]["list"][0]["5"];
+    $volume2=$getKline["result"]["list"][1]["5"];
     $currentprice=$closePrice20[0];
     $closePrice4 = array_slice($closePrice20, 0, 5);
 
 
-/////////////////////////////////////////////////////////////////////
-    try {
-        $getKline1min=$bybit->market()->getKline([
-            'category'=>'linear',
-            'symbol'=>'BTCUSDT',
-            'interval'=>'1',
-            'limit'=>'10',
-        ]);
-    }catch (\Exception $e){
-        $error = 'getKline error: '.$e->getMessage();
-        logger2($error);
-        break;
-    }
-
-    $closePrice3=array();
-    $closePrice10=array();
-
-    foreach ($getKline1min["result"]["list"] as $r) {
-        $closePrice10[]=$r["4"];
-    }
-
-    $closePrice3 = array_slice($closePrice10, 0, 4);//checking for order again
-/////////////////////////////////////////////////////////////////////
+    // $closePrice3 = array_slice($closePrice10, 0, 2);//checking for order again
 
 
 
-  
-    $finalema= 'closeprice: '.json_encode($closePrice4).';volume: '.$volume;
+
+    $finalema= 'closeprice: '.json_encode($closePrice4).';volumenow: '.$volume.';volumebefore: '.$volume2;
     logger2($finalema);
-    echo $finalema;
-    echo PHP_EOL; echo PHP_EOL;
+    // echo $volume;
+    // echo PHP_EOL;
+    // echo $volume2;
+    // echo PHP_EOL; echo PHP_EOL;
 
     if($volume>1000){
         logger2("volume more than 1000");
@@ -172,8 +135,6 @@ try {
         logger2("volume more than 600");
     }else if($volume>500){
         logger2("volume more than 500");
-    }else if($volume>400){
-        logger2("volume more than 400");
     }
 
 
@@ -182,11 +143,11 @@ try {
 
 
     //checking for first trade
-    if(($closePrice4[0]>$closePrice4[1])&&$isfirstorder==1&&$volume>500){
+    if(($closePrice4[0]>$closePrice4[1])&&$isfirstorder==1&&($volume>600&&($volume>$volume2))){
         $isfirstorder=0;
         $position ="short to long";
         logger2("start order");
-    }else if(($closePrice4[0]<$closePrice4[1])&&$isfirstorder==1&&$volume>500){
+    }else if(($closePrice4[0]<$closePrice4[1])&&$isfirstorder==1&&($volume>600&&($volume>$volume2))){
         $isfirstorder=0;
         $position ="long to short";
         logger2("start order");
@@ -251,25 +212,25 @@ if($is_running_order==0){
 
 
 
-    if($closePrice4[0]>$closePrice4[1]){
+    if(($closePrice4[0]>$closePrice4[1])&&($closePrice4[1]>$closePrice4[2])&&($volume>600&&($volume>$volume2))){
         //做多
         logger2('position:'.$position);
 
-        $array = $closePrice3;
-        $allBigger = true;
-         //前面的大过后面的value
-         // Check if each value is greater than its succeeding value
-        for ($i = 0; $i < count($array) - 1; $i++) {
-            if ($array[$i] <= $array[$i + 1]) {
-                $allBigger = false;
-                break;
-            }
-        }
+        // $array = $closePrice3;
+        // $allBigger = true;
+        //  //前面的大过后面的value
+        //  // Check if each value is greater than its succeeding value
+        // for ($i = 0; $i < count($array) - 1; $i++) {
+        //     if ($array[$i] <= $array[$i + 1]) {
+        //         $allBigger = false;
+        //         break;
+        //     }
+        // }
 
      
         
-        if($volume>500 && $allBigger){
-        logger2('allBigger:'.json_encode($closePrice3));
+        // if($volume>1000){
+      
 
         if($position =="short to long"){
             $buyingprice=$closePrice20[0];
@@ -338,31 +299,30 @@ if($is_running_order==0){
 
 
 
-        }
+        // }
       
 
 
-    }else if($closePrice4[0]<$closePrice4[1]){
+    }else if(($closePrice4[0]<$closePrice4[1])&&($closePrice4[1]<$closePrice4[2])&&($volume>600&&($volume>$volume2))){
         //做空
       
         logger2('position:'.$position);
 
-        $array = $closePrice3;
-        //后面的大过前面的value
-        // Check if each value is greater than its preceding value
-        $allBigger = true;
-        for ($i = 1; $i < count($array); $i++) {
-            if ($array[$i] <= $array[$i - 1]) {
-                $allBigger = false;
-                break;
-            }
-        }
+        // $array = $closePrice3;
+        // //后面的大过前面的value
+        // // Check if each value is greater than its preceding value
+        // $allBigger = true;
+        // for ($i = 1; $i < count($array); $i++) {
+        //     if ($array[$i] <= $array[$i - 1]) {
+        //         $allBigger = false;
+        //         break;
+        //     }
+        // }
 
 
 
    
-        if($volume>500 && $allBigger){
-        logger2('allBigger:'.json_encode($closePrice3));
+        // if($volume>1000 ){
     
         if($position =="long to short"){
             $buyingprice=$closePrice20[0];
@@ -434,7 +394,7 @@ if($is_running_order==0){
 
         
 
-        }
+        // }
        
     }
 

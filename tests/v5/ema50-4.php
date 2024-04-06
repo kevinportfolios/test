@@ -1,7 +1,8 @@
 <?php
 /**
  * using volume
- * 5minutes
+ * 3minutes
+ * if(($closePrice4[0]>$closePrice4[1])&&$isfirstorder==1&&$volume>500){
  * */
 use \Lin\Bybit\BybitV5;
 

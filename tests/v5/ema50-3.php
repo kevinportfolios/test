@@ -1,7 +1,8 @@
 <?php
 /**
- * using ema 50 and ema 100  
- * 5minutes
+ * using ema 10 and ema 50   
+ * 1minutes
+ * // 'interval'=>'1',
  * */
 use \Lin\Bybit\BybitV5;
 

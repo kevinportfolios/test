@@ -1,8 +1,8 @@
 <?php
 /**
- * using ema 10 and ema 50  
- * 5minutes
- *  'interval'=>'5',
+ * using ema 10 and ema 35 
+ * 1minutes
+ * cd documents\test\tests\v5
  * */
 use \Lin\Bybit\BybitV5;
 
@@ -36,18 +36,14 @@ $firstposition="";
 $earninglvl=0;
 $beforeearninglvl=0;
 $canclose=0;
-$canbuy=0;
 
 $buyingprice=0;//进场价钱
-// $closingprice=0;
-$overprice=0;
-
 $currentprice=0;//当前市场价钱
 $before1minprice=0;//上1分钟市场价钱
 $before2minprice=0;//上2分钟市场价钱
 $allowtoclose=0;
 
-$diffrange=0;
+
 
 
 try {
@@ -56,11 +52,13 @@ try {
     ]);
 }catch (\Exception $e){
     $error = 'getWalletBalance error: '.$e->getMessage();
-    logger2($error);
+    logger($error);
 }
 
 $totalAccountBalance=$getWalletBalance["result"]["list"][0]["totalWalletBalance"];
-logger2("start account balance: ".$totalAccountBalance);
+
+
+logger("start account balance: ".$totalAccountBalance);
 
 
 
@@ -77,10 +75,7 @@ logger2("start account balance: ".$totalAccountBalance);
 // $action="short";
 // $position ="long to short";
 
-
-
-// $buyingprice="43627.20";
-// $overprice="46730";
+// $buyingprice="43838.30";
 
 
 
@@ -98,11 +93,11 @@ if($time>$start){
     if(is_int($t/5)){
         // echo 'Process Time:'.date('Y-m-d H:i:s',$time).PHP_EOL;
         $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
-        logger2($processtime);
+        logger($processtime);
 
 
 try {
-    //ema 10 is blue color
+    //ema 50 is blue color
     //ema 100 is white color
 
     //calcuate ema 
@@ -110,12 +105,12 @@ try {
         $getKline=$bybit->market()->getKline([
             'category'=>'linear',
             'symbol'=>'BTCUSDT',
-            'interval'=>'5',
+            'interval'=>'1',
             'limit'=>'100',
         ]);
     }catch (\Exception $e){
         $error = 'getKline error: '.$e->getMessage();
-        logger2($error);
+        logger($error);
         break;
     }
    
@@ -132,7 +127,7 @@ try {
     // echo json_encode($closePrice4);
 
     $average10 = calculateEMA($closePrice20, 10);
-    $average20 = calculateEMA($closePrice20, 50);
+    $average20 = calculateEMA($closePrice20, 35);
 
     $currentprice=$closePrice20[0];
     $before1minprice=$closePrice20[1];
@@ -144,7 +139,7 @@ try {
     $finalema20=$average20[0];
   
     $finalema= 'finalema10: '.$finalema10.' , '.'finalema50: '.$finalema20;
-    logger2($finalema);
+    logger($finalema);
     echo $finalema;
     echo PHP_EOL; echo PHP_EOL;
 
@@ -164,11 +159,11 @@ try {
     if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
         $isfirstorder=0;
         $position ="long to short";
-        logger2("start order");
+        logger("start order");
     }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
         $isfirstorder=0;
         $position ="short to long";
-        logger2("start order");
+        logger("start order");
     }
 
 
@@ -189,7 +184,7 @@ if($isfirstorder==0){
             ]);
         }catch (\Exception $e){
             $error = 'getRealTime error: '.$e->getMessage();
-            logger2($error);
+            logger($error);
             break;
         }
 
@@ -210,8 +205,8 @@ if($is_running_order==0){
     //order
 
     if($position==""){
-        logger2('order meet the stoplose');
-        orderlogger2('order meet the stoplose:'.date('Y-m-d H:i:s',$time));
+        logger('order meet the stoplose');
+        orderlogger('order meet the stoplose:'.date('Y-m-d H:i:s',$time));
        
         $isfirstorder=0;
         $firstposition="";
@@ -221,28 +216,17 @@ if($is_running_order==0){
         }else if($action == "short"){
             $position = "short to long";
         }
-        logger2('position:'.$position.';action:'.$action);
+        logger('position:'.$position.';action:'.$action);
 
     }else{
 
 
 
-
-
-
     if($finalema10>$finalema20){
         //做多
-        logger2('position:'.$position);
+        logger('position:'.$position);
 
-        $diffrange=$finalema10-$finalema20;
 
-        if($diffrange>0&&$diffrange<10){
-            $overprice=$finalema20;
-        }
-
-        if($diffrange>50){
-
-           
         if($position =="long to short"){
         
             $array = $closePrice4;
@@ -256,24 +240,11 @@ if($is_running_order==0){
                 }
             }
 
-            logger2('allBigger 做多: '.$allBigger);
-            logger2('closePrice4: '.json_encode($closePrice4));
+            logger('allBigger 做多: '.$allBigger);
+            logger('closePrice4: '.json_encode($closePrice4));
 
-
-
-            $diffprice =  $currentprice-$overprice;
-
-            if($diffprice>150){
-                $canbuy+=1;
-            }else{
-                $canbuy=0;
-            }
-
-            logger2('canbuy 做多:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';overprice:'.$overprice);
-
-            //60s
-            if ($canbuy>12&&$allBigger) {
-                logger2('update position status long:'.json_encode($closePrice4));
+            if ($allBigger) {
+                logger('update position status long:'.json_encode($closePrice4));
                 $position ="short to long";
             }
 
@@ -283,7 +254,7 @@ if($is_running_order==0){
             $buyingprice=$closePrice20[0];
             //if not,open order
              //做多
-             logger2('order 做多:'.date('Y-m-d H:i:s',$time));
+             logger('order 做多:'.date('Y-m-d H:i:s',$time));
 
              $stopLoss=$currentprice-50;
 
@@ -324,46 +295,31 @@ if($is_running_order==0){
 
                 if($result["retCode"]!=0){
                     $error = 'order 做多 error: '.$result["retCode"].';'.$result["retMsg"];
-                    logger2($error);
+                    logger($error);
                 }else{
                     $position="";
-                    $canbuy=0;
                 }
 
-                orderlogger2('making order 做多:'.date('Y-m-d H:i:s',$time));
-                orderlogger2('overprice:'.$overprice);
+                orderlogger('making order 做多:'.date('Y-m-d H:i:s',$time));
 
             }catch (\Exception $e){
                 $error = 'order 做多 error: '.$e->getMessage();
-                logger2($error);
+                logger($error);
                 break;
             }
 
             $action="long";
 
         }
-        logger2('running order 做多:'.date('Y-m-d H:i:s',$time));
-
-
-
-        }
+        logger('running order 做多:'.date('Y-m-d H:i:s',$time));
       
 
 
     }else if($finalema10<$finalema20){
+        $buyingprice=$closePrice20[0];
         //做空
       
-        logger2('position:'.$position);
-
-        $diffrange=$finalema20-$finalema10;
-
-        if($diffrange>0&&$diffrange<10){
-            $overprice=$finalema20;
-        }
-
-        if($diffrange>50){
-
-
+        logger('position:'.$position);
 
 
         if($position =="short to long"){
@@ -379,33 +335,20 @@ if($is_running_order==0){
                 }
             }
 
-            logger2('allBigger 做空:'.$allBigger);
-            logger2('closePrice4: '.json_encode($closePrice4));
+            logger('allBigger 做空:'.$allBigger);
+            logger('closePrice4: '.json_encode($closePrice4));
 
-            $diffprice = $overprice -$currentprice;
-
-            if($diffprice>150){
-                $canbuy+=1;
-            }else{
-                $canbuy=0;
-            }
-
-            logger2('canbuy 做空:'.$canbuy.';diffprice:'. $diffprice.';currentprice:'.$currentprice.';overprice:'.$overprice);
-
-           //60s
-           if ($canbuy>12&&$allBigger) {
-                logger2('update position status short:'.json_encode($closePrice4));
+            if ($allBigger) {
+                logger('update position status short:'.json_encode($closePrice4));
                 $position ="long to short";
             }
-
 
         }
 
         if($position =="long to short"){
-            $buyingprice=$closePrice20[0];
             //if not,open order
             //做空
-            logger2('order 做空:'.date('Y-m-d H:i:s',$time));
+            logger('order 做空:'.date('Y-m-d H:i:s',$time));
             
             $stopLoss=$currentprice+50;
             try {
@@ -445,53 +388,29 @@ if($is_running_order==0){
 
                 if($result["retCode"]!=0){
                     $error = 'order 做空 error: '.$result["retCode"].';'.$result["retMsg"];
-                    logger2($error);
+                    logger($error);
                 }else{
                     $position="";
-                    $canbuy=0;
                 }
 
 
-                orderlogger2('making order 做空:'.date('Y-m-d H:i:s',$time));
-                orderlogger2('overprice:'.$overprice);
-
+                orderlogger('making order 做空:'.date('Y-m-d H:i:s',$time));
 
             }catch (\Exception $e){
                 $error = 'order 做空 error: '.$e->getMessage();
-                logger2($error);
+                logger($error);
                 break;
             }
 
             $action="short";
         }
 
-        logger2('running order 做空:'.date('Y-m-d H:i:s',$time));
-
-
-
-        
-
-        }
+        logger('running order 做空:'.date('Y-m-d H:i:s',$time));
        
     }
 
 
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }else if($is_running_order==1){
     //cancel
@@ -499,24 +418,25 @@ if($is_running_order==0){
     if($action=="long"){
         //close 做多
 
+            // $diffprice =  $buyingprice-$finalema20;
             $diffprice =  $currentprice-$buyingprice;
             $beforeearninglvl=$earninglvl;
-            $earninglvl= getearninglvl2($diffprice,$earninglvl);
+            $earninglvl= getearninglvl($diffprice,$earninglvl);
 
             if($beforeearninglvl!=0){
                 $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
-                logger2($earninglvllog);
+                logger($earninglvllog);
 
                 if($beforeearninglvl>$earninglvl){
                     $canclose+=1;
                 }
 
-                // if($before1minprice>$currentprice){
-                //     $canclose+=1;
-                // }
+                if($before1minprice>$currentprice){
+                    $canclose+=1;
+                }
                
-                if($canclose>1){
-                    logger2('diffprice>200 long:'.date('Y-m-d H:i:s',$time).';buyingprice:'.$buyingprice.';currentprice:'.$currentprice);
+                if($canclose>2&&($before2minprice>$before1minprice)){
+                    logger('diffprice>200 long:'.date('Y-m-d H:i:s',$time).';buyingprice:'.$buyingprice.';currentprice:'.$currentprice);
 
                     $allowtoclose =1;
                     $firstposition="";
@@ -532,10 +452,9 @@ if($is_running_order==0){
 
 
             $diffema=$finalema10-$finalema20;
-           
+            // if(($diffema<5)){
             if(($diffema<0.1)||$allowtoclose==1){
-                // $closingprice=$closePrice20[0];
-                logger2('close 做多:'.date('Y-m-d H:i:s',$time));
+                logger('close 做多:'.date('Y-m-d H:i:s',$time));
 
                 try {
                     $result=$bybit->cancel()->postCancel([
@@ -559,25 +478,24 @@ if($is_running_order==0){
 
                     if($result["retCode"]!=0){
                         $error = 'close 做多 error: '.$result["retCode"].';'.$result["retMsg"];
-                        logger2($error);
+                        logger($error);
                     }else{
                         $position ="long to short";
                         $allowtoclose =0;
-                        // $overprice = $currentprice;
                     }
 
                     
-                    orderlogger2('closing order 做多:'.date('Y-m-d H:i:s',$time));
+                    orderlogger('closing order 做多:'.date('Y-m-d H:i:s',$time));
                 }catch (\Exception $e){
                     $error = 'close 做多 error: '.$e->getMessage();
-                    logger2($error);
+                    logger($error);
                     break;
                 }
     
 
             }
           
-        logger2('running cancel 做多:'.date('Y-m-d H:i:s',$time));
+        logger('running cancel 做多:'.date('Y-m-d H:i:s',$time));
        
 
 
@@ -585,26 +503,27 @@ if($is_running_order==0){
     }else if($action=="short"){
        //close 做空
       
+            // $diffprice =  $finalema20-$buyingprice;
 
             $diffprice =  $buyingprice-$currentprice;
             $beforeearninglvl=$earninglvl;
-            $earninglvl= getearninglvl2($diffprice,$earninglvl);
+            $earninglvl= getearninglvl($diffprice,$earninglvl);
 
             if($beforeearninglvl!=0){
                 $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
-                logger2($earninglvllog);
+                logger($earninglvllog);
 
                 if($beforeearninglvl>$earninglvl){
                     $canclose+=1;
                 }
                
-                // if($currentprice>$before1minprice){
-                //     $canclose+=1;
-                // }
+                if($currentprice>$before1minprice){
+                    $canclose+=1;
+                }
                
                 // if(($beforeearninglvl>$earninglvl)&&($currentprice>$before1minprice)){
-                if($canclose>1){
-                    logger2('diffprice>200 short:'.date('Y-m-d H:i:s',$time).';buyingprice:'.$buyingprice.';currentprice:'. $currentprice);
+                if($canclose>2&&($before1minprice>$before2minprice)){
+                    logger('diffprice>200 short:'.date('Y-m-d H:i:s',$time).';buyingprice:'.$buyingprice.';currentprice:'. $currentprice);
 
                     $allowtoclose =1;
                     $firstposition="";
@@ -619,10 +538,9 @@ if($is_running_order==0){
 
 
             $diffema=$finalema20-$finalema10;
-            
+            // if($diffema<5){
             if(($diffema<0.1)||$allowtoclose==1){
-                // $closingprice=$closePrice20[0];
-                logger2('close 做空:'.date('Y-m-d H:i:s',$time));
+                logger('close 做空:'.date('Y-m-d H:i:s',$time));
              
                 try {
                     $result=$bybit->cancel()->postCancel([
@@ -645,24 +563,23 @@ if($is_running_order==0){
 
                     if($result["retCode"]!=0){
                         $error = 'close 做空 error: '.$result["retCode"].';'.$result["retMsg"];
-                        logger2($error);
+                        logger($error);
                     }else{
                         $position ="short to long";
                         $allowtoclose =0;
-                        // $overprice = $currentprice;
                     }
 
-                    orderlogger2('closing order 做空:'.date('Y-m-d H:i:s',$time));
+                    orderlogger('closing order 做空:'.date('Y-m-d H:i:s',$time));
                 }catch (\Exception $e){
                     $error = 'close 做空 error: '.$e->getMessage();
-                    logger2($error);
+                    logger($error);
                     break;
                 }
 
             }
         
 
-        logger2('running cancel 做空:'.date('Y-m-d H:i:s',$time));
+        logger('running cancel 做空:'.date('Y-m-d H:i:s',$time));
     }
 
 
@@ -684,7 +601,7 @@ if($is_running_order==0){
 
 
     
-logger2(' ');
+logger(' ');
 
 }catch (\Exception $e){
     print_r($e->getMessage());
@@ -711,7 +628,7 @@ try {
     ]);
 }catch (\Exception $e){
     $error = 'getWalletBalance error: '.$e->getMessage();
-    logger2($error);
+    logger($error);
 }
 
 
@@ -725,7 +642,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
     if($action=="long"){
 
 
-        logger2('close 做多:'.date('Y-m-d H:i:s',$time));
+        logger('close 做多:'.date('Y-m-d H:i:s',$time));
 
         try {
             $result=$bybit->cancel()->postCancel([
@@ -748,14 +665,14 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
         }catch (\Exception $e){
             // print_r($e->getMessage());
             $error = 'close 做多 error: '.$e->getMessage();
-            logger2($error);
+            logger($error);
             break;
         }
 
 
     }else if($action=="short"){
 
-        logger2('close 做空:'.date('Y-m-d H:i:s',$time));
+        logger('close 做空:'.date('Y-m-d H:i:s',$time));
 
         try {
             $result=$bybit->cancel()->postCancel([
@@ -778,7 +695,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
         }catch (\Exception $e){
             // print_r($e->getMessage());
             $error = 'close 做空 error: '.$e->getMessage();
-            logger2($error);
+            logger($error);
             break;
         }
 
