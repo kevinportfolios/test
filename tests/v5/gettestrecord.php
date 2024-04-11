@@ -31,8 +31,8 @@ try {
         'category'=>'linear',
         'symbol'=>'BTCUSDT',
         'interval'=>'1',
-        'start'=>'1710522000000',
-        'end'=>'1710532800000',
+        'start'=>'1712332800000',
+        'end'=>'1712397600000',
         // 'limit'=>'100',
     ]);
 }catch (\Exception $e){
@@ -40,6 +40,7 @@ try {
 }
 
 
+//get volume
 $volume =array();
    
 foreach ($result["result"]["list"] as $r) {
@@ -50,30 +51,18 @@ foreach ($result["result"]["list"] as $r) {
     $volume[date("Y-m-d H:i:s", $timestamp_sec)]=$r["5"];
 }
 
-// testlogger(json_encode($volume));
-
 foreach ($volume as $x => $y) {
     testlogger($x."---".$y."\r");
+
+    if((int)$y>500){
+        testlogger("volume more than 500"."\r");
+    }
 }
 
-// testlogger(json_encode($getKline));
-// echo json_encode($getKline);
-// $result=array();
-// foreach ($getKline["result"]["list"] as $r) {
-//     $result[]=$r["4"];
-// }
-
-// $data = array_reverse($result);
-
-// foreach ($data  as $d) {
 
 
-//     $average10 = calculateEMA($closePrice20, 10);
-//     $average20 = calculateEMA($closePrice20, 50);
 
-//     $finalema10=$average10[0];
-//     $finalema20=$average20[0];
 
-//     testlogger("[".$finalema10.",".$finalema20."]");
-// }
-// [1, 2, 3],
+
+
+
