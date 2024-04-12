@@ -81,7 +81,7 @@ logger("start account balance: ".$totalAccountBalance);
 
 
 while(1){
-$time=time()+(7*3600);
+$time=time()+(8*3600);
 $start=1596446400;
 
 if($time>$start){
