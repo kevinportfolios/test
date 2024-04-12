@@ -94,6 +94,8 @@ if($time>$start){
         // echo 'Process Time:'.date('Y-m-d H:i:s',$time).PHP_EOL;
         $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
         logger($processtime);
+        echo $processtime;
+        echo PHP_EOL; 
 
 
 try {
