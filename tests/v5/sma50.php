@@ -107,8 +107,8 @@ try {
         $getKline=$bybit->market()->getKline([
             'category'=>'linear',
             'symbol'=>'BTCUSDT',
-            'interval'=>'15',
-            'limit'=>'60',
+            'interval'=>'1',
+            'limit'=>'100',
         ]);
     }catch (\Exception $e){
         $error = 'getKline error: '.$e->getMessage();
@@ -121,7 +121,7 @@ try {
         $closePrice20[]=$r["4"];
     }
 
-    $average10 = calculateEMA($closePrice20, 10);
+    $average10 = calculateEMA($closePrice20, 20);
     $average20 = calculateEMA($closePrice20, 50);
 
     $currentprice=$closePrice20[0];
@@ -215,8 +215,7 @@ try {
             }else{
             
             
-            
-            if($finalema10>$finalema20){
+            if($finalema10>($finalema20+10)){
                 //做多
                 logger('position:'.$position);
             
@@ -285,7 +284,7 @@ try {
             
             
             
-            }else if($finalema10<$finalema20){
+            }else if(($finalema10+10)<$finalema20){
                 $buyingprice=$closePrice20[0];
                 //做空
             
@@ -378,7 +377,7 @@ try {
                     // $diffprice =  $buyingprice-$finalema20;
                     $diffprice =  $currentprice-$buyingprice;
                     $beforeearninglvl=$earninglvl;
-                    $earninglvl= getearninglvl3($diffprice,$earninglvl);
+                    $earninglvl= getearninglvl2($diffprice,$earninglvl);
             
                     if($beforeearninglvl!=0){
                         $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
@@ -466,7 +465,7 @@ try {
             
                     $diffprice =  $buyingprice-$currentprice;
                     $beforeearninglvl=$earninglvl;
-                    $earninglvl= getearninglvl3($diffprice,$earninglvl);
+                    $earninglvl= getearninglvl2($diffprice,$earninglvl);
             
                     if($beforeearninglvl!=0){
                         $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
