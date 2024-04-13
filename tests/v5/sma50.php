@@ -12,7 +12,7 @@ include 'key_secret.php';
 include 'cal_ema.php';
 include 'log.php';
 
-$bybit=new BybitV5($key,$secret);
+$bybit=new BybitV5($argv[1],$argv[2]);
 
 //You can set special needs
 $bybit->setOptions([
