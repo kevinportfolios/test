@@ -12,7 +12,8 @@ include 'key_secret.php';
 include 'cal_ema.php';
 include 'log.php';
 
-$bybit=new BybitV5($argv[1],$argv[2]);
+$bybit=new BybitV5($key,$secret);
+// $bybit=new BybitV5($argv[1],$argv[2]);
 
 //You can set special needs
 $bybit->setOptions([
@@ -132,7 +133,7 @@ try {
     $finalema10=$average10[0];
     $finalema20=$average20[0];
   
-    $finalema= 'finalema10: '.$finalema10.' , '.'finalema50: '.$finalema20;
+    $finalema= 'finalema20: '.$finalema10.' , '.'finalema50: '.$finalema20;
     logger($finalema);
     echo $finalema;
     echo PHP_EOL; echo PHP_EOL;
@@ -225,7 +226,8 @@ try {
                      //做多
                      logger('order 做多:'.date('Y-m-d H:i:s',$time));
                 
-                     $stopLoss=$currentprice-50;
+                    //  $stopLoss=$currentprice-50;
+                    $stopLoss=$finalema20-80;
                 
                      try {
                          $result=$bybit->order2()->postCreate([
@@ -295,7 +297,8 @@ try {
                     //做空
                     logger('order 做空:'.date('Y-m-d H:i:s',$time));
 
-                    $stopLoss=$currentprice+50;
+                    // $stopLoss=$currentprice+50;
+                    $stopLoss=$finalema20+80;
                     try {
                         $result=$bybit->order2()->postCreate([
                             'category'=>'linear',
@@ -377,7 +380,7 @@ try {
                     // $diffprice =  $buyingprice-$finalema20;
                     $diffprice =  $currentprice-$buyingprice;
                     $beforeearninglvl=$earninglvl;
-                    $earninglvl= getearninglvl2($diffprice,$earninglvl);
+                    $earninglvl= getearninglvl3($diffprice,$earninglvl);
             
                     if($beforeearninglvl!=0){
                         $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
@@ -407,11 +410,14 @@ try {
                     }
                 
                 
+                    if(($buyingprice-$currentprice)>200){
+                        $allowtoclose =1;
+                    }
                 
                     // $diffema=$finalema10-$finalema20;
                     // if(($diffema<5)){
                     // if(($diffema<0.1)||$allowtoclose==1){
-                    if(($finalema10<$finalema20)||$allowtoclose==1){
+                    if(($finalema10<$finalema20) || $allowtoclose==1 || ($currentprice<($finalema20-30))){
                         logger('close 做多:'.date('Y-m-d H:i:s',$time));
                     
                         try {
@@ -465,7 +471,7 @@ try {
             
                     $diffprice =  $buyingprice-$currentprice;
                     $beforeearninglvl=$earninglvl;
-                    $earninglvl= getearninglvl2($diffprice,$earninglvl);
+                    $earninglvl= getearninglvl3($diffprice,$earninglvl);
             
                     if($beforeearninglvl!=0){
                         $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
@@ -494,12 +500,16 @@ try {
                         
                         }
                     }
+
+                    if(($currentprice-$buyingprice)>200){
+                        $allowtoclose =1;
+                    }
                 
                 
                     // $diffema=$finalema20-$finalema10;
                     // if($diffema<5){
                     // if(($diffema<0.1)||$allowtoclose==1){
-                    if(($finalema10>$finalema20)||$allowtoclose==1){
+                    if(($finalema10>$finalema20) || $allowtoclose==1 || ($currentprice>($finalema20+30))){
                         logger('close 做空:'.date('Y-m-d H:i:s',$time));
                     
                         try {
@@ -589,7 +599,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
     if($action=="long"){
 
 
-        logger('close 做多:'.date('Y-m-d H:i:s',$time));
+        logger('total loss more than 20%, close 做多:'.date('Y-m-d H:i:s',$time));
 
         try {
             $result=$bybit->cancel()->postCancel([
@@ -619,7 +629,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
 
     }else if($action=="short"){
 
-        logger('close 做空:'.date('Y-m-d H:i:s',$time));
+        logger('total loss more than 20%, close 做空:'.date('Y-m-d H:i:s',$time));
 
         try {
             $result=$bybit->cancel()->postCancel([
