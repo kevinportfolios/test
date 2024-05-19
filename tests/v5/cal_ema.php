@@ -238,3 +238,53 @@ function getearninglvl3($diffprice,$earninglvl) {
 
     return $earninglvl;
 }
+
+
+function getearninglvleth($diffprice,$earninglvl) {
+   
+    // if ($diffprice > 150) {
+    //     $earninglvl = 150; 
+    // } 
+    // if ($diffprice > 200) {
+    //     $earninglvl = 200; // 50%
+    // } 
+
+    if ($diffprice > 40) {
+        $earninglvl = 40;
+    } 
+    if ($diffprice > 50) {
+        $earninglvl = 50;
+    } 
+    if ($diffprice > 75) {
+        $earninglvl = 75; // 75%
+    }
+    if ($diffprice > 100) {
+        $earninglvl = 100; // 100%
+    }
+    if ($diffprice > 125) {
+        $earninglvl = 125;
+    }
+    if ($diffprice > 150) {
+        $earninglvl = 150;
+    }
+    if ($diffprice > 175) {
+        $earninglvl = 175;
+    }
+    if ($diffprice > 200) {
+        $earninglvl = 200;
+    }
+    if ($diffprice > 225) {
+        $earninglvl = 225;
+    }
+    if ($diffprice > 250) {
+        $earninglvl = 250;
+    }
+    if ($diffprice > 275) {
+        $earninglvl = 275;
+    }
+    if ($diffprice > 300) {
+        $earninglvl = 300;
+    }
+
+    return $earninglvl;
+}

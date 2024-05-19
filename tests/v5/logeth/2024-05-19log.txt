@@ -1,0 +1,1 @@
+start account balance: 43.43543718Process Time:2024-05-19 23:03:45finalema20: 3076.2095 , finalema50: 3077.9598 Process Time:2024-05-19 23:03:50finalema20: 3076.259 , finalema50: 3077.9796 
