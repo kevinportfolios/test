@@ -409,15 +409,23 @@ try {
                         }
                     }
                 
-                
+                    //closed 当亏50%
                     if(($buyingprice-$currentprice)>200){
                         $allowtoclose =1;
+                    }
+                    if(($finalema10<$finalema20)){
+                        $allowtoclose =1;
+                        orderlogger('closing order 做多:$finalema10<$finalema20');
+                    }
+                    if(($currentprice<($finalema20-30))){
+                        $allowtoclose =1;
+                        orderlogger('closing order 做多:over sma50');
                     }
                 
                     // $diffema=$finalema10-$finalema20;
                     // if(($diffema<5)){
                     // if(($diffema<0.1)||$allowtoclose==1){
-                    if(($finalema10<$finalema20) || $allowtoclose==1 || ($currentprice<($finalema20-30))){
+                    if( $allowtoclose==1 ){
                         logger('close 做多:'.date('Y-m-d H:i:s',$time));
                     
                         try {
@@ -501,15 +509,25 @@ try {
                         }
                     }
 
+                     //closed 当亏50%
                     if(($currentprice-$buyingprice)>200){
                         $allowtoclose =1;
                     }
-                
+
+                    if(($finalema10>$finalema20)){
+                        $allowtoclose =1;
+                        orderlogger('closing order 做空:$finalema10>$finalema20');
+                    }
+
+                    if(($currentprice>($finalema20+30))){
+                        $allowtoclose =1;
+                        orderlogger('closing order 做空:over sma50');
+                    }
                 
                     // $diffema=$finalema20-$finalema10;
                     // if($diffema<5){
                     // if(($diffema<0.1)||$allowtoclose==1){
-                    if(($finalema10>$finalema20) || $allowtoclose==1 || ($currentprice>($finalema20+30))){
+                    if( $allowtoclose==1 ){
                         logger('close 做空:'.date('Y-m-d H:i:s',$time));
                     
                         try {
