@@ -12,8 +12,6 @@ function ema($src, $length) {
     return $ema;
 }
 
-
-
 function ma($source, $length, $type) {
     switch ($type) {
         case "SMA":
@@ -103,7 +101,6 @@ function getearninglvl($diffprice,$earninglvl) {
     if ($diffprice > 150) {
         $earninglvl = 150; 
     } 
-
     
     if ($diffprice > 200) {
         $earninglvl = 200; // 50%
@@ -146,6 +143,8 @@ function getearninglvl($diffprice,$earninglvl) {
 
 //5minutes
 function getearninglvl2($diffprice,$earninglvl) {
+    $earninglvl=0;
+    
     if ($diffprice > 125) {
         $earninglvl = 125; 
     } 
@@ -202,6 +201,8 @@ function getearninglvl3($diffprice,$earninglvl) {
     // if ($diffprice > 200) {
     //     $earninglvl = 200; // 50%
     // } 
+    $earninglvl=0;
+
     if ($diffprice > 250) {
         $earninglvl = 250;
     } 
@@ -248,6 +249,7 @@ function getearninglvleth($diffprice,$earninglvl) {
     // if ($diffprice > 200) {
     //     $earninglvl = 200; // 50%
     // } 
+    $earninglvl=0;
 
     if ($diffprice > 40) {
         $earninglvl = 40;
