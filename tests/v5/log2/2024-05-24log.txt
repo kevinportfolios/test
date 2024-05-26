@@ -1,0 +1,1890 @@
+start account balance: 41.11675123
+Process Time:2024-05-24 12:02:50
+finalema20: 67914.2 , finalema50: 67931.054
+ 
+Process Time:2024-05-24 12:02:55
+finalema20: 67914.2 , finalema50: 67931.054
+ 
+Process Time:2024-05-24 12:03:00
+finalema20: 67911.25 , finalema50: 67928.18
+ 
+Process Time:2024-05-24 12:03:05
+finalema20: 67911.25 , finalema50: 67928.18
+ 
+Process Time:2024-05-24 12:03:10
+finalema20: 67911.25 , finalema50: 67928.18
+ 
+Process Time:2024-05-24 12:03:15
+finalema20: 67911.14 , finalema50: 67928.136
+ 
+Process Time:2024-05-24 12:03:20
+finalema20: 67910.89 , finalema50: 67928.036
+ 
+Process Time:2024-05-24 12:03:25
+finalema20: 67910.525 , finalema50: 67927.89
+ 
+Process Time:2024-05-24 12:03:30
+finalema20: 67910.525 , finalema50: 67927.89
+ 
+Process Time:2024-05-24 12:03:35
+finalema20: 67910.53 , finalema50: 67927.892
+ 
+Process Time:2024-05-24 12:03:40
+finalema20: 67910.535 , finalema50: 67927.894
+ 
+Process Time:2024-05-24 12:03:45
+finalema20: 67910.525 , finalema50: 67927.89
+ 
+Process Time:2024-05-24 12:03:50
+finalema20: 67910.445 , finalema50: 67927.858
+ 
+Process Time:2024-05-24 12:03:55
+finalema20: 67911.22 , finalema50: 67928.168
+ 
+Process Time:2024-05-24 12:04:00
+finalema20: 67911.695 , finalema50: 67928.358
+ 
+Process Time:2024-05-24 12:04:05
+finalema20: 67907.735 , finalema50: 67926.028
+ 
+Process Time:2024-05-24 12:04:10
+finalema20: 67907.635 , finalema50: 67925.988
+ 
+Process Time:2024-05-24 12:04:15
+finalema20: 67907.64 , finalema50: 67925.99
+ 
+Process Time:2024-05-24 12:04:20
+finalema20: 67907.635 , finalema50: 67925.988
+ 
+Process Time:2024-05-24 12:04:25
+finalema20: 67907.64 , finalema50: 67925.99
+ 
+Process Time:2024-05-24 12:04:30
+finalema20: 67907.635 , finalema50: 67925.988
+ 
+Process Time:2024-05-24 12:04:35
+finalema20: 67907.68 , finalema50: 67926.006
+ 
+Process Time:2024-05-24 12:04:40
+finalema20: 67907.68 , finalema50: 67926.006
+ 
+Process Time:2024-05-24 12:04:45
+finalema20: 67908.18 , finalema50: 67926.206
+ 
+Process Time:2024-05-24 12:04:50
+finalema20: 67908.18 , finalema50: 67926.206
+ 
+Process Time:2024-05-24 12:04:55
+finalema20: 67908.19 , finalema50: 67926.21
+ 
+Process Time:2024-05-24 12:05:00
+finalema20: 67908.195 , finalema50: 67926.212
+ 
+Process Time:2024-05-24 12:05:05
+finalema20: 67902.765 , finalema50: 67924.418
+ 
+Process Time:2024-05-24 12:05:10
+finalema20: 67902.76 , finalema50: 67924.416
+ 
+Process Time:2024-05-24 12:05:15
+finalema20: 67903.08 , finalema50: 67924.544
+ 
+Process Time:2024-05-24 12:05:20
+finalema20: 67903.735 , finalema50: 67924.806
+ 
+Process Time:2024-05-24 12:05:25
+finalema20: 67904.305 , finalema50: 67925.034
+ 
+Process Time:2024-05-24 12:05:30
+finalema20: 67904.41 , finalema50: 67925.076
+ 
+Process Time:2024-05-24 12:05:35
+finalema20: 67904.405 , finalema50: 67925.074
+ 
+Process Time:2024-05-24 12:05:40
+finalema20: 67904.41 , finalema50: 67925.076
+ 
+Process Time:2024-05-24 12:05:45
+finalema20: 67904.075 , finalema50: 67924.942
+ 
+Process Time:2024-05-24 12:05:50
+finalema20: 67903.83 , finalema50: 67924.844
+ 
+Process Time:2024-05-24 12:05:55
+finalema20: 67903.53 , finalema50: 67924.724
+ 
+Process Time:2024-05-24 12:06:05
+finalema20: 67897.275 , finalema50: 67922.182
+ 
+Process Time:2024-05-24 12:06:10
+finalema20: 67897.27 , finalema50: 67922.18
+ 
+Process Time:2024-05-24 12:06:15
+finalema20: 67897.135 , finalema50: 67922.126
+ 
+Process Time:2024-05-24 12:06:20
+finalema20: 67897.135 , finalema50: 67922.126
+ 
+Process Time:2024-05-24 12:06:25
+finalema20: 67897.14 , finalema50: 67922.128
+ 
+Process Time:2024-05-24 12:06:30
+finalema20: 67897.14 , finalema50: 67922.128
+ 
+Process Time:2024-05-24 12:06:35
+finalema20: 67897.135 , finalema50: 67922.126
+ 
+Process Time:2024-05-24 12:06:40
+finalema20: 67897.135 , finalema50: 67922.126
+ 
+Process Time:2024-05-24 12:06:45
+finalema20: 67897.14 , finalema50: 67922.128
+ 
+Process Time:2024-05-24 12:06:50
+finalema20: 67897.14 , finalema50: 67922.128
+ 
+Process Time:2024-05-24 12:06:55
+finalema20: 67896.77 , finalema50: 67921.98
+ 
+Process Time:2024-05-24 12:07:00
+finalema20: 67896.77 , finalema50: 67921.98
+ 
+Process Time:2024-05-24 12:07:05
+finalema20: 67890.905 , finalema50: 67919.63
+ 
+Process Time:2024-05-24 12:07:10
+finalema20: 67890.9 , finalema50: 67919.628
+ 
+Process Time:2024-05-24 12:07:15
+finalema20: 67890.905 , finalema50: 67919.63
+ 
+Process Time:2024-05-24 12:07:20
+finalema20: 67890.895 , finalema50: 67919.626
+ 
+Process Time:2024-05-24 12:07:25
+finalema20: 67890.03 , finalema50: 67919.28
+ 
+Process Time:2024-05-24 12:07:30
+finalema20: 67889.81 , finalema50: 67919.192
+ 
+Process Time:2024-05-24 12:07:35
+finalema20: 67889.4 , finalema50: 67919.028
+ 
+Process Time:2024-05-24 12:07:40
+finalema20: 67889.365 , finalema50: 67919.014
+ 
+Process Time:2024-05-24 12:07:45
+finalema20: 67889.195 , finalema50: 67918.946
+ 
+Process Time:2024-05-24 12:07:50
+finalema20: 67889.36 , finalema50: 67919.012
+ 
+Process Time:2024-05-24 12:07:55
+finalema20: 67889.495 , finalema50: 67919.066
+ 
+Process Time:2024-05-24 12:08:00
+finalema20: 67889.495 , finalema50: 67919.066
+ 
+Process Time:2024-05-24 12:08:05
+finalema20: 67884.96 , finalema50: 67916.218
+ 
+Process Time:2024-05-24 12:08:10
+finalema20: 67884.965 , finalema50: 67916.22
+ 
+Process Time:2024-05-24 12:08:15
+finalema20: 67884.965 , finalema50: 67916.22
+ 
+Process Time:2024-05-24 12:08:20
+finalema20: 67885.375 , finalema50: 67916.384
+ 
+Process Time:2024-05-24 12:08:25
+finalema20: 67885.29 , finalema50: 67916.35
+ 
+Process Time:2024-05-24 12:08:30
+finalema20: 67884.835 , finalema50: 67916.168
+ 
+Process Time:2024-05-24 12:08:35
+finalema20: 67884.535 , finalema50: 67916.048
+ 
+Process Time:2024-05-24 12:08:40
+finalema20: 67884.53 , finalema50: 67916.046
+ 
+Process Time:2024-05-24 12:08:45
+finalema20: 67884.13 , finalema50: 67915.886
+ 
+Process Time:2024-05-24 12:08:50
+finalema20: 67884.13 , finalema50: 67915.886
+ 
+Process Time:2024-05-24 12:08:55
+finalema20: 67884.135 , finalema50: 67915.888
+ 
+Process Time:2024-05-24 12:09:00
+finalema20: 67880.605 , finalema50: 67913.892
+ 
+Process Time:2024-05-24 12:09:05
+finalema20: 67880.85 , finalema50: 67913.99
+ 
+Process Time:2024-05-24 12:09:10
+finalema20: 67881.17 , finalema50: 67914.118
+ 
+Process Time:2024-05-24 12:09:15
+finalema20: 67881.17 , finalema50: 67914.118
+ 
+Process Time:2024-05-24 12:09:20
+finalema20: 67880.51 , finalema50: 67913.854
+ 
+Process Time:2024-05-24 12:09:25
+finalema20: 67880.515 , finalema50: 67913.856
+ 
+Process Time:2024-05-24 12:09:30
+finalema20: 67880.515 , finalema50: 67913.856
+ 
+Process Time:2024-05-24 12:09:35
+finalema20: 67881.015 , finalema50: 67914.056
+ 
+Process Time:2024-05-24 12:09:40
+finalema20: 67881.37 , finalema50: 67914.198
+ 
+Process Time:2024-05-24 12:09:45
+finalema20: 67881.37 , finalema50: 67914.198
+ 
+Process Time:2024-05-24 12:09:50
+finalema20: 67881.365 , finalema50: 67914.196
+ 
+Process Time:2024-05-24 12:09:55
+finalema20: 67881.37 , finalema50: 67914.198
+ 
+Process Time:2024-05-24 12:10:00
+finalema20: 67881.55 , finalema50: 67914.27
+ 
+Process Time:2024-05-24 12:10:05
+finalema20: 67878.855 , finalema50: 67913.712
+ 
+Process Time:2024-05-24 12:10:10
+finalema20: 67878.525 , finalema50: 67913.58
+ 
+Process Time:2024-05-24 12:10:15
+finalema20: 67878.53 , finalema50: 67913.582
+ 
+Process Time:2024-05-24 12:10:20
+finalema20: 67878.525 , finalema50: 67913.58
+ 
+Process Time:2024-05-24 12:10:25
+finalema20: 67878.525 , finalema50: 67913.58
+ 
+Process Time:2024-05-24 12:10:30
+finalema20: 67878.53 , finalema50: 67913.582
+ 
+Process Time:2024-05-24 12:10:35
+finalema20: 67878.525 , finalema50: 67913.58
+ 
+Process Time:2024-05-24 12:10:40
+finalema20: 67878.53 , finalema50: 67913.582
+ 
+Process Time:2024-05-24 12:10:45
+finalema20: 67878.525 , finalema50: 67913.58
+ 
+Process Time:2024-05-24 12:10:50
+finalema20: 67878.53 , finalema50: 67913.582
+ 
+Process Time:2024-05-24 12:10:55
+finalema20: 67878.53 , finalema50: 67913.582
+ 
+Process Time:2024-05-24 12:11:00
+finalema20: 67879.07 , finalema50: 67913.798
+ 
+Process Time:2024-05-24 12:11:05
+finalema20: 67881.07 , finalema50: 67913.738
+ 
+Process Time:2024-05-24 12:11:10
+finalema20: 67881.07 , finalema50: 67913.738
+ 
+Process Time:2024-05-24 12:11:15
+finalema20: 67880.53 , finalema50: 67913.522
+ 
+Process Time:2024-05-24 12:11:20
+finalema20: 67880.47 , finalema50: 67913.498
+ 
+Process Time:2024-05-24 12:11:25
+finalema20: 67880.445 , finalema50: 67913.488
+ 
+Process Time:2024-05-24 12:11:30
+finalema20: 67880.785 , finalema50: 67913.624
+ 
+Process Time:2024-05-24 12:11:35
+finalema20: 67880.795 , finalema50: 67913.628
+ 
+Process Time:2024-05-24 12:11:40
+finalema20: 67881.19 , finalema50: 67913.786
+ 
+Process Time:2024-05-24 12:11:45
+finalema20: 67881.585 , finalema50: 67913.944
+ 
+Process Time:2024-05-24 12:11:50
+finalema20: 67881.59 , finalema50: 67913.946
+ 
+Process Time:2024-05-24 12:11:55
+finalema20: 67881.585 , finalema50: 67913.944
+ 
+Process Time:2024-05-24 12:12:00
+finalema20: 67881.585 , finalema50: 67913.944
+ 
+Process Time:2024-05-24 12:12:05
+finalema20: 67882.505 , finalema50: 67914.256
+ 
+Process Time:2024-05-24 12:12:10
+finalema20: 67882.945 , finalema50: 67914.432
+ 
+Process Time:2024-05-24 12:12:15
+finalema20: 67883.455 , finalema50: 67914.636
+ 
+Process Time:2024-05-24 12:12:20
+finalema20: 67883.46 , finalema50: 67914.638
+ 
+Process Time:2024-05-24 12:12:25
+finalema20: 67884.03 , finalema50: 67914.866
+ 
+Process Time:2024-05-24 12:12:30
+finalema20: 67884.535 , finalema50: 67915.068
+ 
+Process Time:2024-05-24 12:12:35
+finalema20: 67884.58 , finalema50: 67915.086
+ 
+Process Time:2024-05-24 12:12:40
+finalema20: 67884.825 , finalema50: 67915.184
+ 
+Process Time:2024-05-24 12:12:45
+finalema20: 67884.61 , finalema50: 67915.098
+ 
+Process Time:2024-05-24 12:12:50
+finalema20: 67884.43 , finalema50: 67915.026
+ 
+Process Time:2024-05-24 12:12:55
+finalema20: 67884.435 , finalema50: 67915.028
+ 
+Process Time:2024-05-24 12:13:00
+finalema20: 67886.705 , finalema50: 67915.176
+ 
+Process Time:2024-05-24 12:13:05
+finalema20: 67886.705 , finalema50: 67915.176
+ 
+Process Time:2024-05-24 12:13:10
+finalema20: 67886.71 , finalema50: 67915.178
+ 
+Process Time:2024-05-24 12:13:15
+finalema20: 67886.705 , finalema50: 67915.176
+ 
+Process Time:2024-05-24 12:13:20
+finalema20: 67886.4 , finalema50: 67915.054
+ 
+Process Time:2024-05-24 12:13:25
+finalema20: 67886.015 , finalema50: 67914.9
+ 
+Process Time:2024-05-24 12:13:30
+finalema20: 67885.715 , finalema50: 67914.78
+ 
+Process Time:2024-05-24 12:13:35
+finalema20: 67885.715 , finalema50: 67914.78
+ 
+Process Time:2024-05-24 12:13:40
+finalema20: 67885.71 , finalema50: 67914.778
+ 
+Process Time:2024-05-24 12:13:45
+finalema20: 67885.71 , finalema50: 67914.778
+ 
+Process Time:2024-05-24 12:13:50
+finalema20: 67885.275 , finalema50: 67914.604
+ 
+Process Time:2024-05-24 12:13:55
+finalema20: 67885.1 , finalema50: 67914.534
+ 
+Process Time:2024-05-24 12:14:00
+finalema20: 67885.065 , finalema50: 67914.52
+ 
+Process Time:2024-05-24 12:14:05
+finalema20: 67886.155 , finalema50: 67914.4
+ 
+Process Time:2024-05-24 12:14:10
+finalema20: 67886.16 , finalema50: 67914.402
+ 
+Process Time:2024-05-24 12:14:15
+finalema20: 67885.875 , finalema50: 67914.288
+ 
+Process Time:2024-05-24 12:14:20
+finalema20: 67885.71 , finalema50: 67914.222
+ 
+Process Time:2024-05-24 12:14:25
+finalema20: 67885.655 , finalema50: 67914.2
+ 
+Process Time:2024-05-24 12:14:30
+finalema20: 67885.65 , finalema50: 67914.198
+ 
+Process Time:2024-05-24 12:14:35
+finalema20: 67885.655 , finalema50: 67914.2
+ 
+Process Time:2024-05-24 12:14:40
+finalema20: 67885.655 , finalema50: 67914.2
+ 
+Process Time:2024-05-24 12:14:45
+finalema20: 67886.425 , finalema50: 67914.508
+ 
+Process Time:2024-05-24 12:14:50
+finalema20: 67886.4 , finalema50: 67914.498
+ 
+Process Time:2024-05-24 12:14:55
+finalema20: 67886.215 , finalema50: 67914.424
+ 
+Process Time:2024-05-24 12:15:00
+finalema20: 67886.42 , finalema50: 67914.506
+ 
+Process Time:2024-05-24 12:15:05
+finalema20: 67887.395 , finalema50: 67914.248
+ 
+Process Time:2024-05-24 12:15:10
+finalema20: 67887.395 , finalema50: 67914.248
+ 
+Process Time:2024-05-24 12:15:15
+finalema20: 67886.885 , finalema50: 67914.044
+ 
+Process Time:2024-05-24 12:15:20
+finalema20: 67886.695 , finalema50: 67913.968
+ 
+Process Time:2024-05-24 12:15:25
+finalema20: 67886.695 , finalema50: 67913.968
+ 
+Process Time:2024-05-24 12:15:30
+finalema20: 67887.385 , finalema50: 67914.244
+ 
+Process Time:2024-05-24 12:15:35
+finalema20: 67887.385 , finalema50: 67914.244
+ 
+Process Time:2024-05-24 12:15:40
+finalema20: 67887.39 , finalema50: 67914.246
+ 
+Process Time:2024-05-24 12:15:45
+finalema20: 67887.07 , finalema50: 67914.118
+ 
+Process Time:2024-05-24 12:15:50
+finalema20: 67887.075 , finalema50: 67914.12
+ 
+Process Time:2024-05-24 12:15:55
+finalema20: 67887.07 , finalema50: 67914.118
+ 
+Process Time:2024-05-24 12:16:00
+finalema20: 67887.07 , finalema50: 67914.118
+ 
+Process Time:2024-05-24 12:16:05
+finalema20: 67887.535 , finalema50: 67912.858
+ 
+Process Time:2024-05-24 12:16:10
+finalema20: 67886.795 , finalema50: 67912.562
+ 
+Process Time:2024-05-24 12:16:15
+finalema20: 67886.8 , finalema50: 67912.564
+ 
+Process Time:2024-05-24 12:16:20
+finalema20: 67886.8 , finalema50: 67912.564
+ 
+Process Time:2024-05-24 12:16:25
+finalema20: 67886.675 , finalema50: 67912.514
+ 
+Process Time:2024-05-24 12:16:30
+finalema20: 67885.715 , finalema50: 67912.13
+ 
+Process Time:2024-05-24 12:16:35
+finalema20: 67885.71 , finalema50: 67912.128
+ 
+Process Time:2024-05-24 12:16:40
+finalema20: 67885.725 , finalema50: 67912.134
+ 
+Process Time:2024-05-24 12:16:45
+finalema20: 67885.36 , finalema50: 67911.988
+ 
+Process Time:2024-05-24 12:16:50
+finalema20: 67885.355 , finalema50: 67911.986
+ 
+Process Time:2024-05-24 12:16:55
+finalema20: 67885.36 , finalema50: 67911.988
+ 
+Process Time:2024-05-24 12:17:00
+finalema20: 67885.06 , finalema50: 67911.868
+ 
+Process Time:2024-05-24 12:17:05
+finalema20: 67882.38 , finalema50: 67909.748
+ 
+Process Time:2024-05-24 12:17:10
+finalema20: 67882.58 , finalema50: 67909.828
+ 
+Process Time:2024-05-24 12:17:15
+finalema20: 67882.585 , finalema50: 67909.83
+ 
+Process Time:2024-05-24 12:17:20
+finalema20: 67882.3 , finalema50: 67909.716
+ 
+Process Time:2024-05-24 12:17:25
+finalema20: 67881.58 , finalema50: 67909.428
+ 
+Process Time:2024-05-24 12:17:30
+finalema20: 67881.945 , finalema50: 67909.574
+ 
+Process Time:2024-05-24 12:17:35
+finalema20: 67881.945 , finalema50: 67909.574
+ 
+Process Time:2024-05-24 12:17:40
+finalema20: 67881.95 , finalema50: 67909.576
+ 
+Process Time:2024-05-24 12:17:45
+finalema20: 67881.93 , finalema50: 67909.568
+ 
+Process Time:2024-05-24 12:17:50
+finalema20: 67881.935 , finalema50: 67909.57
+ 
+Process Time:2024-05-24 12:17:55
+finalema20: 67881.915 , finalema50: 67909.562
+ 
+Process Time:2024-05-24 12:18:00
+finalema20: 67881.82 , finalema50: 67909.524
+ 
+Process Time:2024-05-24 12:18:05
+finalema20: 67879.13 , finalema50: 67907.182
+ 
+Process Time:2024-05-24 12:18:10
+finalema20: 67878.7 , finalema50: 67907.01
+ 
+Process Time:2024-05-24 12:18:15
+finalema20: 67878.695 , finalema50: 67907.008
+ 
+Process Time:2024-05-24 12:18:20
+finalema20: 67879.07 , finalema50: 67907.158
+ 
+Process Time:2024-05-24 12:18:25
+finalema20: 67879.07 , finalema50: 67907.158
+ 
+Process Time:2024-05-24 12:18:30
+finalema20: 67879.065 , finalema50: 67907.156
+ 
+Process Time:2024-05-24 12:18:35
+finalema20: 67878.665 , finalema50: 67906.996
+ 
+Process Time:2024-05-24 12:18:40
+finalema20: 67878.12 , finalema50: 67906.778
+ 
+Process Time:2024-05-24 12:18:45
+finalema20: 67877.105 , finalema50: 67906.372
+ 
+Process Time:2024-05-24 12:18:50
+finalema20: 67877.59 , finalema50: 67906.566
+ 
+Process Time:2024-05-24 12:18:55
+finalema20: 67877.91 , finalema50: 67906.694
+ 
+Process Time:2024-05-24 12:19:00
+finalema20: 67878.165 , finalema50: 67906.796
+ 
+Process Time:2024-05-24 12:19:05
+finalema20: 67874.05 , finalema50: 67904.212
+ 
+Process Time:2024-05-24 12:19:10
+finalema20: 67874.155 , finalema50: 67904.254
+ 
+Process Time:2024-05-24 12:19:15
+finalema20: 67874.155 , finalema50: 67904.254
+ 
+Process Time:2024-05-24 12:19:20
+finalema20: 67873.51 , finalema50: 67903.996
+ 
+Process Time:2024-05-24 12:19:25
+finalema20: 67874.015 , finalema50: 67904.198
+ 
+Process Time:2024-05-24 12:19:30
+finalema20: 67874.275 , finalema50: 67904.302
+ 
+Process Time:2024-05-24 12:19:35
+finalema20: 67874.275 , finalema50: 67904.302
+ 
+Process Time:2024-05-24 12:19:40
+finalema20: 67874.285 , finalema50: 67904.306
+ 
+Process Time:2024-05-24 12:19:45
+finalema20: 67874.29 , finalema50: 67904.308
+ 
+Process Time:2024-05-24 12:19:50
+finalema20: 67874.395 , finalema50: 67904.35
+ 
+Process Time:2024-05-24 12:19:55
+finalema20: 67873.46 , finalema50: 67903.976
+ 
+Process Time:2024-05-24 12:20:00
+finalema20: 67873.27 , finalema50: 67903.9
+ 
+Process Time:2024-05-24 12:20:05
+finalema20: 67867.96 , finalema50: 67900.694
+ 
+Process Time:2024-05-24 12:20:10
+finalema20: 67867.85 , finalema50: 67900.65
+ 
+Process Time:2024-05-24 12:20:15
+finalema20: 67867.855 , finalema50: 67900.652
+ 
+Process Time:2024-05-24 12:20:20
+finalema20: 67869.42 , finalema50: 67901.278
+ 
+Process Time:2024-05-24 12:20:25
+finalema20: 67869.415 , finalema50: 67901.276
+ 
+Process Time:2024-05-24 12:20:30
+finalema20: 67869.42 , finalema50: 67901.278
+ 
+Process Time:2024-05-24 12:20:35
+finalema20: 67869.415 , finalema50: 67901.276
+ 
+Process Time:2024-05-24 12:20:40
+finalema20: 67870.43 , finalema50: 67901.682
+ 
+Process Time:2024-05-24 12:20:45
+finalema20: 67870.56 , finalema50: 67901.734
+ 
+Process Time:2024-05-24 12:20:50
+finalema20: 67870.555 , finalema50: 67901.732
+ 
+Process Time:2024-05-24 12:20:55
+finalema20: 67870.555 , finalema50: 67901.732
+ 
+Process Time:2024-05-24 12:21:00
+finalema20: 67870.56 , finalema50: 67901.734
+ 
+Process Time:2024-05-24 12:21:05
+finalema20: 67869.215 , finalema50: 67900.474
+ 
+Process Time:2024-05-24 12:21:10
+finalema20: 67869.68 , finalema50: 67900.66
+ 
+Process Time:2024-05-24 12:21:15
+finalema20: 67870.245 , finalema50: 67900.886
+ 
+Process Time:2024-05-24 12:21:20
+finalema20: 67870.29 , finalema50: 67900.904
+ 
+Process Time:2024-05-24 12:21:25
+finalema20: 67870.29 , finalema50: 67900.904
+ 
+Process Time:2024-05-24 12:21:30
+finalema20: 67870.29 , finalema50: 67900.904
+ 
+Process Time:2024-05-24 12:21:35
+finalema20: 67870.29 , finalema50: 67900.904
+ 
+Process Time:2024-05-24 12:21:40
+finalema20: 67869.68 , finalema50: 67900.66
+ 
+Process Time:2024-05-24 12:21:45
+finalema20: 67869.515 , finalema50: 67900.594
+ 
+Process Time:2024-05-24 12:21:50
+finalema20: 67869.9 , finalema50: 67900.748
+ 
+Process Time:2024-05-24 12:21:55
+finalema20: 67870.085 , finalema50: 67900.822
+ 
+Process Time:2024-05-24 12:22:00
+finalema20: 67870.295 , finalema50: 67900.906
+ 
+Process Time:2024-05-24 12:22:05
+finalema20: 67869.75 , finalema50: 67899.768
+ 
+Process Time:2024-05-24 12:22:10
+finalema20: 67869.77 , finalema50: 67899.776
+ 
+Process Time:2024-05-24 12:22:15
+finalema20: 67869.775 , finalema50: 67899.778
+ 
+Process Time:2024-05-24 12:22:20
+finalema20: 67869.68 , finalema50: 67899.74
+ 
+Process Time:2024-05-24 12:22:25
+finalema20: 67869.515 , finalema50: 67899.674
+ 
+Process Time:2024-05-24 12:22:30
+finalema20: 67869.045 , finalema50: 67899.486
+ 
+Process Time:2024-05-24 12:22:35
+finalema20: 67868.52 , finalema50: 67899.276
+ 
+Process Time:2024-05-24 12:22:40
+finalema20: 67868.52 , finalema50: 67899.276
+ 
+Process Time:2024-05-24 12:22:45
+finalema20: 67868.125 , finalema50: 67899.118
+ 
+Process Time:2024-05-24 12:22:50
+finalema20: 67867.98 , finalema50: 67899.06
+ 
+Process Time:2024-05-24 12:22:55
+finalema20: 67867.265 , finalema50: 67898.774
+ 
+Process Time:2024-05-24 12:23:00
+finalema20: 67867.875 , finalema50: 67899.018
+ 
+Process Time:2024-05-24 12:23:05
+finalema20: 67865.845 , finalema50: 67897.446
+ 
+Process Time:2024-05-24 12:23:10
+finalema20: 67866.43 , finalema50: 67897.68
+ 
+Process Time:2024-05-24 12:23:15
+finalema20: 67866.425 , finalema50: 67897.678
+ 
+Process Time:2024-05-24 12:23:20
+finalema20: 67866.425 , finalema50: 67897.678
+ 
+Process Time:2024-05-24 12:23:25
+finalema20: 67866.285 , finalema50: 67897.622
+ 
+Process Time:2024-05-24 12:23:30
+finalema20: 67866.285 , finalema50: 67897.622
+ 
+Process Time:2024-05-24 12:23:35
+finalema20: 67866.29 , finalema50: 67897.624
+ 
+Process Time:2024-05-24 12:23:40
+finalema20: 67866.285 , finalema50: 67897.622
+ 
+Process Time:2024-05-24 12:23:45
+finalema20: 67866.285 , finalema50: 67897.622
+ 
+Process Time:2024-05-24 12:23:50
+finalema20: 67867.015 , finalema50: 67897.914
+ 
+Process Time:2024-05-24 12:23:55
+finalema20: 67867.015 , finalema50: 67897.914
+ 
+Process Time:2024-05-24 12:24:00
+finalema20: 67864.5 , finalema50: 67896.078
+ 
+Process Time:2024-05-24 12:24:05
+finalema20: 67863.855 , finalema50: 67895.82
+ 
+Process Time:2024-05-24 12:24:10
+finalema20: 67863.855 , finalema50: 67895.82
+ 
+Process Time:2024-05-24 12:24:15
+finalema20: 67862.885 , finalema50: 67895.432
+ 
+Process Time:2024-05-24 12:24:20
+finalema20: 67862.85 , finalema50: 67895.418
+ 
+Process Time:2024-05-24 12:24:25
+finalema20: 67862.355 , finalema50: 67895.22
+ 
+Process Time:2024-05-24 12:24:30
+finalema20: 67862.315 , finalema50: 67895.204
+ 
+Process Time:2024-05-24 12:24:35
+finalema20: 67861.835 , finalema50: 67895.012
+ 
+Process Time:2024-05-24 12:24:40
+finalema20: 67861.15 , finalema50: 67894.738
+ 
+Process Time:2024-05-24 12:24:45
+finalema20: 67861.135 , finalema50: 67894.732
+ 
+Process Time:2024-05-24 12:24:50
+finalema20: 67861.295 , finalema50: 67894.796
+ 
+Process Time:2024-05-24 12:24:55
+finalema20: 67861.295 , finalema50: 67894.796
+ 
+Process Time:2024-05-24 12:25:00
+finalema20: 67861.295 , finalema50: 67894.796
+ 
+Process Time:2024-05-24 12:25:05
+finalema20: 67855.53 , finalema50: 67893.132
+ 
+Process Time:2024-05-24 12:25:10
+finalema20: 67855.485 , finalema50: 67893.114
+ 
+Process Time:2024-05-24 12:25:15
+finalema20: 67855.245 , finalema50: 67893.018
+ 
+Process Time:2024-05-24 12:25:20
+finalema20: 67855.095 , finalema50: 67892.958
+ 
+Process Time:2024-05-24 12:25:25
+finalema20: 67855.08 , finalema50: 67892.952
+ 
+Process Time:2024-05-24 12:25:30
+finalema20: 67855.08 , finalema50: 67892.952
+ 
+Process Time:2024-05-24 12:25:35
+finalema20: 67855.4 , finalema50: 67893.08
+ 
+Process Time:2024-05-24 12:25:40
+finalema20: 67856.32 , finalema50: 67893.448
+ 
+Process Time:2024-05-24 12:25:45
+finalema20: 67856.88 , finalema50: 67893.672
+ 
+Process Time:2024-05-24 12:25:50
+finalema20: 67855.35 , finalema50: 67893.06
+ 
+Process Time:2024-05-24 12:25:55
+finalema20: 67855.35 , finalema50: 67893.06
+ 
+Process Time:2024-05-24 12:26:00
+finalema20: 67854.605 , finalema50: 67892.762
+ 
+Process Time:2024-05-24 12:26:05
+finalema20: 67847.62 , finalema50: 67888.826
+ 
+Process Time:2024-05-24 12:26:10
+finalema20: 67847.395 , finalema50: 67888.736
+ 
+Process Time:2024-05-24 12:26:15
+finalema20: 67847.215 , finalema50: 67888.664
+ 
+Process Time:2024-05-24 12:26:20
+finalema20: 67846.235 , finalema50: 67888.272
+ 
+Process Time:2024-05-24 12:26:25
+finalema20: 67846.31 , finalema50: 67888.302
+ 
+Process Time:2024-05-24 12:26:30
+finalema20: 67846.885 , finalema50: 67888.532
+ 
+Process Time:2024-05-24 12:26:35
+finalema20: 67846.755 , finalema50: 67888.48
+ 
+Process Time:2024-05-24 12:26:40
+finalema20: 67846.19 , finalema50: 67888.254
+ 
+Process Time:2024-05-24 12:26:45
+finalema20: 67846.315 , finalema50: 67888.304
+ 
+Process Time:2024-05-24 12:26:50
+finalema20: 67846.545 , finalema50: 67888.396
+ 
+Process Time:2024-05-24 12:26:55
+finalema20: 67846.545 , finalema50: 67888.396
+ 
+Process Time:2024-05-24 12:27:00
+finalema20: 67839.89 , finalema50: 67885.016
+ 
+Process Time:2024-05-24 12:27:05
+finalema20: 67839.875 , finalema50: 67885.01
+ 
+Process Time:2024-05-24 12:27:10
+finalema20: 67839.875 , finalema50: 67885.01
+ 
+Process Time:2024-05-24 12:27:15
+finalema20: 67839.805 , finalema50: 67884.982
+ 
+Process Time:2024-05-24 12:27:20
+finalema20: 67839.805 , finalema50: 67884.982
+ 
+Process Time:2024-05-24 12:27:25
+finalema20: 67839.6 , finalema50: 67884.9
+ 
+Process Time:2024-05-24 12:27:30
+finalema20: 67839.6 , finalema50: 67884.9
+ 
+Process Time:2024-05-24 12:27:35
+finalema20: 67839.53 , finalema50: 67884.872
+ 
+Process Time:2024-05-24 12:27:40
+finalema20: 67839.065 , finalema50: 67884.686
+ 
+Process Time:2024-05-24 12:27:45
+finalema20: 67838.96 , finalema50: 67884.644
+ 
+Process Time:2024-05-24 12:27:50
+finalema20: 67838.94 , finalema50: 67884.636
+ 
+Process Time:2024-05-24 12:27:55
+finalema20: 67838.99 , finalema50: 67884.656
+ 
+Process Time:2024-05-24 12:28:00
+finalema20: 67839.665 , finalema50: 67884.926
+ 
+Process Time:2024-05-24 12:28:05
+finalema20: 67833.32 , finalema50: 67880.606
+ 
+Process Time:2024-05-24 12:28:10
+finalema20: 67833.53 , finalema50: 67880.69
+ 
+Process Time:2024-05-24 12:28:15
+finalema20: 67834.435 , finalema50: 67881.052
+ 
+Process Time:2024-05-24 12:28:20
+finalema20: 67834.435 , finalema50: 67881.052
+ 
+Process Time:2024-05-24 12:28:25
+finalema20: 67834.435 , finalema50: 67881.052
+ 
+Process Time:2024-05-24 12:28:30
+finalema20: 67834.065 , finalema50: 67880.904
+ 
+Process Time:2024-05-24 12:28:35
+finalema20: 67834.06 , finalema50: 67880.902
+ 
+Process Time:2024-05-24 12:28:40
+finalema20: 67834.065 , finalema50: 67880.904
+ 
+Process Time:2024-05-24 12:28:45
+finalema20: 67834.31 , finalema50: 67881.002
+ 
+Process Time:2024-05-24 12:28:50
+finalema20: 67834.915 , finalema50: 67881.244
+ 
+Process Time:2024-05-24 12:28:55
+finalema20: 67835.1 , finalema50: 67881.318
+ 
+Process Time:2024-05-24 12:29:00
+finalema20: 67835.105 , finalema50: 67881.32
+ 
+Process Time:2024-05-24 12:29:05
+finalema20: 67829.49 , finalema50: 67877.368
+ 
+Process Time:2024-05-24 12:29:10
+finalema20: 67829.49 , finalema50: 67877.368
+ 
+Process Time:2024-05-24 12:29:15
+finalema20: 67829.49 , finalema50: 67877.368
+ 
+Process Time:2024-05-24 12:29:20
+finalema20: 67828.72 , finalema50: 67877.06
+ 
+Process Time:2024-05-24 12:29:25
+finalema20: 67828.7 , finalema50: 67877.052
+ 
+Process Time:2024-05-24 12:29:30
+finalema20: 67828.695 , finalema50: 67877.05
+ 
+Process Time:2024-05-24 12:29:35
+finalema20: 67828.89 , finalema50: 67877.128
+ 
+Process Time:2024-05-24 12:29:40
+finalema20: 67828.89 , finalema50: 67877.128
+ 
+Process Time:2024-05-24 12:29:45
+finalema20: 67829.475 , finalema50: 67877.362
+ 
+Process Time:2024-05-24 12:29:50
+finalema20: 67830.005 , finalema50: 67877.574
+ 
+Process Time:2024-05-24 12:29:55
+finalema20: 67830 , finalema50: 67877.572
+ 
+Process Time:2024-05-24 12:30:00
+finalema20: 67830.005 , finalema50: 67877.574
+ 
+Process Time:2024-05-24 12:30:05
+finalema20: 67824.545 , finalema50: 67873.972
+ 
+Process Time:2024-05-24 12:30:10
+finalema20: 67824.54 , finalema50: 67873.97
+ 
+Process Time:2024-05-24 12:30:15
+finalema20: 67824.65 , finalema50: 67874.014
+ 
+Process Time:2024-05-24 12:30:20
+finalema20: 67824.05 , finalema50: 67873.774
+ 
+Process Time:2024-05-24 12:30:25
+finalema20: 67823.33 , finalema50: 67873.486
+ 
+Process Time:2024-05-24 12:30:30
+finalema20: 67822.955 , finalema50: 67873.336
+ 
+Process Time:2024-05-24 12:30:35
+finalema20: 67822.95 , finalema50: 67873.334
+ 
+Process Time:2024-05-24 12:30:40
+finalema20: 67823.165 , finalema50: 67873.42
+ 
+Process Time:2024-05-24 12:30:45
+finalema20: 67823.17 , finalema50: 67873.422
+ 
+Process Time:2024-05-24 12:30:50
+finalema20: 67823.17 , finalema50: 67873.422
+ 
+Process Time:2024-05-24 12:30:55
+finalema20: 67823.165 , finalema50: 67873.42
+ 
+Process Time:2024-05-24 12:31:00
+finalema20: 67814.54 , finalema50: 67868.95
+ 
+Process Time:2024-05-24 12:31:05
+finalema20: 67813.19 , finalema50: 67868.41
+ 
+Process Time:2024-05-24 12:31:10
+finalema20: 67813.325 , finalema50: 67868.464
+ 
+Process Time:2024-05-24 12:31:15
+finalema20: 67813.37 , finalema50: 67868.482
+ 
+Process Time:2024-05-24 12:31:20
+finalema20: 67813.13 , finalema50: 67868.386
+ 
+Process Time:2024-05-24 12:31:25
+finalema20: 67813.245 , finalema50: 67868.432
+ 
+Process Time:2024-05-24 12:31:30
+finalema20: 67812.935 , finalema50: 67868.308
+ 
+Process Time:2024-05-24 12:31:35
+finalema20: 67813.025 , finalema50: 67868.344
+ 
+Process Time:2024-05-24 12:31:40
+finalema20: 67813.355 , finalema50: 67868.476
+ 
+Process Time:2024-05-24 12:31:45
+finalema20: 67813.825 , finalema50: 67868.664
+ 
+Process Time:2024-05-24 12:31:50
+finalema20: 67812.865 , finalema50: 67868.28
+ 
+Process Time:2024-05-24 12:31:55
+finalema20: 67813.785 , finalema50: 67868.648
+ 
+Process Time:2024-05-24 12:32:00
+finalema20: 67813.79 , finalema50: 67868.65
+ 
+Process Time:2024-05-24 12:32:05
+finalema20: 67803.125 , finalema50: 67864.178
+ 
+Process Time:2024-05-24 12:32:10
+finalema20: 67803.675 , finalema50: 67864.398
+ 
+Process Time:2024-05-24 12:32:15
+finalema20: 67804.41 , finalema50: 67864.692
+ 
+Process Time:2024-05-24 12:32:20
+finalema20: 67804.58 , finalema50: 67864.76
+ 
+Process Time:2024-05-24 12:32:25
+finalema20: 67804.52 , finalema50: 67864.736
+ 
+Process Time:2024-05-24 12:32:30
+finalema20: 67804.52 , finalema50: 67864.736
+ 
+Process Time:2024-05-24 12:32:35
+finalema20: 67803.89 , finalema50: 67864.484
+ 
+Process Time:2024-05-24 12:32:40
+finalema20: 67802.91 , finalema50: 67864.092
+ 
+Process Time:2024-05-24 12:32:45
+finalema20: 67803.185 , finalema50: 67864.202
+ 
+Process Time:2024-05-24 12:32:50
+finalema20: 67802.975 , finalema50: 67864.118
+ 
+Process Time:2024-05-24 12:32:55
+finalema20: 67802.375 , finalema50: 67863.878
+ 
+Process Time:2024-05-24 12:33:00
+finalema20: 67802.375 , finalema50: 67863.878
+ 
+Process Time:2024-05-24 12:33:05
+finalema20: 67792.215 , finalema50: 67858.97
+ 
+Process Time:2024-05-24 12:33:10
+finalema20: 67791.6 , finalema50: 67858.724
+ 
+Process Time:2024-05-24 12:33:15
+finalema20: 67791.615 , finalema50: 67858.73
+ 
+Process Time:2024-05-24 12:33:20
+finalema20: 67792.3 , finalema50: 67859.004
+ 
+Process Time:2024-05-24 12:33:25
+finalema20: 67792.595 , finalema50: 67859.122
+ 
+Process Time:2024-05-24 12:33:30
+finalema20: 67792.595 , finalema50: 67859.122
+ 
+Process Time:2024-05-24 12:33:35
+finalema20: 67792.54 , finalema50: 67859.1
+ 
+Process Time:2024-05-24 12:33:40
+finalema20: 67793.125 , finalema50: 67859.334
+ 
+Process Time:2024-05-24 12:33:45
+finalema20: 67793.57 , finalema50: 67859.512
+ 
+Process Time:2024-05-24 12:33:50
+finalema20: 67793.565 , finalema50: 67859.51
+ 
+Process Time:2024-05-24 12:33:55
+finalema20: 67793.72 , finalema50: 67859.572
+ 
+Process Time:2024-05-24 12:34:00
+finalema20: 67793.72 , finalema50: 67859.572
+ 
+Process Time:2024-05-24 12:34:05
+finalema20: 67784.805 , finalema50: 67854.686
+ 
+Process Time:2024-05-24 12:34:10
+finalema20: 67783.025 , finalema50: 67853.974
+ 
+Process Time:2024-05-24 12:34:15
+finalema20: 67783.025 , finalema50: 67853.974
+ 
+Process Time:2024-05-24 12:34:20
+finalema20: 67783.095 , finalema50: 67854.002
+ 
+Process Time:2024-05-24 12:34:25
+finalema20: 67783.435 , finalema50: 67854.138
+ 
+Process Time:2024-05-24 12:34:30
+finalema20: 67784.145 , finalema50: 67854.422
+ 
+Process Time:2024-05-24 12:34:35
+finalema20: 67783.425 , finalema50: 67854.134
+ 
+Process Time:2024-05-24 12:34:40
+finalema20: 67783.405 , finalema50: 67854.126
+ 
+Process Time:2024-05-24 12:34:45
+finalema20: 67783.48 , finalema50: 67854.156
+ 
+Process Time:2024-05-24 12:34:50
+finalema20: 67783.48 , finalema50: 67854.156
+ 
+Process Time:2024-05-24 12:34:55
+finalema20: 67784.005 , finalema50: 67854.366
+ 
+Process Time:2024-05-24 12:35:00
+finalema20: 67775.52 , finalema50: 67848.806
+ 
+Process Time:2024-05-24 12:35:05
+finalema20: 67775.745 , finalema50: 67848.896
+ 
+Process Time:2024-05-24 12:35:10
+finalema20: 67775.74 , finalema50: 67848.894
+ 
+Process Time:2024-05-24 12:35:15
+finalema20: 67775.38 , finalema50: 67848.75
+ 
+Process Time:2024-05-24 12:35:20
+finalema20: 67775.385 , finalema50: 67848.752
+ 
+Process Time:2024-05-24 12:35:25
+finalema20: 67775.38 , finalema50: 67848.75
+ 
+Process Time:2024-05-24 12:35:30
+finalema20: 67776.18 , finalema50: 67849.07
+ 
+Process Time:2024-05-24 12:35:35
+finalema20: 67776.21 , finalema50: 67849.082
+ 
+Process Time:2024-05-24 12:35:40
+finalema20: 67776.205 , finalema50: 67849.08
+ 
+Process Time:2024-05-24 12:35:45
+finalema20: 67776.63 , finalema50: 67849.25
+ 
+Process Time:2024-05-24 12:35:50
+finalema20: 67775.455 , finalema50: 67848.78
+ 
+Process Time:2024-05-24 12:35:55
+finalema20: 67775.445 , finalema50: 67848.776
+ 
+Process Time:2024-05-24 12:36:00
+finalema20: 67766.185 , finalema50: 67841.536
+ 
+Process Time:2024-05-24 12:36:05
+finalema20: 67765.87 , finalema50: 67841.41
+ 
+Process Time:2024-05-24 12:36:10
+finalema20: 67766.59 , finalema50: 67841.698
+ 
+Process Time:2024-05-24 12:36:15
+finalema20: 67766.845 , finalema50: 67841.8
+ 
+Process Time:2024-05-24 12:36:20
+finalema20: 67766.845 , finalema50: 67841.8
+ 
+Process Time:2024-05-24 12:36:25
+finalema20: 67766.845 , finalema50: 67841.8
+ 
+Process Time:2024-05-24 12:36:30
+finalema20: 67766.875 , finalema50: 67841.812
+ 
+Process Time:2024-05-24 12:36:35
+finalema20: 67766.875 , finalema50: 67841.812
+ 
+Process Time:2024-05-24 12:36:40
+finalema20: 67766.26 , finalema50: 67841.566
+ 
+Process Time:2024-05-24 12:36:45
+finalema20: 67766.265 , finalema50: 67841.568
+ 
+Process Time:2024-05-24 12:36:50
+finalema20: 67766.265 , finalema50: 67841.568
+ 
+Process Time:2024-05-24 12:36:55
+finalema20: 67766.265 , finalema50: 67841.568
+ 
+Process Time:2024-05-24 12:37:00
+finalema20: 67766.26 , finalema50: 67841.566
+ 
+Process Time:2024-05-24 12:37:05
+finalema20: 67761.555 , finalema50: 67836.06
+ 
+Process Time:2024-05-24 12:37:10
+finalema20: 67761.175 , finalema50: 67835.908
+ 
+Process Time:2024-05-24 12:37:15
+finalema20: 67761.405 , finalema50: 67836
+ 
+Process Time:2024-05-24 12:37:20
+finalema20: 67762.42 , finalema50: 67836.406
+ 
+Process Time:2024-05-24 12:37:25
+finalema20: 67762.06 , finalema50: 67836.262
+ 
+Process Time:2024-05-24 12:37:30
+finalema20: 67761.155 , finalema50: 67835.9
+ 
+Process Time:2024-05-24 12:37:35
+finalema20: 67760.105 , finalema50: 67835.48
+ 
+Process Time:2024-05-24 12:37:40
+finalema20: 67759.96 , finalema50: 67835.422
+ 
+Process Time:2024-05-24 12:37:45
+finalema20: 67759.675 , finalema50: 67835.308
+ 
+Process Time:2024-05-24 12:37:50
+finalema20: 67760.775 , finalema50: 67835.748
+ 
+Process Time:2024-05-24 12:37:55
+finalema20: 67760.775 , finalema50: 67835.748
+ 
+Process Time:2024-05-24 12:38:00
+finalema20: 67761.505 , finalema50: 67836.04
+ 
+Process Time:2024-05-24 12:38:05
+finalema20: 67757.655 , finalema50: 67831.472
+ 
+Process Time:2024-05-24 12:38:10
+finalema20: 67758.665 , finalema50: 67831.876
+ 
+Process Time:2024-05-24 12:38:15
+finalema20: 67757.395 , finalema50: 67831.368
+ 
+Process Time:2024-05-24 12:38:20
+finalema20: 67756.225 , finalema50: 67830.9
+ 
+Process Time:2024-05-24 12:38:25
+finalema20: 67756.17 , finalema50: 67830.878
+ 
+Process Time:2024-05-24 12:38:30
+finalema20: 67756.4 , finalema50: 67830.97
+ 
+Process Time:2024-05-24 12:38:35
+finalema20: 67755.885 , finalema50: 67830.764
+ 
+Process Time:2024-05-24 12:38:40
+finalema20: 67756.15 , finalema50: 67830.87
+ 
+Process Time:2024-05-24 12:38:45
+finalema20: 67756.075 , finalema50: 67830.84
+ 
+Process Time:2024-05-24 12:38:50
+finalema20: 67756.63 , finalema50: 67831.062
+ 
+Process Time:2024-05-24 12:38:55
+finalema20: 67756.67 , finalema50: 67831.078
+ 
+Process Time:2024-05-24 12:39:00
+finalema20: 67756.665 , finalema50: 67831.076
+ 
+Process Time:2024-05-24 12:39:05
+finalema20: 67753.15 , finalema50: 67827.24
+ 
+Process Time:2024-05-24 12:39:10
+finalema20: 67753.2 , finalema50: 67827.26
+ 
+Process Time:2024-05-24 12:39:15
+finalema20: 67753.2 , finalema50: 67827.26
+ 
+Process Time:2024-05-24 12:39:20
+finalema20: 67751.805 , finalema50: 67826.702
+ 
+Process Time:2024-05-24 12:39:25
+finalema20: 67751.795 , finalema50: 67826.698
+ 
+Process Time:2024-05-24 12:39:30
+finalema20: 67751.795 , finalema50: 67826.698
+ 
+Process Time:2024-05-24 12:39:35
+finalema20: 67751.795 , finalema50: 67826.698
+ 
+Process Time:2024-05-24 12:39:40
+finalema20: 67751.485 , finalema50: 67826.574
+ 
+Process Time:2024-05-24 12:39:45
+finalema20: 67751.49 , finalema50: 67826.576
+ 
+Process Time:2024-05-24 12:39:50
+finalema20: 67751.09 , finalema50: 67826.416
+ 
+Process Time:2024-05-24 12:39:55
+finalema20: 67751.4 , finalema50: 67826.54
+ 
+Process Time:2024-05-24 12:40:00
+finalema20: 67751.395 , finalema50: 67826.538
+ 
+Process Time:2024-05-24 12:40:05
+finalema20: 67744.075 , finalema50: 67821.898
+ 
+Process Time:2024-05-24 12:40:10
+finalema20: 67745.735 , finalema50: 67822.562
+ 
+Process Time:2024-05-24 12:40:15
+finalema20: 67744.39 , finalema50: 67822.024
+ 
+Process Time:2024-05-24 12:40:20
+finalema20: 67744.335 , finalema50: 67822.002
+ 
+Process Time:2024-05-24 12:40:25
+finalema20: 67744.715 , finalema50: 67822.154
+ 
+Process Time:2024-05-24 12:40:30
+finalema20: 67743.95 , finalema50: 67821.848
+ 
+Process Time:2024-05-24 12:40:35
+finalema20: 67744.14 , finalema50: 67821.924
+ 
+Process Time:2024-05-24 12:40:40
+finalema20: 67744.115 , finalema50: 67821.914
+ 
+Process Time:2024-05-24 12:40:45
+finalema20: 67743.38 , finalema50: 67821.62
+ 
+Process Time:2024-05-24 12:40:50
+finalema20: 67743.68 , finalema50: 67821.74
+ 
+Process Time:2024-05-24 12:40:55
+finalema20: 67744.03 , finalema50: 67821.88
+ 
+Process Time:2024-05-24 12:41:00
+finalema20: 67744.23 , finalema50: 67821.96
+ 
+Process Time:2024-05-24 12:41:05
+finalema20: 67736.605 , finalema50: 67819.262
+ 
+Process Time:2024-05-24 12:41:10
+finalema20: 67736.61 , finalema50: 67819.264
+ 
+Process Time:2024-05-24 12:41:20
+finalema20: 67736.095 , finalema50: 67819.058
+ 
+Process Time:2024-05-24 12:41:25
+finalema20: 67735.15 , finalema50: 67818.68
+ 
+Process Time:2024-05-24 12:41:30
+finalema20: 67735.64 , finalema50: 67818.876
+ 
+Process Time:2024-05-24 12:41:35
+finalema20: 67735.835 , finalema50: 67818.954
+ 
+Process Time:2024-05-24 12:41:40
+finalema20: 67735.95 , finalema50: 67819
+ 
+Process Time:2024-05-24 12:41:45
+finalema20: 67736.195 , finalema50: 67819.098
+ 
+Process Time:2024-05-24 12:41:50
+finalema20: 67736.225 , finalema50: 67819.11
+ 
+Process Time:2024-05-24 12:41:55
+finalema20: 67736.22 , finalema50: 67819.108
+ 
+Process Time:2024-05-24 12:42:00
+finalema20: 67736.225 , finalema50: 67819.11
+ 
+Process Time:2024-05-24 12:42:05
+finalema20: 67729.56 , finalema50: 67815.398
+ 
+Process Time:2024-05-24 12:42:10
+finalema20: 67730.03 , finalema50: 67815.586
+ 
+Process Time:2024-05-24 12:42:15
+finalema20: 67730.335 , finalema50: 67815.708
+ 
+Process Time:2024-05-24 12:42:25
+finalema20: 67730.43 , finalema50: 67815.746
+ 
+Process Time:2024-05-24 12:42:30
+finalema20: 67730.175 , finalema50: 67815.644
+ 
+Process Time:2024-05-24 12:42:35
+finalema20: 67730.175 , finalema50: 67815.644
+ 
+Process Time:2024-05-24 12:42:40
+finalema20: 67730.085 , finalema50: 67815.608
+ 
+Process Time:2024-05-24 12:42:45
+finalema20: 67730.55 , finalema50: 67815.794
+ 
+Process Time:2024-05-24 12:42:50
+finalema20: 67730.745 , finalema50: 67815.872
+ 
+Process Time:2024-05-24 12:42:55
+finalema20: 67730.555 , finalema50: 67815.796
+ 
+Process Time:2024-05-24 12:43:00
+finalema20: 67730.555 , finalema50: 67815.796
+ 
+Process Time:2024-05-24 12:43:05
+finalema20: 67723.185 , finalema50: 67812.466
+ 
+Process Time:2024-05-24 12:43:10
+finalema20: 67722.99 , finalema50: 67812.388
+ 
+Process Time:2024-05-24 12:43:15
+finalema20: 67722.99 , finalema50: 67812.388
+ 
+Process Time:2024-05-24 12:43:20
+finalema20: 67722.99 , finalema50: 67812.388
+ 
+Process Time:2024-05-24 12:43:25
+finalema20: 67722.99 , finalema50: 67812.388
+ 
+Process Time:2024-05-24 12:43:30
+finalema20: 67722.995 , finalema50: 67812.39
+ 
+Process Time:2024-05-24 12:43:35
+finalema20: 67722.995 , finalema50: 67812.39
+ 
+Process Time:2024-05-24 12:43:40
+finalema20: 67722.99 , finalema50: 67812.388
+ 
+Process Time:2024-05-24 12:43:45
+finalema20: 67722.995 , finalema50: 67812.39
+ 
+Process Time:2024-05-24 12:43:50
+finalema20: 67722.995 , finalema50: 67812.39
+ 
+Process Time:2024-05-24 12:43:55
+finalema20: 67722.8 , finalema50: 67812.312
+ 
+Process Time:2024-05-24 12:44:00
+finalema20: 67722.985 , finalema50: 67812.386
+ 
+Process Time:2024-05-24 12:44:05
+finalema20: 67718.845 , finalema50: 67809.138
+ 
+Process Time:2024-05-24 12:44:10
+finalema20: 67718.845 , finalema50: 67809.138
+ 
+Process Time:2024-05-24 12:44:15
+finalema20: 67718.845 , finalema50: 67809.138
+ 
+Process Time:2024-05-24 12:44:20
+finalema20: 67718.845 , finalema50: 67809.138
+ 
+Process Time:2024-05-24 12:44:25
+finalema20: 67718.955 , finalema50: 67809.182
+ 
+Process Time:2024-05-24 12:44:30
+finalema20: 67718.955 , finalema50: 67809.182
+ 
+Process Time:2024-05-24 12:44:35
+finalema20: 67718.95 , finalema50: 67809.18
+ 
+Process Time:2024-05-24 12:44:40
+finalema20: 67718.86 , finalema50: 67809.144
+ 
+Process Time:2024-05-24 12:44:45
+finalema20: 67718.735 , finalema50: 67809.094
+ 
+Process Time:2024-05-24 12:44:50
+finalema20: 67718.735 , finalema50: 67809.094
+ 
+Process Time:2024-05-24 12:44:55
+finalema20: 67718.73 , finalema50: 67809.092
+ 
+Process Time:2024-05-24 12:45:00
+finalema20: 67715.535 , finalema50: 67805.592
+ 
+Process Time:2024-05-24 12:45:05
+finalema20: 67715.535 , finalema50: 67805.592
+ 
+Process Time:2024-05-24 12:45:10
+finalema20: 67715.54 , finalema50: 67805.594
+ 
+Process Time:2024-05-24 12:45:15
+finalema20: 67715.53 , finalema50: 67805.59
+ 
+Process Time:2024-05-24 12:45:20
+finalema20: 67715.7 , finalema50: 67805.658
+ 
+Process Time:2024-05-24 12:45:25
+finalema20: 67716.665 , finalema50: 67806.044
+ 
+Process Time:2024-05-24 12:45:30
+finalema20: 67717.095 , finalema50: 67806.216
+ 
+Process Time:2024-05-24 12:45:35
+finalema20: 67717.095 , finalema50: 67806.216
+ 
+Process Time:2024-05-24 12:45:40
+finalema20: 67717.005 , finalema50: 67806.18
+ 
+Process Time:2024-05-24 12:45:45
+finalema20: 67716.905 , finalema50: 67806.14
+ 
+Process Time:2024-05-24 12:45:50
+finalema20: 67716.905 , finalema50: 67806.14
+ 
+Process Time:2024-05-24 12:45:55
+finalema20: 67716.57 , finalema50: 67806.006
+ 
+Process Time:2024-05-24 12:46:00
+finalema20: 67716.19 , finalema50: 67805.854
+ 
+Process Time:2024-05-24 12:46:05
+finalema20: 67715.265 , finalema50: 67802.37
+ 
+Process Time:2024-05-24 12:46:10
+finalema20: 67715.26 , finalema50: 67802.368
+ 
+Process Time:2024-05-24 12:46:15
+finalema20: 67715.265 , finalema50: 67802.37
+ 
+Process Time:2024-05-24 12:46:20
+finalema20: 67715.72 , finalema50: 67802.552
+ 
+Process Time:2024-05-24 12:46:25
+finalema20: 67715.59 , finalema50: 67802.5
+ 
+Process Time:2024-05-24 12:46:30
+finalema20: 67715.245 , finalema50: 67802.362
+ 
+Process Time:2024-05-24 12:46:35
+finalema20: 67714.765 , finalema50: 67802.17
+ 
+Process Time:2024-05-24 12:46:40
+finalema20: 67714.88 , finalema50: 67802.216
+ 
+Process Time:2024-05-24 12:46:45
+finalema20: 67714.875 , finalema50: 67802.214
+ 
+Process Time:2024-05-24 12:46:50
+finalema20: 67714.875 , finalema50: 67802.214
+ 
+Process Time:2024-05-24 12:46:55
+finalema20: 67715.3 , finalema50: 67802.384
+ 
+Process Time:2024-05-24 12:47:00
+finalema20: 67715.05 , finalema50: 67802.284
+ 
+Process Time:2024-05-24 12:47:05
+finalema20: 67714.89 , finalema50: 67798.91
+ 
+Process Time:2024-05-24 12:47:10
+finalema20: 67715.335 , finalema50: 67799.088
+ 
+Process Time:2024-05-24 12:47:15
+finalema20: 67715.085 , finalema50: 67798.988
+ 
+Process Time:2024-05-24 12:47:20
+finalema20: 67714.75 , finalema50: 67798.854
+ 
+Process Time:2024-05-24 12:47:25
+finalema20: 67714.75 , finalema50: 67798.854
+ 
+Process Time:2024-05-24 12:47:30
+finalema20: 67714.75 , finalema50: 67798.854
+ 
+Process Time:2024-05-24 12:47:35
+finalema20: 67714.745 , finalema50: 67798.852
+ 
+Process Time:2024-05-24 12:47:40
+finalema20: 67714.115 , finalema50: 67798.6
+ 
+Process Time:2024-05-24 12:47:45
+finalema20: 67713.975 , finalema50: 67798.544
+ 
+Process Time:2024-05-24 12:47:50
+finalema20: 67714.19 , finalema50: 67798.63
+ 
+Process Time:2024-05-24 12:47:55
+finalema20: 67714.365 , finalema50: 67798.7
+ 
+Process Time:2024-05-24 12:48:00
+finalema20: 67712.775 , finalema50: 67795.66
+ 
+Process Time:2024-05-24 12:48:05
+finalema20: 67712.77 , finalema50: 67795.658
+ 
+Process Time:2024-05-24 12:48:10
+finalema20: 67713.07 , finalema50: 67795.778
+ 
+Process Time:2024-05-24 12:48:15
+finalema20: 67713.195 , finalema50: 67795.828
+ 
+Process Time:2024-05-24 12:48:20
+finalema20: 67713.31 , finalema50: 67795.874
+ 
+Process Time:2024-05-24 12:48:25
+finalema20: 67713.305 , finalema50: 67795.872
+ 
+Process Time:2024-05-24 12:48:30
+finalema20: 67713.275 , finalema50: 67795.86
+ 
+Process Time:2024-05-24 12:48:35
+finalema20: 67713.385 , finalema50: 67795.904
+ 
+Process Time:2024-05-24 12:48:40
+finalema20: 67713.38 , finalema50: 67795.902
+ 
+Process Time:2024-05-24 12:48:45
+finalema20: 67713.385 , finalema50: 67795.904
+ 
+Process Time:2024-05-24 12:48:50
+finalema20: 67713.97 , finalema50: 67796.138
+ 
+Process Time:2024-05-24 12:48:55
+finalema20: 67713.97 , finalema50: 67796.138
+ 
+Process Time:2024-05-24 12:49:00
+finalema20: 67712.44 , finalema50: 67792.926
+ 
+Process Time:2024-05-24 12:49:05
+finalema20: 67712.17 , finalema50: 67792.818
+ 
+Process Time:2024-05-24 12:49:10
+finalema20: 67712.135 , finalema50: 67792.804
+ 
+Process Time:2024-05-24 12:49:15
+finalema20: 67712.13 , finalema50: 67792.802
+ 
+Process Time:2024-05-24 12:49:20
+finalema20: 67712.2 , finalema50: 67792.83
+ 
+Process Time:2024-05-24 12:49:25
+finalema20: 67712.2 , finalema50: 67792.83
+ 
+Process Time:2024-05-24 12:49:30
+finalema20: 67712.205 , finalema50: 67792.832
+ 
+Process Time:2024-05-24 12:49:35
+finalema20: 67712.2 , finalema50: 67792.83
+ 
+Process Time:2024-05-24 12:49:40
+finalema20: 67712.25 , finalema50: 67792.85
+ 
+Process Time:2024-05-24 12:49:45
+finalema20: 67712.285 , finalema50: 67792.864
+ 
+Process Time:2024-05-24 12:49:50
+finalema20: 67712.285 , finalema50: 67792.864
+ 
+Process Time:2024-05-24 12:49:55
+finalema20: 67712.285 , finalema50: 67792.864
+ 
+Process Time:2024-05-24 12:50:00
+finalema20: 67712.335 , finalema50: 67792.884
+ 
+Process Time:2024-05-24 12:50:05
+finalema20: 67712.61 , finalema50: 67789.782
+ 
+Process Time:2024-05-24 12:50:10
+finalema20: 67712.61 , finalema50: 67789.782
+ 
+Process Time:2024-05-24 12:50:15
+finalema20: 67712.59 , finalema50: 67789.774
+ 
+Process Time:2024-05-24 12:50:20
+finalema20: 67712.5 , finalema50: 67789.738
+ 
+Process Time:2024-05-24 12:50:25
+finalema20: 67712.5 , finalema50: 67789.738
+ 
+Process Time:2024-05-24 12:50:30
+finalema20: 67712.35 , finalema50: 67789.678
+ 
+Process Time:2024-05-24 12:50:35
+finalema20: 67712.35 , finalema50: 67789.678
+ 
+Process Time:2024-05-24 12:50:40
+finalema20: 67712.64 , finalema50: 67789.794
+ 
+Process Time:2024-05-24 12:50:45
+finalema20: 67712.955 , finalema50: 67789.92
+ 
+Process Time:2024-05-24 12:50:50
+finalema20: 67713.335 , finalema50: 67790.072
+ 
+Process Time:2024-05-24 12:50:55
+finalema20: 67713.335 , finalema50: 67790.072
+ 
+Process Time:2024-05-24 12:51:00
+finalema20: 67715.4 , finalema50: 67787.808
+ 
+Process Time:2024-05-24 12:51:05
+finalema20: 67715.395 , finalema50: 67787.806
+ 
+Process Time:2024-05-24 12:51:10
+finalema20: 67715.395 , finalema50: 67787.806
+ 
+Process Time:2024-05-24 12:51:15
+finalema20: 67715.4 , finalema50: 67787.808
+ 
+Process Time:2024-05-24 12:51:20
+finalema20: 67715.4 , finalema50: 67787.808
+ 
+Process Time:2024-05-24 12:51:25
+finalema20: 67715.395 , finalema50: 67787.806
+ 
+Process Time:2024-05-24 12:51:30
+finalema20: 67715.405 , finalema50: 67787.81
+ 
+Process Time:2024-05-24 12:51:35
+finalema20: 67715.41 , finalema50: 67787.812
+ 
+Process Time:2024-05-24 12:51:40
+finalema20: 67715.405 , finalema50: 67787.81
+ 
+Process Time:2024-05-24 12:51:45
+finalema20: 67715.21 , finalema50: 67787.732
+ 
+Process Time:2024-05-24 12:51:50
+finalema20: 67715.215 , finalema50: 67787.734
+ 
+Process Time:2024-05-24 12:51:55
+finalema20: 67715.215 , finalema50: 67787.734
+ 
+Process Time:2024-05-24 12:52:00
+finalema20: 67717.745 , finalema50: 67785.294
+ 
+Process Time:2024-05-24 12:52:05
+finalema20: 67717.74 , finalema50: 67785.292
+ 
+Process Time:2024-05-24 12:52:10
+finalema20: 67717.74 , finalema50: 67785.292
+ 
+Process Time:2024-05-24 12:52:15
+finalema20: 67717.72 , finalema50: 67785.284
+ 
+Process Time:2024-05-24 12:52:20
+finalema20: 67717.72 , finalema50: 67785.284
+ 
+Process Time:2024-05-24 12:52:25
+finalema20: 67716.94 , finalema50: 67784.972
+ 
+Process Time:2024-05-24 12:52:30
+finalema20: 67716.94 , finalema50: 67784.972
+ 
+Process Time:2024-05-24 12:52:35
+finalema20: 67716.94 , finalema50: 67784.972
+ 
+Process Time:2024-05-24 12:52:40
+finalema20: 67717.065 , finalema50: 67785.022
+ 
+Process Time:2024-05-24 12:52:45
+finalema20: 67717.34 , finalema50: 67785.132
+ 
+Process Time:2024-05-24 12:52:50
+finalema20: 67717.34 , finalema50: 67785.132
+ 
+Process Time:2024-05-24 12:52:55
+finalema20: 67717.045 , finalema50: 67785.014
+ 
+Process Time:2024-05-24 12:53:00
+finalema20: 67718.055 , finalema50: 67782.116
+ 
+Process Time:2024-05-24 12:53:05
+finalema20: 67718.06 , finalema50: 67782.118
+ 
+Process Time:2024-05-24 12:53:10
+finalema20: 67718.06 , finalema50: 67782.118
+ 
+Process Time:2024-05-24 12:57:40
+finalema20: 67723.305 , finalema50: 67769.566
+ 
+Process Time:2024-05-24 12:57:45
+finalema20: 67723.3 , finalema50: 67769.564
+ 
+Process Time:2024-05-24 12:59:50
+finalema20: 67725.765 , finalema50: 67764.226
+ 
+Process Time:2024-05-24 12:59:55
+finalema20: 67725.44 , finalema50: 67764.096
+ 
+Process Time:2024-05-24 13:00:00
+finalema20: 67727.105 , finalema50: 67761.174
+ 
+Process Time:2024-05-24 13:03:45
+finalema20: 67719.93 , finalema50: 67746.332
+ 
+Process Time:2024-05-24 13:03:50
+finalema20: 67719.935 , finalema50: 67746.334
+ 
+Process Time:2024-05-24 13:03:55
+finalema20: 67720.17 , finalema50: 67746.428
+ 
+Process Time:2024-05-24 13:04:00
+finalema20: 67716.735 , finalema50: 67741.22
+ 
+Process Time:2024-05-24 13:04:05
+finalema20: 67716.735 , finalema50: 67741.22
+ 
+getWalletBalance error: cURL error 7: Failed to connect to api.bybit.com port 443 after 6 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/account/wallet-balance?accountType=UNIFIED
+Process Time:2024-05-24 13:04:10
+finalema20: 67716.735 , finalema50: 67741.22
+ 
+Process Time:2024-05-24 13:04:15
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 8 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&limit=100
+start account balance: 41.08988263
+Process Time:2024-05-24 13:37:50
+finalema20: 67496.2 , finalema50: 67606.334
+ 
+Process Time:2024-05-24 13:37:55
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 15 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&limit=100
+getWalletBalance error: cURL error 7: Failed to connect to api.bybit.com port 443 after 13 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/account/wallet-balance?accountType=UNIFIED
+start account balance: 
+Process Time:2024-05-24 13:38:05
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 8 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&limit=100
+start account balance: 41.07652243
+Process Time:2024-05-24 13:43:45
+finalema20: 67388.8 , finalema50: 67543.026
+ 
+Process Time:2024-05-24 13:43:50
+finalema20: 67389.72 , finalema50: 67543.394
+ 
+Process Time:2024-05-24 13:43:55
+finalema20: 67389.725 , finalema50: 67543.396
+ 
+Process Time:2024-05-24 13:44:00
+finalema20: 67390.395 , finalema50: 67543.664
+ 
+Process Time:2024-05-24 13:44:05
+finalema20: 67373.495 , finalema50: 67533.994
+ 
+Process Time:2024-05-24 13:44:10
+finalema20: 67373.935 , finalema50: 67534.17
+ 
+Process Time:2024-05-24 13:44:15
+finalema20: 67373.635 , finalema50: 67534.05
+ 
+getWalletBalance error: cURL error 7: Failed to connect to api.bybit.com port 443 after 7 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/account/wallet-balance?accountType=UNIFIED
+Process Time:2024-05-24 13:44:20
+finalema20: 67373.5 , finalema50: 67533.996
+ 
+Process Time:2024-05-24 13:44:25
+finalema20: 67372.8 , finalema50: 67533.716
+ 
+Process Time:2024-05-24 13:44:30
+finalema20: 67372.8 , finalema50: 67533.716
+ 
+Process Time:2024-05-24 13:44:35
+finalema20: 67372.8 , finalema50: 67533.716
+ 
+Process Time:2024-05-24 13:44:40
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 9 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&limit=100

@@ -1,0 +1,934 @@
+start account balance: 41.11675123
+Process Time:2024-05-24 12:02:50
+closeprice: ["67875","67900","67884.3","67874.2","67928.8"];volumenow: 35.983;volumebefore: 42.48
+ 
+Process Time:2024-05-24 12:03:00
+closeprice: ["67875.1","67900","67884.3","67874.2","67928.8"];volumenow: 36.534;volumebefore: 42.48
+ 
+Process Time:2024-05-24 12:03:10
+closeprice: ["67875.1","67875.1","67900","67884.3","67874.2"];volumenow: 0.18;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:03:20
+closeprice: ["67867.9","67875.1","67900","67884.3","67874.2"];volumenow: 2.513;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:03:30
+closeprice: ["67860.6","67875.1","67900","67884.3","67874.2"];volumenow: 6.641;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:03:40
+closeprice: ["67860.8","67875.1","67900","67884.3","67874.2"];volumenow: 7.582;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:03:50
+closeprice: ["67859","67875.1","67900","67884.3","67874.2"];volumenow: 14.217;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:04:00
+closeprice: ["67884","67875.1","67900","67884.3","67874.2"];volumenow: 17.204;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:04:10
+closeprice: ["67882","67875.1","67900","67884.3","67874.2"];volumenow: 17.69;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:04:20
+closeprice: ["67882.1","67875.1","67900","67884.3","67874.2"];volumenow: 17.792;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:04:30
+closeprice: ["67882","67875.1","67900","67884.3","67874.2"];volumenow: 17.907;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:04:40
+closeprice: ["67882.9","67875.1","67900","67884.3","67874.2"];volumenow: 18.062;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:04:50
+closeprice: ["67892.9","67875.1","67900","67884.3","67874.2"];volumenow: 19.126;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:05:00
+closeprice: ["67893.2","67875.1","67900","67884.3","67874.2"];volumenow: 20.094;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:05:10
+closeprice: ["67893.1","67875.1","67900","67884.3","67874.2"];volumenow: 20.27;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:05:20
+closeprice: ["67912.6","67875.1","67900","67884.3","67874.2"];volumenow: 28.622;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:05:30
+closeprice: ["67926.1","67875.1","67900","67884.3","67874.2"];volumenow: 32.714;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:05:40
+closeprice: ["67923.2","67875.1","67900","67884.3","67874.2"];volumenow: 34.541;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:05:50
+closeprice: ["67914.5","67875.1","67900","67884.3","67874.2"];volumenow: 37.271;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:06:00
+closeprice: ["67903.1","67875.1","67900","67884.3","67874.2"];volumenow: 40.806;volumebefore: 36.535
+ 
+Process Time:2024-05-24 12:06:10
+closeprice: ["67899.9","67903.1","67875.1","67900","67884.3"];volumenow: 0.247;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:06:20
+closeprice: ["67897.2","67903.1","67875.1","67900","67884.3"];volumenow: 1.117;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:06:30
+closeprice: ["67897.3","67903.1","67875.1","67900","67884.3"];volumenow: 1.25;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:06:40
+closeprice: ["67897.2","67903.1","67875.1","67900","67884.3"];volumenow: 1.382;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:06:50
+closeprice: ["67897.3","67903.1","67875.1","67900","67884.3"];volumenow: 1.437;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:07:00
+closeprice: ["67889.9","67903.1","67875.1","67900","67884.3"];volumenow: 3.197;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:07:10
+closeprice: ["67889.9","67903.1","67875.1","67900","67884.3"];volumenow: 4.119;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:07:20
+closeprice: ["67889.8","67903.1","67875.1","67900","67884.3"];volumenow: 5.651;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:07:30
+closeprice: ["67868.1","67903.1","67875.1","67900","67884.3"];volumenow: 9.486;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:07:40
+closeprice: ["67859.2","67903.1","67875.1","67900","67884.3"];volumenow: 11.816;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:07:50
+closeprice: ["67859.2","67903.1","67875.1","67900","67884.3"];volumenow: 18.595;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:08:00
+closeprice: ["67861.8","67903.1","67875.1","67900","67884.3"];volumenow: 21.452;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:08:10
+closeprice: ["67867.7","67903.1","67875.1","67900","67884.3"];volumenow: 24.394;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:08:20
+closeprice: ["67875.9","67903.1","67875.1","67900","67884.3"];volumenow: 25.351;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:08:30
+closeprice: ["67865.1","67903.1","67875.1","67900","67884.3"];volumenow: 26.248;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:08:40
+closeprice: ["67859","67903.1","67875.1","67900","67884.3"];volumenow: 27.665;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:08:50
+closeprice: ["67851","67903.1","67875.1","67900","67884.3"];volumenow: 28.627;volumebefore: 40.807
+ 
+Process Time:2024-05-24 12:09:00
+closeprice: ["67853.1","67851","67903.1","67875.1","67900"];volumenow: 0.16;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:09:10
+closeprice: ["67864.4","67851","67903.1","67875.1","67900"];volumenow: 1.827;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:09:20
+closeprice: ["67851.2","67851","67903.1","67875.1","67900"];volumenow: 45.381;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:09:30
+closeprice: ["67851.3","67851","67903.1","67875.1","67900"];volumenow: 45.478;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:09:40
+closeprice: ["67868.4","67851","67903.1","67875.1","67900"];volumenow: 60.239;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:09:50
+closeprice: ["67868.4","67851","67903.1","67875.1","67900"];volumenow: 60.974;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:10:00
+closeprice: ["67872","67851","67903.1","67875.1","67900"];volumenow: 70.358;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:10:10
+closeprice: ["67868.3","67851","67903.1","67875.1","67900"];volumenow: 76.446;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:10:20
+closeprice: ["67868.3","67851","67903.1","67875.1","67900"];volumenow: 76.601;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:10:30
+closeprice: ["67868.3","67851","67903.1","67875.1","67900"];volumenow: 76.92;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:10:40
+closeprice: ["67868.4","67851","67903.1","67875.1","67900"];volumenow: 77.078;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:10:50
+closeprice: ["67868.4","67851","67903.1","67875.1","67900"];volumenow: 77.484;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:11:00
+closeprice: ["67879.1","67851","67903.1","67875.1","67900"];volumenow: 82.429;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:11:10
+closeprice: ["67887.1","67851","67903.1","67875.1","67900"];volumenow: 82.892;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:11:20
+closeprice: ["67876.1","67851","67903.1","67875.1","67900"];volumenow: 87.428;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:11:30
+closeprice: ["67881.6","67851","67903.1","67875.1","67900"];volumenow: 89.04;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:11:40
+closeprice: ["67889.5","67851","67903.1","67875.1","67900"];volumenow: 91.455;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:11:50
+closeprice: ["67897.5","67851","67903.1","67875.1","67900"];volumenow: 94.333;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:12:00
+closeprice: ["67897.4","67851","67903.1","67875.1","67900"];volumenow: 94.622;volumebefore: 29.271
+ 
+Process Time:2024-05-24 12:12:10
+closeprice: ["67901.1","67897.4","67851","67903.1","67875.1"];volumenow: 0.26;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:12:20
+closeprice: ["67916.4","67897.4","67851","67903.1","67875.1"];volumenow: 7.521;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:12:30
+closeprice: ["67938","67897.4","67851","67903.1","67875.1"];volumenow: 56.515;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:12:40
+closeprice: ["67943.8","67897.4","67851","67903.1","67875.1"];volumenow: 57.099;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:12:50
+closeprice: ["67935.9","67897.4","67851","67903.1","67875.1"];volumenow: 61.282;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:13:00
+closeprice: ["67924.8","67897.4","67851","67903.1","67875.1"];volumenow: 64.156;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:13:10
+closeprice: ["67924.9","67897.4","67851","67903.1","67875.1"];volumenow: 64.291;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:13:20
+closeprice: ["67918.7","67897.4","67851","67903.1","67875.1"];volumenow: 65.766;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:13:30
+closeprice: ["67904.9","67897.4","67851","67903.1","67875.1"];volumenow: 70.571;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:13:40
+closeprice: ["67904.9","67897.4","67851","67903.1","67875.1"];volumenow: 70.788;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:13:50
+closeprice: ["67896.2","67897.4","67851","67903.1","67875.1"];volumenow: 73.298;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:14:00
+closeprice: ["67892","67897.4","67851","67903.1","67875.1"];volumenow: 74.354;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:14:10
+closeprice: ["67892","67897.4","67851","67903.1","67875.1"];volumenow: 74.362;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:14:20
+closeprice: ["67883","67897.4","67851","67903.1","67875.1"];volumenow: 80.545;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:14:30
+closeprice: ["67881.9","67897.4","67851","67903.1","67875.1"];volumenow: 80.715;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:14:40
+closeprice: ["67881.9","67897.4","67851","67903.1","67875.1"];volumenow: 82.494;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:14:50
+closeprice: ["67896.8","67897.4","67851","67903.1","67875.1"];volumenow: 126.17;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:15:00
+closeprice: ["67897.2","67897.4","67851","67903.1","67875.1"];volumenow: 126.501;volumebefore: 94.631
+ 
+Process Time:2024-05-24 12:15:10
+closeprice: ["67900","67897.2","67897.4","67851","67903.1"];volumenow: 0.638;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:15:20
+closeprice: ["67886","67897.2","67897.4","67851","67903.1"];volumenow: 3.975;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:15:30
+closeprice: ["67899.8","67897.2","67897.4","67851","67903.1"];volumenow: 5.749;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:15:40
+closeprice: ["67899.9","67897.2","67897.4","67851","67903.1"];volumenow: 6.071;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:15:50
+closeprice: ["67893.6","67897.2","67897.4","67851","67903.1"];volumenow: 7.778;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:16:00
+closeprice: ["67893.5","67897.2","67897.4","67851","67903.1"];volumenow: 8.053;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:16:10
+closeprice: ["67878.8","67897.2","67897.4","67851","67903.1"];volumenow: 12.294;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:16:20
+closeprice: ["67878.9","67897.2","67897.4","67851","67903.1"];volumenow: 12.534;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:16:30
+closeprice: ["67857.2","67897.2","67897.4","67851","67903.1"];volumenow: 14.491;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:16:40
+closeprice: ["67857.4","67897.2","67897.4","67851","67903.1"];volumenow: 15.414;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:16:50
+closeprice: ["67850","67897.2","67897.4","67851","67903.1"];volumenow: 28.642;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:17:00
+closeprice: ["67844.1","67897.2","67897.4","67851","67903.1"];volumenow: 36.303;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:17:10
+closeprice: ["67841.2","67897.2","67897.4","67851","67903.1"];volumenow: 42.529;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:17:20
+closeprice: ["67824.3","67897.2","67897.4","67851","67903.1"];volumenow: 46.839;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:17:30
+closeprice: ["67828.5","67897.2","67897.4","67851","67903.1"];volumenow: 58.973;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:17:40
+closeprice: ["67828.6","67897.2","67897.4","67851","67903.1"];volumenow: 66.06;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:17:50
+closeprice: ["67828.3","67897.2","67897.4","67851","67903.1"];volumenow: 70.831;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:18:00
+closeprice: ["67826","67897.2","67897.4","67851","67903.1"];volumenow: 75.538;volumebefore: 126.501
+ 
+Process Time:2024-05-24 12:18:10
+closeprice: ["67817.5","67826.1","67897.2","67897.4","67851"];volumenow: 7.336;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:18:20
+closeprice: ["67824.9","67826.1","67897.2","67897.4","67851"];volumenow: 32.798;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:18:30
+closeprice: ["67824.8","67826.1","67897.2","67897.4","67851"];volumenow: 42.023;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:18:40
+closeprice: ["67805.9","67826.1","67897.2","67897.4","67851"];volumenow: 75.338;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:18:50
+closeprice: ["67795.3","67826.1","67897.2","67897.4","67851"];volumenow: 113.128;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:19:00
+closeprice: ["67806.8","67826.1","67897.2","67897.4","67851"];volumenow: 118.663;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:19:10
+closeprice: ["67819.8","67826.1","67897.2","67897.4","67851"];volumenow: 120.126;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:19:20
+closeprice: ["67806.8","67826.1","67897.2","67897.4","67851"];volumenow: 160.61;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:19:30
+closeprice: ["67822.2","67826.1","67897.2","67897.4","67851"];volumenow: 162.829;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:19:40
+closeprice: ["67822.3","67826.1","67897.2","67897.4","67851"];volumenow: 163.34;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:19:50
+closeprice: ["67824.6","67826.1","67897.2","67897.4","67851"];volumenow: 164.528;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:20:00
+closeprice: ["67802.1","67826.1","67897.2","67897.4","67851"];volumenow: 175.133;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:20:10
+closeprice: ["67789","67826.1","67897.2","67897.4","67851"];volumenow: 193.53;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:20:20
+closeprice: ["67820.4","67826.1","67897.2","67897.4","67851"];volumenow: 205.216;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:20:30
+closeprice: ["67820.3","67826.1","67897.2","67897.4","67851"];volumenow: 206.744;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:20:40
+closeprice: ["67840.6","67826.1","67897.2","67897.4","67851"];volumenow: 209.149;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:20:50
+closeprice: ["67843.1","67826.1","67897.2","67897.4","67851"];volumenow: 210.17;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:21:00
+closeprice: ["67843.2","67826.1","67897.2","67897.4","67851"];volumenow: 210.349;volumebefore: 77.327
+ 
+Process Time:2024-05-24 12:21:10
+closeprice: ["67854.3","67843.2","67826.1","67897.2","67897.4"];volumenow: 3.606;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:21:20
+closeprice: ["67864.6","67843.2","67826.1","67897.2","67897.4"];volumenow: 5.614;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:21:30
+closeprice: ["67864.6","67843.2","67826.1","67897.2","67897.4"];volumenow: 5.81;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:21:40
+closeprice: ["67852.4","67843.2","67826.1","67897.2","67897.4"];volumenow: 8.046;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:21:50
+closeprice: ["67856.8","67843.2","67826.1","67897.2","67897.4"];volumenow: 10.566;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:22:00
+closeprice: ["67864.7","67843.2","67826.1","67897.2","67897.4"];volumenow: 14.459;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:22:10
+closeprice: ["67864.6","67843.2","67826.1","67897.2","67897.4"];volumenow: 15.437;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:22:20
+closeprice: ["67864.7","67843.2","67826.1","67897.2","67897.4"];volumenow: 15.598;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:22:30
+closeprice: ["67850.1","67843.2","67826.1","67897.2","67897.4"];volumenow: 16.464;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:22:40
+closeprice: ["67839.6","67843.2","67826.1","67897.2","67897.4"];volumenow: 54.618;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:22:50
+closeprice: ["67828.8","67843.2","67826.1","67897.2","67897.4"];volumenow: 58.404;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:23:00
+closeprice: ["67826.7","67843.2","67826.1","67897.2","67897.4"];volumenow: 64.526;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:23:10
+closeprice: ["67855.1","67843.2","67826.1","67897.2","67897.4"];volumenow: 65.395;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:23:20
+closeprice: ["67855","67843.2","67826.1","67897.2","67897.4"];volumenow: 66.163;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:23:30
+closeprice: ["67852.3","67843.2","67826.1","67897.2","67897.4"];volumenow: 67.97;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:23:40
+closeprice: ["67852.2","67843.2","67826.1","67897.2","67897.4"];volumenow: 69.602;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:23:50
+closeprice: ["67866.8","67843.2","67826.1","67897.2","67897.4"];volumenow: 106.282;volumebefore: 210.349
+ 
+Process Time:2024-05-24 12:24:00
+closeprice: ["67854.6","67855.1","67843.2","67826.1","67897.2"];volumenow: 0.779;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:24:10
+closeprice: ["67841.7","67855.1","67843.2","67826.1","67897.2"];volumenow: 4.661;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:24:20
+closeprice: ["67821.6","67855.1","67843.2","67826.1","67897.2"];volumenow: 9.663;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:24:30
+closeprice: ["67810.9","67855.1","67843.2","67826.1","67897.2"];volumenow: 12.364;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:24:40
+closeprice: ["67787.4","67855.1","67843.2","67826.1","67897.2"];volumenow: 22.9;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:24:50
+closeprice: ["67790.5","67855.1","67843.2","67826.1","67897.2"];volumenow: 25.466;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:25:00
+closeprice: ["67790.5","67855.1","67843.2","67826.1","67897.2"];volumenow: 25.875;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:25:10
+closeprice: ["67785.7","67855.1","67843.2","67826.1","67897.2"];volumenow: 27.424;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:25:20
+closeprice: ["67779.1","67855.1","67843.2","67826.1","67897.2"];volumenow: 29.783;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:25:30
+closeprice: ["67778.8","67855.1","67843.2","67826.1","67897.2"];volumenow: 30.411;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:25:40
+closeprice: ["67803.6","67855.1","67843.2","67826.1","67897.2"];volumenow: 42.343;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:25:50
+closeprice: ["67789.6","67855.1","67843.2","67826.1","67897.2"];volumenow: 56.832;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:26:00
+closeprice: ["67769.4","67855.1","67843.2","67826.1","67897.2"];volumenow: 72.194;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:26:10
+closeprice: ["67745.6","67855.1","67843.2","67826.1","67897.2"];volumenow: 87.692;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:26:20
+closeprice: ["67722.4","67855.1","67843.2","67826.1","67897.2"];volumenow: 95.988;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:26:30
+closeprice: ["67735.4","67855.1","67843.2","67826.1","67897.2"];volumenow: 109.426;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:26:40
+closeprice: ["67721.5","67855.1","67843.2","67826.1","67897.2"];volumenow: 128.573;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:26:50
+closeprice: ["67728.6","67855.1","67843.2","67826.1","67897.2"];volumenow: 132.343;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:27:00
+closeprice: ["67728.5","67855.1","67843.2","67826.1","67897.2"];volumenow: 134.836;volumebefore: 110.711
+ 
+Process Time:2024-05-24 12:27:10
+closeprice: ["67728.3","67728.6","67855.1","67843.2","67826.1"];volumenow: 1.691;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:27:20
+closeprice: ["67726.9","67728.6","67855.1","67843.2","67826.1"];volumenow: 3.417;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:27:30
+closeprice: ["67722.8","67728.6","67855.1","67843.2","67826.1"];volumenow: 5.101;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:27:40
+closeprice: ["67712.1","67728.6","67855.1","67843.2","67826.1"];volumenow: 10.701;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:27:50
+closeprice: ["67703.1","67728.6","67855.1","67843.2","67826.1"];volumenow: 20.699;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:28:00
+closeprice: ["67724.1","67728.6","67855.1","67843.2","67826.1"];volumenow: 33.81;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:28:10
+closeprice: ["67735.8","67728.6","67855.1","67843.2","67826.1"];volumenow: 36.012;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:28:20
+closeprice: ["67746.4","67728.6","67855.1","67843.2","67826.1"];volumenow: 40.908;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:28:30
+closeprice: ["67739","67728.6","67855.1","67843.2","67826.1"];volumenow: 41.583;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:28:40
+closeprice: ["67739","67728.6","67855.1","67843.2","67826.1"];volumenow: 42.47;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:28:50
+closeprice: ["67759.8","67728.6","67855.1","67843.2","67826.1"];volumenow: 45.571;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:29:00
+closeprice: ["67759.8","67728.6","67855.1","67843.2","67826.1"];volumenow: 47.412;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:29:10
+closeprice: ["67759.7","67728.6","67855.1","67843.2","67826.1"];volumenow: 48.389;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:29:20
+closeprice: ["67744.3","67728.6","67855.1","67843.2","67826.1"];volumenow: 53.082;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:29:30
+closeprice: ["67743.8","67728.6","67855.1","67843.2","67826.1"];volumenow: 53.125;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:29:40
+closeprice: ["67747.7","67728.6","67855.1","67843.2","67826.1"];volumenow: 56.482;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:29:50
+closeprice: ["67769.9","67728.6","67855.1","67843.2","67826.1"];volumenow: 62.707;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:30:00
+closeprice: ["67770","67728.6","67855.1","67843.2","67826.1"];volumenow: 68.1;volumebefore: 134.936
+ 
+Process Time:2024-05-24 12:30:10
+closeprice: ["67772.1","67770","67728.6","67855.1","67843.2"];volumenow: 2.624;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:30:20
+closeprice: ["67760.1","67770","67728.6","67855.1","67843.2"];volumenow: 6.711;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:30:30
+closeprice: ["67738.2","67770","67728.6","67855.1","67843.2"];volumenow: 9.183;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:30:40
+closeprice: ["67742.5","67770","67728.6","67855.1","67843.2"];volumenow: 16.028;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:30:50
+closeprice: ["67742.5","67770","67728.6","67855.1","67843.2"];volumenow: 17.404;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:31:00
+closeprice: ["67736.8","67770","67728.6","67855.1","67843.2"];volumenow: 19.397;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:31:10
+closeprice: ["67707.1","67770","67728.6","67855.1","67843.2"];volumenow: 59.99;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:31:20
+closeprice: ["67702.3","67770","67728.6","67855.1","67843.2"];volumenow: 101.492;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:31:30
+closeprice: ["67695.8","67770","67728.6","67855.1","67843.2"];volumenow: 106.713;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:31:40
+closeprice: ["67706.8","67770","67728.6","67855.1","67843.2"];volumenow: 120.355;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:31:50
+closeprice: ["67697","67770","67728.6","67855.1","67843.2"];volumenow: 127.143;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:32:00
+closeprice: ["67715.5","67770","67728.6","67855.1","67843.2"];volumenow: 138.245;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:32:10
+closeprice: ["67728.5","67770","67728.6","67855.1","67843.2"];volumenow: 143.306;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:32:20
+closeprice: ["67746.6","67770","67728.6","67855.1","67843.2"];volumenow: 149.697;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:32:30
+closeprice: ["67745.4","67770","67728.6","67855.1","67843.2"];volumenow: 150.531;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:32:40
+closeprice: ["67707.6","67770","67728.6","67855.1","67843.2"];volumenow: 160.306;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:32:50
+closeprice: ["67713.6","67770","67728.6","67855.1","67843.2"];volumenow: 171.951;volumebefore: 68.1
+ 
+Process Time:2024-05-24 12:33:00
+closeprice: ["67700.9","67702.5","67770","67728.6","67855.1"];volumenow: 0.242;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:33:10
+closeprice: ["67678.2","67702.5","67770","67728.6","67855.1"];volumenow: 18.788;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:33:20
+closeprice: ["67690.5","67702.5","67770","67728.6","67855.1"];volumenow: 24.217;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:33:30
+closeprice: ["67696.4","67702.5","67770","67728.6","67855.1"];volumenow: 27.921;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:33:40
+closeprice: ["67695.2","67702.5","67770","67728.6","67855.1"];volumenow: 33.741;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:33:50
+closeprice: ["67718.8","67702.5","67770","67728.6","67855.1"];volumenow: 52.138;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:34:00
+closeprice: ["67718.9","67702.5","67770","67728.6","67855.1"];volumenow: 54.026;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:34:10
+closeprice: ["67683.3","67702.5","67770","67728.6","67855.1"];volumenow: 86.926;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:34:20
+closeprice: ["67684.7","67702.5","67770","67728.6","67855.1"];volumenow: 119.147;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:34:30
+closeprice: ["67705.7","67702.5","67770","67728.6","67855.1"];volumenow: 121.997;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:34:40
+closeprice: ["67690.9","67702.5","67770","67728.6","67855.1"];volumenow: 125.4;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:34:50
+closeprice: ["67692.4","67702.5","67770","67728.6","67855.1"];volumenow: 133.631;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:35:00
+closeprice: ["67710.9","67702.5","67770","67728.6","67855.1"];volumenow: 141.623;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:35:10
+closeprice: ["67720.2","67702.5","67770","67728.6","67855.1"];volumenow: 145.592;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:35:20
+closeprice: ["67713.1","67702.5","67770","67728.6","67855.1"];volumenow: 147.417;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:35:30
+closeprice: ["67718","67702.5","67770","67728.6","67855.1"];volumenow: 148.928;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:35:40
+closeprice: ["67729.5","67702.5","67770","67728.6","67855.1"];volumenow: 149.784;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:35:50
+closeprice: ["67714.5","67702.5","67770","67728.6","67855.1"];volumenow: 155.017;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:36:00
+closeprice: ["67682.8","67702.5","67770","67728.6","67855.1"];volumenow: 161.628;volumebefore: 173.07
+ 
+Process Time:2024-05-24 12:36:10
+closeprice: ["67698.1","67682","67702.5","67770","67728.6"];volumenow: 1.629;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:36:20
+closeprice: ["67703.2","67682","67702.5","67770","67728.6"];volumenow: 12.753;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:36:30
+closeprice: ["67703.8","67682","67702.5","67770","67728.6"];volumenow: 16.189;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:36:40
+closeprice: ["67691.6","67682","67702.5","67770","67728.6"];volumenow: 18.687;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:36:50
+closeprice: ["67691.6","67682","67702.5","67770","67728.6"];volumenow: 18.978;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:37:00
+closeprice: ["67691.5","67682","67702.5","67770","67728.6"];volumenow: 19.375;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:37:10
+closeprice: ["67724.4","67682","67702.5","67770","67728.6"];volumenow: 30.624;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:37:20
+closeprice: ["67749.3","67682","67702.5","67770","67728.6"];volumenow: 34.103;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:37:30
+closeprice: ["67721.3","67682","67702.5","67770","67728.6"];volumenow: 40.509;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:37:40
+closeprice: ["67700.1","67682","67702.5","67770","67728.6"];volumenow: 44.19;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:37:50
+closeprice: ["67716.4","67682","67702.5","67770","67728.6"];volumenow: 48.163;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:38:00
+closeprice: ["67731","67682","67702.5","67770","67728.6"];volumenow: 49.241;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:38:10
+closeprice: ["67740.9","67682","67702.5","67770","67728.6"];volumenow: 53.61;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:38:20
+closeprice: ["67701.2","67682","67702.5","67770","67728.6"];volumenow: 56.536;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:38:30
+closeprice: ["67704.7","67682","67702.5","67770","67728.6"];volumenow: 60.146;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:38:40
+closeprice: ["67699.7","67682","67702.5","67770","67728.6"];volumenow: 62.621;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:38:50
+closeprice: ["67706.9","67682","67702.5","67770","67728.6"];volumenow: 66.879;volumebefore: 161.684
+ 
+Process Time:2024-05-24 12:39:00
+closeprice: ["67716.5","67710","67682","67702.5","67770"];volumenow: 3.015;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:39:10
+closeprice: ["67732.7","67710","67682","67702.5","67770"];volumenow: 3.907;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:39:20
+closeprice: ["67706.8","67710","67682","67702.5","67770"];volumenow: 10.983;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:39:30
+closeprice: ["67704.7","67710","67682","67702.5","67770"];volumenow: 11.104;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:39:40
+closeprice: ["67698.5","67710","67682","67702.5","67770"];volumenow: 37.156;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:39:50
+closeprice: ["67687.3","67710","67682","67702.5","67770"];volumenow: 62.704;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:40:00
+closeprice: ["67696.8","67710","67682","67702.5","67770"];volumenow: 68.982;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:40:10
+closeprice: ["67729.9","67710","67682","67702.5","67770"];volumenow: 86.625;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:40:20
+closeprice: ["67701.9","67710","67682","67702.5","67770"];volumenow: 88.957;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:40:30
+closeprice: ["67694.2","67710","67682","67702.5","67770"];volumenow: 116.455;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:40:40
+closeprice: ["67697.6","67710","67682","67702.5","67770"];volumenow: 118.089;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:40:50
+closeprice: ["67690.5","67710","67682","67702.5","67770"];volumenow: 127.201;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:41:00
+closeprice: ["67701.4","67710","67682","67702.5","67770"];volumenow: 130.407;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:41:10
+closeprice: ["67712.3","67710","67682","67702.5","67770"];volumenow: 132.442;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:41:20
+closeprice: ["67702","67710","67682","67702.5","67770"];volumenow: 133.843;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:41:30
+closeprice: ["67692.9","67710","67682","67702.5","67770"];volumenow: 137.482;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:41:40
+closeprice: ["67699.1","67710","67682","67702.5","67770"];volumenow: 143.957;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:41:50
+closeprice: ["67704.6","67710","67682","67702.5","67770"];volumenow: 150.491;volumebefore: 67.394
+ 
+Process Time:2024-05-24 12:42:00
+closeprice: ["67693.5","67704.6","67710","67682","67702.5"];volumenow: 27.588;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:42:10
+closeprice: ["67702.8","67704.6","67710","67682","67702.5"];volumenow: 29.498;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:42:20
+closeprice: ["67709.7","67704.6","67710","67682","67702.5"];volumenow: 30.461;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:42:30
+closeprice: ["67705.7","67704.6","67710","67682","67702.5"];volumenow: 32.022;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:42:40
+closeprice: ["67703.9","67704.6","67710","67682","67702.5"];volumenow: 34.314;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:42:50
+closeprice: ["67717.1","67704.6","67710","67682","67702.5"];volumenow: 45.118;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:43:00
+closeprice: ["67713.3","67704.6","67710","67682","67702.5"];volumenow: 47.477;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:43:10
+closeprice: ["67703.8","67704.6","67710","67682","67702.5"];volumenow: 49.447;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:43:20
+closeprice: ["67703.9","67704.6","67710","67682","67702.5"];volumenow: 50.446;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:43:30
+closeprice: ["67703.9","67704.6","67710","67682","67702.5"];volumenow: 51.766;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:43:40
+closeprice: ["67703.8","67704.6","67710","67682","67702.5"];volumenow: 52.645;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:43:50
+closeprice: ["67703.9","67704.6","67710","67682","67702.5"];volumenow: 53.04;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:44:00
+closeprice: ["67703.7","67704.6","67710","67682","67702.5"];volumenow: 60.391;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:44:10
+closeprice: ["67707.7","67704.6","67710","67682","67702.5"];volumenow: 61.837;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:44:20
+closeprice: ["67707.7","67704.6","67710","67682","67702.5"];volumenow: 62.337;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:44:30
+closeprice: ["67709.9","67704.6","67710","67682","67702.5"];volumenow: 66.892;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:44:40
+closeprice: ["67708","67704.6","67710","67682","67702.5"];volumenow: 68.644;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:44:50
+closeprice: ["67705.5","67704.6","67710","67682","67702.5"];volumenow: 74.796;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:45:00
+closeprice: ["67705.4","67704.6","67710","67682","67702.5"];volumenow: 75.381;volumebefore: 151.234
+ 
+Process Time:2024-05-24 12:45:10
+closeprice: ["67705.5","67705.5","67704.6","67710","67682"];volumenow: 0.344;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:45:20
+closeprice: ["67708.7","67705.5","67704.6","67710","67682"];volumenow: 2.2;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:45:30
+closeprice: ["67736.6","67705.5","67704.6","67710","67682"];volumenow: 5.435;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:45:40
+closeprice: ["67734.8","67705.5","67704.6","67710","67682"];volumenow: 6.142;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:45:50
+closeprice: ["67732.8","67705.5","67704.6","67710","67682"];volumenow: 6.526;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:46:00
+closeprice: ["67718.5","67705.5","67704.6","67710","67682"];volumenow: 8.317;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:46:10
+closeprice: ["67710","67705.5","67704.6","67710","67682"];volumenow: 9.815;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:46:20
+closeprice: ["67719.2","67705.5","67704.6","67710","67682"];volumenow: 10.978;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:46:30
+closeprice: ["67709.7","67705.5","67704.6","67710","67682"];volumenow: 11.637;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:46:40
+closeprice: ["67702.3","67705.5","67704.6","67710","67682"];volumenow: 12.873;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:46:50
+closeprice: ["67702.3","67705.5","67704.6","67710","67682"];volumenow: 13.445;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:47:00
+closeprice: ["67705.7","67705.5","67704.6","67710","67682"];volumenow: 18.532;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:47:10
+closeprice: ["67729.8","67705.5","67704.6","67710","67682"];volumenow: 20.403;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:47:20
+closeprice: ["67718.1","67705.5","67704.6","67710","67682"];volumenow: 22.322;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:47:30
+closeprice: ["67718","67705.5","67704.6","67710","67682"];volumenow: 22.405;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:47:40
+closeprice: ["67702.5","67705.5","67704.6","67710","67682"];volumenow: 23.924;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:47:50
+closeprice: ["67706.9","67705.5","67704.6","67710","67682"];volumenow: 28.319;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:48:00
+closeprice: ["67719.1","67705.5","67704.6","67710","67682"];volumenow: 29.918;volumebefore: 75.411
+ 
+Process Time:2024-05-24 12:48:10
+closeprice: ["67722.7","67719.2","67705.5","67704.6","67710"];volumenow: 3.31;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:48:20
+closeprice: ["67729.9","67719.2","67705.5","67704.6","67710"];volumenow: 6.105;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:48:30
+closeprice: ["67729.2","67719.2","67705.5","67704.6","67710"];volumenow: 6.25;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:48:40
+closeprice: ["67731.3","67719.2","67705.5","67704.6","67710"];volumenow: 7.581;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:48:50
+closeprice: ["67743.1","67719.2","67705.5","67704.6","67710"];volumenow: 8.981;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:49:00
+closeprice: ["67743","67719.2","67705.5","67704.6","67710"];volumenow: 9.209;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:49:10
+closeprice: ["67733.4","67719.2","67705.5","67704.6","67710"];volumenow: 9.742;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:49:20
+closeprice: ["67734.7","67719.2","67705.5","67704.6","67710"];volumenow: 12.392;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:49:30
+closeprice: ["67734.8","67719.2","67705.5","67704.6","67710"];volumenow: 13.22;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:49:40
+closeprice: ["67735.7","67719.2","67705.5","67704.6","67710"];volumenow: 18.56;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:49:50
+closeprice: ["67736.4","67719.2","67705.5","67704.6","67710"];volumenow: 19.015;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:50:00
+closeprice: ["67737.4","67719.2","67705.5","67704.6","67710"];volumenow: 20.446;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:50:10
+closeprice: ["67742.3","67719.2","67705.5","67704.6","67710"];volumenow: 28.167;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:50:20
+closeprice: ["67740.1","67719.2","67705.5","67704.6","67710"];volumenow: 29.366;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:50:30
+closeprice: ["67737.1","67719.2","67705.5","67704.6","67710"];volumenow: 29.859;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:50:40
+closeprice: ["67742.9","67719.2","67705.5","67704.6","67710"];volumenow: 37;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:50:50
+closeprice: ["67756.8","67719.2","67705.5","67704.6","67710"];volumenow: 49.997;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:51:00
+closeprice: ["67756.8","67719.2","67705.5","67704.6","67710"];volumenow: 53.249;volumebefore: 29.926
+ 
+Process Time:2024-05-24 12:51:10
+closeprice: ["67756.7","67756.8","67719.2","67705.5","67704.6"];volumenow: 1.195;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:51:20
+closeprice: ["67756.8","67756.8","67719.2","67705.5","67704.6"];volumenow: 1.567;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:51:30
+closeprice: ["67756.9","67756.8","67719.2","67705.5","67704.6"];volumenow: 6.162;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:51:40
+closeprice: ["67756.9","67756.8","67719.2","67705.5","67704.6"];volumenow: 6.434;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:51:50
+closeprice: ["67753.1","67756.8","67719.2","67705.5","67704.6"];volumenow: 8.301;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:52:00
+closeprice: ["67753.1","67756.8","67719.2","67705.5","67704.6"];volumenow: 8.437;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:52:10
+closeprice: ["67753","67756.8","67719.2","67705.5","67704.6"];volumenow: 9.553;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:52:20
+closeprice: ["67739.5","67756.8","67719.2","67705.5","67704.6"];volumenow: 12.488;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:52:30
+closeprice: ["67737","67756.8","67719.2","67705.5","67704.6"];volumenow: 13.584;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:52:40
+closeprice: ["67739.5","67756.8","67719.2","67705.5","67704.6"];volumenow: 16.291;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:52:50
+closeprice: ["67745","67756.8","67719.2","67705.5","67704.6"];volumenow: 17.087;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:53:00
+closeprice: ["67739.1","67756.8","67719.2","67705.5","67704.6"];volumenow: 17.697;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:53:10
+closeprice: ["67739.2","67756.8","67719.2","67705.5","67704.6"];volumenow: 20.992;volumebefore: 53.249
+ 
+Process Time:2024-05-24 12:57:40
+closeprice: ["67704.3","67720.9","67761.8","67756.8","67719.2"];volumenow: 7.008;volumebefore: 52.473
+ 
+Process Time:2024-05-24 12:59:50
+closeprice: ["67733.5","67720.9","67761.8","67756.8","67719.2"];volumenow: 64.254;volumebefore: 52.473
+ 
+Process Time:2024-05-24 13:00:00
+closeprice: ["67735","67720.9","67761.8","67756.8","67719.2"];volumenow: 78.206;volumebefore: 52.473
+ 
+Process Time:2024-05-24 13:03:50
+closeprice: ["67646.3","67670.6","67735","67720.9","67761.8"];volumenow: 125.271;volumebefore: 61.837
+ 
+Process Time:2024-05-24 13:04:00
+closeprice: ["67642.4","67670.6","67735","67720.9","67761.8"];volumenow: 128.404;volumebefore: 61.837
+ 
+Process Time:2024-05-24 13:04:10
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 6 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=3&limit=100
+getWalletBalance error: cURL error 7: Failed to connect to api.bybit.com port 443 after 7 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/account/wallet-balance?accountType=UNIFIED
+start account balance: 
+Process Time:2024-05-24 13:38:00
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 10 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=3&limit=100
+start account balance: 41.08081982
+Process Time:2024-05-24 13:44:40
+getKline error: cURL error 7: Failed to connect to api.bybit.com port 443 after 8 ms: Couldn't connect to server (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=3&limit=100

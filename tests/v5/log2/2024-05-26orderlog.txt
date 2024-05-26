@@ -1,0 +1,54 @@
+making order 做空:2024-05-26 14:35:05
+
+closing order 做空:over sma50
+
+closing order 做空:2024-05-26 15:00:20
+
+
+making order 做多:2024-05-26 15:11:05
+
+closing order 做多:2024-05-26 15:33:25
+
+
+making order 做空:2024-05-26 16:37:05
+
+closing order 做空:over sma50
+
+closing order 做空:2024-05-26 17:10:35
+
+
+
+making order 做多:2024-05-26 17:17:05
+
+closing order 做多:over sma50
+
+closing order 做多:2024-05-26 17:21:40
+
+
+
+making order 做空:2024-05-26 17:31:05
+
+closing order 做空:over sma50
+
+closing order 做空:2024-05-26 18:02:15
+
+making order 做多:2024-05-26 18:08:05
+
+closing order 做多:over sma50
+
+closing order 做多:2024-05-26 19:19:40
+
+
+making order 做空:2024-05-26 19:29:05
+
+closing order 做空:$finalema10>$finalema20
+
+closing order 做空:2024-05-26 20:07:00
+
+
+making order 做多:2024-05-26 21:32:05
+
+closing order 做多:over sma50
+
+closing order 做多:2024-05-26 21:39:55
+
