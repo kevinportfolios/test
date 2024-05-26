@@ -122,7 +122,7 @@ try {
         $closePrice20[]=$r["4"];
     }
 
-    $average10 = calculateEMA($closePrice20, 20);
+    $average10 = calculateEMA($closePrice20, 10);
     $average20 = calculateEMA($closePrice20, 50);
 
     $currentprice=$closePrice20[0];
