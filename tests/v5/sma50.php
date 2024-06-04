@@ -206,13 +206,6 @@ try {
                 $isfirstorder=1;
                 $firstposition="";
             
-                // if($action == "long"){
-                //     $position ="long to short";
-                // }else if($action == "short"){
-                //     $position = "short to long";
-                // }
-                // logger('position:'.$position.';action:'.$action);
-            
             }else{
             
             
@@ -220,7 +213,8 @@ try {
                 //做多
                 logger('position:'.$position);
             
-                if($position =="short to long"){
+                // if($position =="short to long"){
+                if($position !=""){
                     $buyingprice=$closePrice20[0];
                     //if not,open order
                      //做多
@@ -292,7 +286,8 @@ try {
             
                 logger('position:'.$position);
             
-                if($position =="long to short"){
+                // if($position =="long to short"){
+                if($position !=""){
                     //if not,open order
                     //做空
                     logger('order 做空:'.date('Y-m-d H:i:s',$time));
