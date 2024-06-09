@@ -133,11 +133,16 @@ function testlogger($log){
 }
 
 
+
+
+
+
+
 function loggertest($log){
 	$time=time()+(7*3600);
 	$folderName = 'test';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
-	$filename= $folderName . '/' .'testlog3.txt';
+	$filename= $folderName . '/' .'20240603testlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -152,7 +157,7 @@ function orderloggertest($log){
 	$time=time()+(7*3600);
 	$folderName = 'test';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'testorderlog3.txt';
+	$filename= $folderName . '/' .'20240603testorderlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -162,3 +167,19 @@ function orderloggertest($log){
 
     file_put_contents($filename,$contents);
 }
+
+function result($log){
+	$time=time()+(7*3600);
+	$folderName = 'testresult';  // folder name
+	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
+	$filename= $folderName . '/' .'20240603result.txt';
+	if(!file_exists($filename)){
+	   file_put_contents($filename,'');
+	}
+	
+	$contents = file_get_contents($filename);
+	$contents .= "$log\r\r";
+
+    file_put_contents($filename,$contents);
+}
+

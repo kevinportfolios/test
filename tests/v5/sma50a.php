@@ -47,8 +47,8 @@ $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertest($startingtime);
 
 
-$starttime =1717664400000;//开始时间前1小时
-$endtime = 1717668000000;//想要的开始时间
+$starttime =1717405200000;//开始时间前1小时
+$endtime = 1717408800000;//想要的开始时间
 
 $is_running_order=0;
 
@@ -59,7 +59,7 @@ $start=1596446400;
 if($time>$start){
 
     //结束时间
-    if($endtime>=1717689600000){
+    if($endtime>=1717430400000){
         loggertest("Reach end time");
         echo "Reach end time";
 
@@ -165,8 +165,9 @@ try {
                 $firstposition="";
               
             }else{
+
             
-                if($finalema10>($finalema20+10)){
+                if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
                     //做多
                     loggertest('position:'.$position);
                 
@@ -174,7 +175,7 @@ try {
                         loggertest('order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                     
                         $buyingprice=$closePrice20[0];
-                        $stopLoss=$finalema20-80;
+                        $stopLoss=$buyingprice-80;
                         $is_running_order=1;    
                         $action="long";
                         $position="";
@@ -186,7 +187,7 @@ try {
                     }
                     loggertest('running order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                 
-                }else if(($finalema10+10)<$finalema20){
+                }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
                     //做空
                     loggertest('position:'.$position);
                 
@@ -194,7 +195,7 @@ try {
                         loggertest('order 做空:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
 
                         $buyingprice=$closePrice20[0];
-                        $stopLoss=$finalema20+80;
+                        $stopLoss=$buyingprice+80;
                         $is_running_order=1;
                         $action="short";
                         $position="";
@@ -279,7 +280,8 @@ try {
                         $position ="long to short";
                         $allowtoclose =0;
                         orderloggertest('closing order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));         
-                        orderloggertest('currentprice:'.$currentprice.' - buyingprice:'.$buyingprice.' = '.($currentprice-$buyingprice));      
+                        orderloggertest('currentprice:'.$currentprice.' - buyingprice:'.$buyingprice.' = '.($currentprice-$buyingprice));    
+                        result(($currentprice-$buyingprice));  
                         $is_running_order=0;
                     
                         orderloggertest('============================');
@@ -345,6 +347,7 @@ try {
                         $allowtoclose =0;
                         orderloggertest('closing order 做空:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                         orderloggertest('buyingprice:'.$buyingprice.' - currentprice:'.$currentprice.' = '.($buyingprice-$currentprice));    
+                        result(($buyingprice-$currentprice));  
                         $is_running_order=0;     
                     
                         orderloggertest('============================');
@@ -370,6 +373,6 @@ try {
 
 }
 
-sleep(1);
+// sleep(1);
 
 }

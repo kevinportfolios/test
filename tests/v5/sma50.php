@@ -209,7 +209,7 @@ try {
             }else{
             
             
-            if($finalema10>($finalema20+10)){
+            if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
                 //做多
                 logger('position:'.$position);
             
@@ -221,7 +221,7 @@ try {
                      logger('order 做多:'.date('Y-m-d H:i:s',$time));
                 
                     //  $stopLoss=$currentprice-50;
-                    $stopLoss=$finalema20-80;
+                    $stopLoss=$buyingprice-80;
                 
                      try {
                          $result=$bybit->order2()->postCreate([
@@ -280,20 +280,21 @@ try {
             
             
             
-            }else if(($finalema10+10)<$finalema20){
-                $buyingprice=$closePrice20[0];
+            }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
+               
                 //做空
             
                 logger('position:'.$position);
             
                 // if($position =="long to short"){
                 if($position !=""){
+                    $buyingprice=$closePrice20[0];
                     //if not,open order
                     //做空
                     logger('order 做空:'.date('Y-m-d H:i:s',$time));
 
                     // $stopLoss=$currentprice+50;
-                    $stopLoss=$finalema20+80;
+                    $stopLoss=$buyingprice+80;
                     try {
                         $result=$bybit->order2()->postCreate([
                             'category'=>'linear',
