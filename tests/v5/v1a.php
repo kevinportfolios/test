@@ -48,8 +48,8 @@ $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertestvol($startingtime);
 
 
-$starttime = 1718276400000;//开始时间前1小时
-$endtime = 1718280000000;//想要的开始时间
+$starttime = 1717758000000;//开始时间前1小时
+$endtime = 1717761600000;//想要的开始时间
 
 $is_running_order=0;
 
@@ -60,7 +60,7 @@ $start=1596446400;
 if($time>$start){
 
     //结束时间
-    if($endtime>=1718301600000){
+    if($endtime>=1717783200000){
         loggertestvol("Reach end time");
         echo "Reach end time";
 
@@ -102,11 +102,11 @@ try {
         break;
     }
 
-    // $starttime+=5000;
-    // $endtime+=5000;
+    $starttime+=5000;
+    $endtime+=5000;
 
-    $starttime+=10000;
-    $endtime+=10000;
+    // $starttime+=10000;
+    // $endtime+=10000;
 
 
    
@@ -130,14 +130,17 @@ try {
      $currentprice=$closePrice20[0];
      $closePrice4 = array_slice($closePrice20, 0, 5);
  
- 
      // $closePrice3 = array_slice($closePrice10, 0, 2);//checking for order again
- 
+    //  $turnover=$getKline["result"]["list"][0]["6"];
+    //  $turnover2=$getKline["result"]["list"][1]["6"];
  
  
  
      $finalema= 'closeprice: '.json_encode($closePrice4).';volumenow: '.$volume.';volumebefore: '.$volume2;
      loggertestvol($finalema);
+
+    //  $turnoverlog= 'turnovernow: '.$turnover.';turnoverbefore: '.$turnover2;
+    //  loggertestvol($turnoverlog);
      // echo $volume;
      // echo PHP_EOL;
      // echo $volume2;
@@ -165,13 +168,15 @@ try {
      //checking for first trade
     //  if(($closePrice4[0]>$closePrice4[1])&&$isfirstorder==1&&($volume>600&&($volume>$volume2))){
     // if($isfirstorder==1&&($volume>600&&$volume2>400&&($volume>$volume2))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
-    if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
+    // if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)&&($finalema10>$finalema20)){
+    if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)){
          $isfirstorder=0;
          $position ="short to long";
          loggertestvol("start order");
     //  }else if(($closePrice4[0]<$closePrice4[1])&&$isfirstorder==1&&($volume>600&&($volume>$volume2))){
     // }else if($isfirstorder==1&&($volume>600&&$volume2>400&&($volume>$volume2))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
-    }else if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
+    // }else if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])&&($finalema10<$finalema20)){
+    }else if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])){
          $isfirstorder=0;
          $position ="long to short";
          loggertestvol("start order");
@@ -207,7 +212,8 @@ try {
                 // if(($closePrice4[0]>$closePrice4[1])&&($closePrice4[1]>$closePrice4[2])&&($volume>600&&($volume>$volume2))&&($closePrice20[0]>$finalema10)){
                 // if(($volume>600)&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
                 // if(($volume>600&&$volume2>400&&($volume>$volume2))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
-                if(($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
+                // if(($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)&&($finalema10>$finalema20)){
+                if(($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)){
                     //做多
                     loggertestvol('position:'.$position.';volume:'.$volume);
                 
@@ -230,7 +236,8 @@ try {
                 // }else if(($closePrice4[0]<$closePrice4[1])&&($closePrice4[1]<$closePrice4[2])&&($volume>600&&($volume>$volume2))&&($finalema10>$closePrice20[0])){
                 // }else if(($volume>600)&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
                 // }else if(($volume>600&&$volume2>400&&($volume>$volume2))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
-                }else if(($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
+                // }else if(($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])&&($finalema10<$finalema20)){
+                }else if(($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])){
                     //做空
                     loggertestvol('position:'.$position.';volume:'.$volume);
                 
