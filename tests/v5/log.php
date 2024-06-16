@@ -195,7 +195,7 @@ function loggertestvol($log){
 	$time=time()+(7*3600);
 	$folderName = 'volume';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
-	$filename= $folderName . '/' .'20240612testlog2.txt';
+	$filename= $folderName . '/' .'20240613testlog5.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -210,7 +210,7 @@ function orderloggertestvol($log){
 	$time=time()+(7*3600);
 	$folderName = 'volume';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240612testorderlog2.txt';
+	$filename= $folderName . '/' .'20240613testorderlog5.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -225,7 +225,7 @@ function resultvol($log){
 	$time=time()+(7*3600);
 	$folderName = 'volumeresult';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240612result2.txt';
+	$filename= $folderName . '/' .'20240613result5.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
