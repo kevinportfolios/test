@@ -47,8 +47,8 @@ $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertest($startingtime);
 
 
-$starttime =1717405200000;//开始时间前1小时
-$endtime = 1717408800000;//想要的开始时间
+$starttime = 1717412400000;//开始时间前1小时
+$endtime = 1717416000000;//想要的开始时间
 
 $is_running_order=0;
 
@@ -59,7 +59,7 @@ $start=1596446400;
 if($time>$start){
 
     //结束时间
-    if($endtime>=1717430400000){
+    if($endtime>=1717437600000){
         loggertest("Reach end time");
         echo "Reach end time";
 
@@ -111,7 +111,7 @@ try {
     // print_r($closePrice20);
 
     $average10 = calculateEMA($closePrice20, 10);
-    $average20 = calculateEMA($closePrice20, 50);
+    $average20 = calculateEMA($closePrice20, 20);
 
     $currentprice=$closePrice20[0];
 

@@ -237,7 +237,7 @@ try {
                             'positionIdx'=> 0,
                             'preCreateId'=>'',
                             // 'price'=>'42838.8',
-                            'qty'=>'0.005',
+                            'qty'=>'0.001',
                             'qtyType'=>0,
                             'qtyTypeValue'=>0,
                             //'qtyX'=>"100000",
@@ -309,7 +309,7 @@ try {
                             'positionIdx'=> 0,
                             'preCreateId'=>'',
                             // 'price'=>'42803.2',
-                            'qty'=>'0.005',
+                            'qty'=>'0.001',
                             'qtyType'=>0,
                             'qtyTypeValue'=>0,
                             //'qtyX'=>"100000",
@@ -435,7 +435,7 @@ try {
                                 'orderType'=>'Market',
                                 'positionIdx'=> '0',
                                 'price'=>'0',
-                                'qty'=>'0.005',
+                                'qty'=>'0.001',
                                 //'qtyX'=>"100000",
                                 'side'=>"Sell",
                                 'symbol'=>"BTCUSDT",
@@ -454,6 +454,7 @@ try {
                         
 
                             orderlogger('closing order 做多:'.date('Y-m-d H:i:s',$time));
+                            orderloggertest('currentprice:'.$currentprice.' - buyingprice:'.$buyingprice.' = '.($currentprice-$buyingprice));    
                         }catch (\Exception $e){
                             $error = 'close 做多 error: '.$e->getMessage();
                             logger($error);
@@ -537,7 +538,7 @@ try {
                                 'orderType'=>'Market',
                                 'positionIdx'=> '0',
                                 'price'=>'0',
-                                'qty'=>'0.005',
+                                'qty'=>'0.001',
                                 //'qtyX'=>"100000",
                                 'side'=>"Buy",
                                 'symbol'=>"BTCUSDT",
@@ -554,6 +555,7 @@ try {
                             }
                         
                             orderlogger('closing order 做空:'.date('Y-m-d H:i:s',$time));
+                            orderloggertest('buyingprice:'.$buyingprice.' - currentprice:'.$currentprice.' = '.($buyingprice-$currentprice)); 
                         }catch (\Exception $e){
                             $error = 'close 做空 error: '.$e->getMessage();
                             logger($error);
@@ -626,7 +628,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
                 'orderType'=>'Market',
                 'positionIdx'=> '0',
                 'price'=>'0',
-                'qty'=>'0.005',
+                'qty'=>'0.001',
                 //'qtyX'=>"100000",
                 'side'=>"Sell",
                 'symbol'=>"BTCUSDT",
@@ -656,7 +658,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
                 'orderType'=>'Market',
                 'positionIdx'=> '0',
                 'price'=>'0',
-                'qty'=>'0.005',
+                'qty'=>'0.001',
                 //'qtyX'=>"100000",
                 'side'=>"Buy",
                 'symbol'=>"BTCUSDT",
