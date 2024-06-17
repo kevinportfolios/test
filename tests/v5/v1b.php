@@ -48,8 +48,8 @@ $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertestvol($startingtime);
 
 
-$starttime = 1718362800000;//开始时间前1小时
-$endtime = 1718366400000;//想要的开始时间
+$starttime = 1718190000000;//开始时间前1小时
+$endtime = 1718193600000;//想要的开始时间
 
 $is_running_order=0;
 
@@ -60,7 +60,7 @@ $start=1596446400;
 if($time>$start){
 
     //结束时间
-    if($endtime>=1718388000000){
+    if($endtime>=1718215200000){
         loggertestvol("Reach end time");
         echo "Reach end time";
 
@@ -102,6 +102,21 @@ try {
         break;
     }
 
+    try {
+        $getKline2=$bybit->market()->getKline([
+            'category'=>'linear',
+            'symbol'=>'BTCUSDT',
+            'interval'=>'1',
+            'start'=>$starttime,
+            'end'=>$endtime,
+            // 'limit'=>'100',
+        ]);
+    }catch (\Exception $e){
+        $error = 'getKline error: '.$e->getMessage();
+        loggertestvol($error);
+        break;
+    }
+
     $starttime+=5000;
     $endtime+=5000;
 
@@ -113,11 +128,16 @@ try {
      // $closePrice3=array();
      $closePrice4=array();
      $closePrice20=array();
+     $closePrice202=array();
     
     
      foreach ($getKline["result"]["list"] as $r) {
          $closePrice20[]=$r["4"];
      }
+
+     foreach ($getKline2["result"]["list"] as $r) {
+        $closePrice202[]=$r["4"];
+    }
 
      $average10 = calculateEMA($closePrice20, 10);
      $average20 = calculateEMA($closePrice20, 20);
@@ -125,6 +145,7 @@ try {
      $finalema20=$average20[0];
 
      $currentprice=$closePrice20[0];
+     $currentprice2=$closePrice202[0];
      $closePrice4 = array_slice($closePrice20, 0, 5);
 
  
@@ -137,6 +158,10 @@ try {
  
      $finalema= 'closeprice: '.json_encode($closePrice4).';volumenow: '.$volume.';volumebefore: '.$volume2;
      loggertestvol($finalema);
+
+     $closePrice5 = array_slice($closePrice202, 0, 5);
+     $finalemaa= 'closeprice2: '.json_encode($closePrice5);
+     loggertestvol($finalemaa);
 
     //  $turnoverlog= 'turnovernow: '.$turnover.';turnoverbefore: '.$turnover2;
     //  loggertestvol($turnoverlog);
@@ -280,7 +305,7 @@ try {
             if($action=="long"){
                 //close 做多
             
-                    $diffprice =  $currentprice-$buyingprice;
+                    $diffprice =  $currentprice2-$buyingprice;
                     $beforeearninglvl=$earninglvl;
                     $earninglvl= getearninglvl3($diffprice,$earninglvl);
             
@@ -292,7 +317,7 @@ try {
                         //     $canclose+=1;
                         // }
                         // if($canclose>1){
-                            loggertestvol('diffprice>200 long:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'.$currentprice);
+                            loggertestvol('diffprice>200 long:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'.$currentprice2);
                         
                             $allowtoclose =1;
                             $firstposition="";
@@ -353,7 +378,7 @@ try {
             }else if($action=="short"){
                //close 做空
             
-                    $diffprice =  $buyingprice-$currentprice;
+                    $diffprice =  $buyingprice-$currentprice2;
                     $beforeearninglvl=$earninglvl;
                     $earninglvl= getearninglvl3($diffprice,$earninglvl);
             
@@ -366,7 +391,7 @@ try {
                         //     $canclose+=1;
                         // }
                         // if($canclose>1){
-                            loggertestvol('diffprice>200 short:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'. $currentprice);
+                            loggertestvol('diffprice>200 short:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'. $currentprice2);
                         
                             $allowtoclose =1;
                             $firstposition="";
