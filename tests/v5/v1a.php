@@ -34,7 +34,7 @@ $isfirstorder=1;
 $firstposition="";
 $earninglvl=0;
 $beforeearninglvl=0;
-$canclose=0;
+// $canclose=0;
 
 $buyingprice=0;//进场价钱
 $currentprice=0;//当前市场价钱
@@ -48,8 +48,8 @@ $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertestvol($startingtime);
 
 
-$starttime = 1717758000000;//开始时间前1小时
-$endtime = 1717761600000;//想要的开始时间
+$starttime = 1718362800000;//开始时间前1小时
+$endtime = 1718366400000;//想要的开始时间
 
 $is_running_order=0;
 
@@ -60,7 +60,7 @@ $start=1596446400;
 if($time>$start){
 
     //结束时间
-    if($endtime>=1717783200000){
+    if($endtime>=1718388000000){
         loggertestvol("Reach end time");
         echo "Reach end time";
 
@@ -290,17 +290,16 @@ try {
                         loggertestvol($earninglvllog);
                     
                         if($beforeearninglvl>$earninglvl){
-                            $canclose+=1;
-                        }
-                    
-                        if($canclose>1){
+                        //     $canclose+=1;
+                        // }
+                        // if($canclose>1){
                             loggertestvol('diffprice>200 long:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'.$currentprice);
                         
                             $allowtoclose =1;
                             $firstposition="";
                             $isfirstorder=0;
                         
-                            $canclose=0;
+                            // $canclose=0;
                             $earninglvl=0;
                             $beforeearninglvl=0;
                         
@@ -362,19 +361,19 @@ try {
                     if($beforeearninglvl!=0){
                         $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
                         loggertestvol($earninglvllog);
+                        
                     
                         if($beforeearninglvl>$earninglvl){
-                            $canclose+=1;
-                        }
-                    
-                        if($canclose>1){
+                        //     $canclose+=1;
+                        // }
+                        // if($canclose>1){
                             loggertestvol('diffprice>200 short:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'. $currentprice);
                         
                             $allowtoclose =1;
                             $firstposition="";
                             $isfirstorder=0;
                         
-                            $canclose=0;
+                            // $canclose=0;
                             $earninglvl=0;
                             $beforeearninglvl=0;
                         

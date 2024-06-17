@@ -1,0 +1,1 @@
+making order 做多:2024-06-10 23:18:05buyingprice:69958.4;volume:1211.26stopLoss:69878.4order meet the stoploseclosing order 做多:2024-06-10 23:21:05stopLoss:69878.4 - buyingprice:69958.4 = -80============================
