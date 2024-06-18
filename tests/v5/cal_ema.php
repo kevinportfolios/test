@@ -204,8 +204,8 @@ function getearninglvl3($diffprice,$earninglvl) {
     //     $earninglvl = 200; // 50%
     // } 
 
-    if ($diffprice > 250) {
-        $earninglvl = 250;
+    if ($diffprice > 220) {
+        $earninglvl = 220;
     } 
     if ($diffprice > 300) {
         $earninglvl = 300; // 75%

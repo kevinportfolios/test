@@ -12,3 +12,5 @@
 
 Count	6 (Show)
 Sum	457.1
+
+$canclose=0
