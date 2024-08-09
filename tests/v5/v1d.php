@@ -41,15 +41,16 @@ $currentprice=0;//当前市场价钱
 $allowtoclose=0;
 
 $status ="";
-
+$highestprice=0;
+$lowestprice=0;
 
 
 $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertestvol($startingtime);
 
 
-$starttime = 1718967600000;//开始时间前1小时
-$endtime = 1718971200000;//想要的开始时间
+$starttime = 1723021200000;//开始时间前1小时
+$endtime = 1723024800000;//想要的开始时间
 $allowtime = $starttime;
 
 $is_running_order=0;
@@ -61,7 +62,7 @@ $start=1596446400;
 if($time>$start){
 
     //结束时间
-    if($endtime>=1718992800000){
+    if($endtime>=1723053600000){
         loggertestvol("Reach end time");
         echo "Reach end time";
 
@@ -188,14 +189,14 @@ try {
     //  if(($closePrice4[0]>$closePrice4[1])&&$isfirstorder==1&&($volume>600&&($volume>$volume2))){
     // if($isfirstorder==1&&($volume>600&&$volume2>400&&($volume>$volume2))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
     // if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)&&($finalema10>$finalema20)){
-    if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
+    if($isfirstorder==1&&($volume>500&&(($volume-$volume2)>=300))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
          $isfirstorder=0;
          $position ="short to long";
          loggertestvol("start order");
     //  }else if(($closePrice4[0]<$closePrice4[1])&&$isfirstorder==1&&($volume>600&&($volume>$volume2))){
     // }else if($isfirstorder==1&&($volume>600&&$volume2>400&&($volume>$volume2))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
     // }else if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])&&($finalema10<$finalema20)){
-    }else if($isfirstorder==1&&($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
+    }else if($isfirstorder==1&&($volume>500&&(($volume-$volume2)>=300))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
          $isfirstorder=0;
          $position ="long to short";
          loggertestvol("start order");
@@ -232,7 +233,7 @@ try {
                 // if(($volume>600)&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
                 // if(($volume>600&&$volume2>400&&($volume>$volume2))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
                 // if(($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)&&($finalema10>$finalema20)){
-                if(($volume>600&&(($volume-$volume2)>=400))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
+                if(($volume>500&&(($volume-$volume2)>=300))&&($closePrice20[0]>$finalema10)&&($closePrice20[0]>$finalema20)){
                     //做多
                     loggertestvol('position:'.$position.';volume:'.$volume);
                 
@@ -244,6 +245,7 @@ try {
                         $is_running_order=1;    
                         $action="long";
                         $position="";
+                        $highestprice=$closePrice20[0];
 
                         orderloggertestvol('making order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                         orderloggertestvol('buyingprice:'.$buyingprice.';volume:'.$volume);
@@ -256,7 +258,7 @@ try {
                 // }else if(($volume>600)&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
                 // }else if(($volume>600&&$volume2>400&&($volume>$volume2))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
                 // }else if(($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])&&($finalema10<$finalema20)){
-                }else if(($volume>600&&(($volume-$volume2)>=400))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
+                }else if(($volume>500&&(($volume-$volume2)>=300))&&($finalema10>$closePrice20[0])&&($finalema20>$closePrice20[0])){
                     //做空
                     loggertestvol('position:'.$position.';volume:'.$volume);
                 
@@ -268,6 +270,7 @@ try {
                         $is_running_order=1;
                         $action="short";
                         $position="";
+                        $lowestprice=$closePrice20[0];
 
                         orderloggertestvol('making order 做空:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                         orderloggertestvol('buyingprice:'.$buyingprice.';volume:'.$volume);
@@ -309,10 +312,10 @@ try {
                         loggertestvol($earninglvllog);
                     
                         if($beforeearninglvl>$earninglvl){
-                            $canclose+=1;
-                            loggertestvol('canclose:'.$canclose);
-                        }
-                        if($canclose>2){
+                        //     $canclose+=1;
+                        //     loggertestvol('canclose:'.$canclose);
+                        // }
+                        // if($canclose>1){
                             loggertestvol('diffprice>200 long:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'.$currentprice2);
                         
                             $allowtoclose =1;
@@ -326,8 +329,10 @@ try {
                         }
                     }
 
-                    
-                
+                    if($currentprice > $highestprice){
+                        $highestprice = $currentprice;
+                    }
+
                     //closed 当亏50%
                     if(($buyingprice-$currentprice)>200){
                         $allowtoclose =1;
@@ -363,7 +368,10 @@ try {
                         
                         $is_running_order=0;
                         $allowtime = $starttime +  60000;
+                        orderloggertestvol('highestprice:'.$highestprice);
                         orderloggertestvol('============================');
+                        $highestprice=0;
+                        $lowestprice=0;
                     }
                 
                 loggertestvol('running cancel 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
@@ -384,10 +392,10 @@ try {
                         
                     
                         if($beforeearninglvl>$earninglvl){
-                            $canclose+=1;
-                            loggertestvol('canclose:'.$canclose);
-                        }
-                        if($canclose>2){
+                        //     $canclose+=1;
+                        //     loggertestvol('canclose:'.$canclose);
+                        // }
+                        // if($canclose>1){
                             loggertestvol('diffprice>200 short:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))).';buyingprice:'.$buyingprice.';currentprice:'. $currentprice2);
                         
                             $allowtoclose =1;
@@ -401,6 +409,9 @@ try {
                         }
                     }
 
+                    if($currentprice < $lowestprice){
+                        $lowestprice = $currentprice;
+                    }
                      //closed 当亏50%
                     if(($currentprice-$buyingprice)>200){
                         $allowtoclose =1;
@@ -437,7 +448,10 @@ try {
                         }
                         $is_running_order=0;     
                         $allowtime = $starttime +  60000;
+                        orderloggertestvol('lowestprice:'.$lowestprice);
                         orderloggertestvol('============================');
+                        $highestprice=0;
+                        $lowestprice=0;
                     }
                 
                 

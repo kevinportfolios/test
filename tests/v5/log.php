@@ -142,7 +142,7 @@ function loggertest($log){
 	$time=time()+(7*3600);
 	$folderName = 'sma';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
-	$filename= $folderName . '/' .'20240603testlog3.txt';
+	$filename= $folderName . '/' .'20240703testlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -157,7 +157,7 @@ function orderloggertest($log){
 	$time=time()+(7*3600);
 	$folderName = 'sma';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240603testorderlog3.txt';
+	$filename= $folderName . '/' .'20240703testorderlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -172,7 +172,7 @@ function result($log){
 	$time=time()+(7*3600);
 	$folderName = 'smaresult';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240603result3.txt';
+	$filename= $folderName . '/' .'20240703result.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -193,9 +193,9 @@ function result($log){
 //////////////////////////////
 function loggertestvol($log){
 	$time=time()+(7*3600);
-	$folderName = 'volume';  // folder name
+	$folderName = 'v2';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
-	$filename= $folderName . '/' .'20240621testlog4.txt';
+	$filename= $folderName . '/' .'20240807testlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -208,9 +208,9 @@ function loggertestvol($log){
 
 function orderloggertestvol($log){
 	$time=time()+(7*3600);
-	$folderName = 'volume';  // folder name
+	$folderName = 'v2';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240621testorderlog4.txt';
+	$filename= $folderName . '/' .'20240807testorderlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -223,9 +223,9 @@ function orderloggertestvol($log){
 
 function resultvol($log){
 	$time=time()+(7*3600);
-	$folderName = 'volumeresult';  // folder name
+	$folderName = 'v2result';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240621result4.txt';
+	$filename= $folderName . '/' .'20240807result.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -235,3 +235,51 @@ function resultvol($log){
 
     file_put_contents($filename,$contents);
 }
+
+
+
+
+// function loggertestvol($log){
+// 	$time=time()+(7*3600);
+// 	$folderName = '3bar';  // folder name
+// 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
+// 	$filename= $folderName . '/' .'20240703testlog3.txt';
+// 	if(!file_exists($filename)){
+// 	   file_put_contents($filename,'');
+// 	}
+	
+// 	$contents = file_get_contents($filename);
+// 	$contents .= "$log\r";
+
+//     file_put_contents($filename,$contents);
+// }
+
+// function orderloggertestvol($log){
+// 	$time=time()+(7*3600);
+// 	$folderName = '3bar';  // folder name
+// 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
+// 	$filename= $folderName . '/' .'20240703testorderlog3.txt';
+// 	if(!file_exists($filename)){
+// 	   file_put_contents($filename,'');
+// 	}
+	
+// 	$contents = file_get_contents($filename);
+// 	$contents .= "$log\r\r";
+
+//     file_put_contents($filename,$contents);
+// }
+
+// function resultvol($log){
+// 	$time=time()+(7*3600);
+// 	$folderName = '3barresult';  // folder name
+// 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
+// 	$filename= $folderName . '/' .'20240703result3.txt';
+// 	if(!file_exists($filename)){
+// 	   file_put_contents($filename,'');
+// 	}
+	
+// 	$contents = file_get_contents($filename);
+// 	$contents .= "$log\r\r";
+
+//     file_put_contents($filename,$contents);
+// }
