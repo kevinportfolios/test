@@ -191,11 +191,14 @@ function result($log){
 
 
 //////////////////////////////
+
+
 function loggertestvol($log){
+	$runningdate ="20240825";
 	$time=time()+(7*3600);
-	$folderName = 'v2';  // folder name
+	$folderName = 'v1';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
-	$filename= $folderName . '/' .'20240807testlog.txt';
+	$filename= $folderName . '/' .$runningdate.'testlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -207,10 +210,11 @@ function loggertestvol($log){
 }
 
 function orderloggertestvol($log){
+	$runningdate ="20240825";
 	$time=time()+(7*3600);
-	$folderName = 'v2';  // folder name
+	$folderName = 'v1';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240807testorderlog.txt';
+	$filename= $folderName . '/' .$runningdate.'testorderlog.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -222,10 +226,11 @@ function orderloggertestvol($log){
 }
 
 function resultvol($log){
+	$runningdate ="20240825";
 	$time=time()+(7*3600);
-	$folderName = 'v2result';  // folder name
+	$folderName = 'v1result';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20240807result.txt';
+	$filename= $folderName . '/' .$runningdate.'result.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
