@@ -194,7 +194,7 @@ function result($log){
 
 
 function loggertestvol($log){
-	$runningdate ="20240825";
+	$runningdate ="20240901";
 	$time=time()+(7*3600);
 	$folderName = 'v1';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
@@ -210,7 +210,7 @@ function loggertestvol($log){
 }
 
 function orderloggertestvol($log){
-	$runningdate ="20240825";
+	$runningdate ="20240901";
 	$time=time()+(7*3600);
 	$folderName = 'v1';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
@@ -226,7 +226,7 @@ function orderloggertestvol($log){
 }
 
 function resultvol($log){
-	$runningdate ="20240825";
+	$runningdate ="20240901";
 	$time=time()+(7*3600);
 	$folderName = 'v1result';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
