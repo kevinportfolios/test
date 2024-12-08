@@ -40,20 +40,15 @@ $buyingprice=0;//进场价钱
 $currentprice=0;//当前市场价钱
 $allowtoclose=0;
 $status ="";
-
+$diffrange=0;
 
 
 $startingtime= 'Starting Time:'.date('Y-m-d H:i:s',(time()+(8*3600)));
 loggertest($startingtime);
 
 
-// $starttime = 1729306800000;//开始时间前1小时
-// $starttime = 1729494000000;//开始时间前3小时
-
-
-
-$starttime = 1733551200000;//开始时间前4小时
-$endtime = ($starttime + 14400000);//想要的开始时间
+$starttime = 1717412400000;//开始时间前1小时
+$endtime = 1717416000000;//想要的开始时间
 
 $is_running_order=0;
 
@@ -61,10 +56,13 @@ while(1){
 $time=time()+(8*3600);
 $start=1596446400;
 
+
+
+
 if($time>$start){
 
     //结束时间
-    if($endtime>= 1733594400000){
+    if($endtime>=1717437600000){
         loggertest("Reach end time");
         echo "Reach end time";
 
@@ -105,6 +103,9 @@ try {
         loggertest($error);
         break;
     }
+
+    $starttime+=5000;
+    $endtime+=5000;
    
     $closePrice20=array();
     foreach ($getKline["result"]["list"] as $r) {
@@ -114,8 +115,6 @@ try {
 
     $average10 = calculateEMA($closePrice20, 10);
     $average20 = calculateEMA($closePrice20, 20);
-    // $average10 = calculateEMA($closePrice20, 50);
-    // $average20 = calculateEMA($closePrice20, 100);
 
     $currentprice=$closePrice20[0];
 
@@ -123,14 +122,8 @@ try {
     $finalema10=$average10[0];
     $finalema20=$average20[0];
   
-    $finalema= 'finalema10: '.$finalema10.' , '.'finalema50: '.$finalema20.' , '.'currentprice: '.$currentprice;
+    $finalema= 'finalema20: '.$finalema10.' , '.'finalema50: '.$finalema20;
     loggertest($finalema);
-
-    $volume=$getKline["result"]["list"][0]["5"];
-    $volume2=$getKline["result"]["list"][1]["5"];
-    $finalema3= 'volumenow: '.$volume.';volumebefore: '.$volume2;
-    loggertest($finalema3);
-
     echo $finalema;
     echo PHP_EOL; echo PHP_EOL;
 
@@ -176,31 +169,51 @@ try {
               
             }else{
 
-
-
             
-                if(($finalema10>$finalema20)&&(($finalema10 - $finalema20)<50) &&($currentprice>$finalema20) &&($volume>300 )){
+
+
+
+
+                
+                // if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
+                if($finalema10>$finalema20){
                     //做多
                     loggertest('position:'.$position);
-                
-                    if($position !=""){
-                        loggertest('order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
-                    
-                        $buyingprice=$closePrice20[0];
-                        $stopLoss=$buyingprice-80;
-                        $is_running_order=1;    
-                        $action="long";
-                        $position="";
 
-                        orderloggertest('making order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
-                        orderloggertest('buyingprice:'.$buyingprice);
-                        orderloggertest('stopLoss:'.$stopLoss);
-                    
-                        orderloggertest($finalema3);
+                    $diffrange=$finalema10-$finalema20;
+
+                    if($diffrange>0&&$diffrange<10){
+                        $overprice=$finalema20;
                     }
-                    loggertest('running order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
+            
+                    if($diffrange>50){
+
+                        if($position =="long to short"){
+
+                        }
+
+
+                        if($position =="short to long"){
+
+                            loggertest('order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
+                    
+                            $buyingprice=$closePrice20[0];
+                            $stopLoss=$buyingprice-80;
+                            $is_running_order=1;    
+                            $action="long";
+                            $position="";
+
+                            orderloggertest('making order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
+                            orderloggertest('buyingprice:'.$buyingprice);
+                            orderloggertest('stopLoss:'.$stopLoss);
+
+                        }
+                        loggertest('running order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
+                    
+
+                    }
                 
-                }else if(($finalema10<$finalema20)&&(($finalema20 - $finalema10)<50)&&($currentprice<$finalema20) &&($volume>300)){
+                }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
                     //做空
                     loggertest('position:'.$position);
                 
@@ -216,8 +229,6 @@ try {
                         orderloggertest('making order 做空:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                         orderloggertest('buyingprice:'.$buyingprice);
                         orderloggertest('stopLoss:'.$stopLoss);
-
-                        orderloggertest($finalema3);
                     }
                 
                     loggertest('running order 做空:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
@@ -296,13 +307,7 @@ try {
                         $allowtoclose =0;
                         orderloggertest('closing order 做多:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));         
                         orderloggertest('currentprice:'.$currentprice.' - buyingprice:'.$buyingprice.' = '.($currentprice-$buyingprice));    
-
-                        if(($currentprice-$buyingprice) < -80){
-                            result(-80);  
-                        }else{
-                           result(($currentprice-$buyingprice));  
-                        }
-
+                        result(($currentprice-$buyingprice));  
                         $is_running_order=0;
                     
                         orderloggertest('============================');
@@ -368,13 +373,7 @@ try {
                         $allowtoclose =0;
                         orderloggertest('closing order 做空:'.date('Y-m-d H:i:s',($endtime/1000+(8*3600))));
                         orderloggertest('buyingprice:'.$buyingprice.' - currentprice:'.$currentprice.' = '.($buyingprice-$currentprice));    
-
-                        if(($buyingprice-$currentprice) < -80){
-                            result(-80);  
-                        }else{
-                            result(($buyingprice-$currentprice));  
-                        }
-                        
+                        result(($buyingprice-$currentprice));  
                         $is_running_order=0;     
                     
                         orderloggertest('============================');
@@ -392,8 +391,6 @@ try {
         }
     
     loggertest(' ');
-    $starttime+=60000;
-    $endtime+=60000;
 
 
 }catch (\Exception $e){

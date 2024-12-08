@@ -136,13 +136,14 @@ function testlogger($log){
 
 
 
-
+define('RUNNING_DATE', '20241207');
+define('NUM', '1');
 
 function loggertest($log){
 	$time=time();
 	$folderName = 'sma';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'log.txt';
-	$filename= $folderName . '/' .'20241020testlog2.txt';
+	$filename= $folderName . '/' .RUNNING_DATE.'testlog'.NUM.'.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -157,7 +158,7 @@ function orderloggertest($log){
 	$time=time();
 	$folderName = 'sma';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20241020testorderlog2.txt';
+	$filename= $folderName . '/' .RUNNING_DATE.'testorderlog'.NUM.'.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
@@ -172,7 +173,7 @@ function result($log){
 	$time=time();
 	$folderName = 'smaresult';  // folder name
 	// $filename= $folderName . '/' .date('Y-m-d',$time).'orderlog.txt';
-	$filename= $folderName . '/' .'20241020result2.txt';
+	$filename= $folderName . '/' .RUNNING_DATE.'result'.NUM.'.txt';
 	if(!file_exists($filename)){
 	   file_put_contents($filename,'');
 	}
