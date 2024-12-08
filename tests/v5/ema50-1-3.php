@@ -2,7 +2,7 @@
 
 <?php
 /**
- * using ema 10 and ema 50   
+ * using ema 10 and ema 20   
  * 1minutes
  * // 'interval'=>'1',
  * test at ema50b.php
@@ -136,7 +136,7 @@ try {
     // echo json_encode($closePrice4);
 
     $average10 = calculateEMA($closePrice20, 10);
-    $average20 = calculateEMA($closePrice20, 50);
+    $average20 = calculateEMA($closePrice20, 20);
 
     $currentprice=$closePrice20[0];
     $before1minprice=$closePrice20[1];
@@ -149,6 +149,14 @@ try {
   
     $finalema= 'finalema10: '.$finalema10.' , '.'finalema50: '.$finalema20;
     logger2($finalema);
+
+
+
+    $volume=$getKline["result"]["list"][0]["5"];
+    $volume2=$getKline["result"]["list"][1]["5"];
+    $finalema3= 'volumenow: '.$volume.';volumebefore: '.$volume2;
+    logger2($finalema3);
+
     echo $finalema;
     echo PHP_EOL; echo PHP_EOL;
 
@@ -231,7 +239,8 @@ if($is_running_order==0){
     }else{
 
 
-    if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
+    // if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
+    if(($finalema10>$finalema20)&&(($finalema10 - $finalema20)<50) &&($currentprice>$finalema20) &&($volume>300 )){
         //做多
         logger2('position:'.$position);
 
@@ -241,7 +250,7 @@ if($is_running_order==0){
              //做多
              logger2('order 做多:'.date('Y-m-d H:i:s',$time));
 
-             $stopLoss=$currentprice-50;
+             $stopLoss=$currentprice-80;
 
              try {
                  $result=$bybit->order2()->postCreate([
@@ -303,7 +312,8 @@ if($is_running_order==0){
         logger2('running order 做多:'.date('Y-m-d H:i:s',$time));
 
 
-    }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
+    // }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
+    }else if(($finalema10<$finalema20)&&(($finalema20 - $finalema10)<50)&&($currentprice<$finalema20) &&($volume>300)){
         //做空
       
         logger2('position:'.$position);
@@ -314,7 +324,7 @@ if($is_running_order==0){
             //做空
             logger2('order 做空:'.date('Y-m-d H:i:s',$time));
             
-            $stopLoss=$currentprice+50;
+            $stopLoss=$currentprice+80;
             try {
                 $result=$bybit->order2()->postCreate([
                     'category'=>'linear',
@@ -397,7 +407,7 @@ if($is_running_order==0){
 
             $diffprice =  $currentprice-$buyingprice;
             $beforeearninglvl=$earninglvl;
-            $earninglvl= getearninglvl2($diffprice,$earninglvl);
+            $earninglvl= getearninglvl3($diffprice,$earninglvl);
 
             if($beforeearninglvl!=0){
                 $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
@@ -508,7 +518,7 @@ if($is_running_order==0){
 
             $diffprice =  $buyingprice-$currentprice;
             $beforeearninglvl=$earninglvl;
-            $earninglvl= getearninglvl2($diffprice,$earninglvl);
+            $earninglvl= getearninglvl3($diffprice,$earninglvl);
 
             if($beforeearninglvl!=0){
                 $earninglvllog= 'beforeearninglvl: '.$beforeearninglvl.' , '.'earninglvl: '.$earninglvl;
@@ -667,13 +677,11 @@ if(!empty($curentWalletBalance["result"])&&isset($curentWalletBalance["result"][
 $curentAccountBalance=$curentWalletBalance["result"]["list"][0]["totalWalletBalance"];
 
 //if total loss more than 20%,closed and stop
-
-if($curentAccountBalance<30.50){
-// if($curentAccountBalance<($totalAccountBalance*0.8)){
+// if($curentAccountBalance<30.50){
+if($curentAccountBalance<($totalAccountBalance*0.8)){
     logger2('force stop:'.date('Y-m-d H:i:s',$time));
 
     if($action=="long"){
-
 
         logger2('close 做多:'.date('Y-m-d H:i:s',$time));
 
