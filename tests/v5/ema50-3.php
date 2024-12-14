@@ -94,6 +94,12 @@ while(1){
 $time=time();
 $start=1596446400;
 
+// 获取当前的小时数（24小时制）
+$currentHour = (int)date('H', $time);
+
+// 判断是否在每天的 18:00 到次日 2:00 之间
+if (($currentHour >= 8 && $currentHour < 12) || ($currentHour >= 19 || $currentHour < 2)) {
+
 if($time>$start){
     $t=$time-$start;
     //如果要24小时执行
@@ -754,6 +760,10 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
 // echo PHP_EOL; echo PHP_EOL; echo PHP_EOL;
 
 }
+}
+}else{
+    echo $currentHour;
+    echo PHP_EOL;
 }
 
 sleep(1);
