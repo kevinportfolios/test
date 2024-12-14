@@ -16,7 +16,8 @@ include 'key_secret.php';
 include 'cal_ema.php';
 include 'log.php';
 
-$bybit=new BybitV5($key,$secret);
+// $bybit=new BybitV5($key,$secret);
+$bybit=new BybitV5($argv[1],$argv[2]);
 
 //You can set special needs
 $bybit->setOptions([
@@ -147,9 +148,8 @@ try {
     $finalema10=$average10[0];
     $finalema20=$average20[0];
   
-    $finalema= 'finalema10: '.$finalema10.' , '.'finalema50: '.$finalema20;
+    $finalema= 'finalema10: '.$finalema10.' , '.'finalema20: '.$finalema20.' , '.'currentprice: '.$currentprice;
     logger2($finalema);
-
 
 
     $volume=$getKline["result"]["list"][0]["5"];
@@ -240,7 +240,7 @@ if($is_running_order==0){
 
 
     // if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
-    if(($finalema10>$finalema20)&&(($finalema10 - $finalema20)<50) &&($currentprice>$finalema20) &&($volume>300 )){
+    if(($finalema10>$finalema20)&&(($finalema10 - $finalema20)<50) &&($currentprice>$finalema20) &&($volume>250 )){
         //做多
         logger2('position:'.$position);
 
@@ -250,7 +250,7 @@ if($is_running_order==0){
              //做多
              logger2('order 做多:'.date('Y-m-d H:i:s',$time));
 
-             $stopLoss=$currentprice-80;
+             $stopLoss=$currentprice-100;
 
              try {
                  $result=$bybit->order2()->postCreate([
@@ -313,7 +313,7 @@ if($is_running_order==0){
 
 
     // }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
-    }else if(($finalema10<$finalema20)&&(($finalema20 - $finalema10)<50)&&($currentprice<$finalema20) &&($volume>300)){
+    }else if(($finalema10<$finalema20)&&(($finalema20 - $finalema10)<50)&&($currentprice<$finalema20) &&($volume>250)){
         //做空
       
         logger2('position:'.$position);
@@ -324,7 +324,7 @@ if($is_running_order==0){
             //做空
             logger2('order 做空:'.date('Y-m-d H:i:s',$time));
             
-            $stopLoss=$currentprice+80;
+            $stopLoss=$currentprice+100;
             try {
                 $result=$bybit->order2()->postCreate([
                     'category'=>'linear',
