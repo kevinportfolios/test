@@ -110,6 +110,8 @@ if($time>$start){
         // echo 'Process Time:'.date('Y-m-d H:i:s',$time).PHP_EOL;
         $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
         logger2($processtime);
+        echo $processtime;
+        echo PHP_EOL;
 
 
 try {
@@ -164,6 +166,8 @@ try {
     logger2($finalema3);
 
     echo $finalema;
+    echo PHP_EOL;
+    echo $finalema3;
     echo PHP_EOL; echo PHP_EOL;
 
 
