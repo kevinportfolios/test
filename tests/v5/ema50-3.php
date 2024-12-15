@@ -110,8 +110,8 @@ if($time>$start){
         // echo 'Process Time:'.date('Y-m-d H:i:s',$time).PHP_EOL;
         $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
         logger2($processtime);
-        echo $processtime;
-        echo PHP_EOL;
+        // echo $processtime;
+        // echo PHP_EOL;
 
 
 try {
@@ -165,10 +165,10 @@ try {
     $finalema3= 'volumenow: '.$volume.';volumebefore: '.$volume2;
     logger2($finalema3);
 
-    echo $finalema;
-    echo PHP_EOL;
-    echo $finalema3;
-    echo PHP_EOL; echo PHP_EOL;
+    // echo $finalema;
+    // echo PHP_EOL;
+    // echo $finalema3;
+    // echo PHP_EOL; echo PHP_EOL;
 
 
 
@@ -766,8 +766,8 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
 }
 }
 }else{
-    echo $currentHour;
-    echo PHP_EOL;
+    // echo $currentHour;
+    // echo PHP_EOL;
 }
 
 sleep(1);
