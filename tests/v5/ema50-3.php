@@ -98,7 +98,7 @@ $start=1596446400;
 $currentHour = (int)date('H', $time);
 
 // 判断是否在每天的 18:00 到次日 2:00 之间
-if (($currentHour >= 8 && $currentHour < 12) || ($currentHour >= 19 || $currentHour < 2)) {
+if ($currentHour >= 23 || $currentHour < 1) {
 
 if($time>$start){
     $t=$time-$start;
@@ -176,24 +176,32 @@ try {
 
 
     //checking for first trade
-    if(($finalema10>$finalema20)&&$firstposition==""&&$isfirstorder==1){
-        $firstposition="long";
-    }else if(($finalema10<$finalema20)&&$firstposition==""&&$isfirstorder==1){
-        $firstposition="short";
-    }
+    // if(($finalema10>$finalema20)&&$firstposition==""&&$isfirstorder==1){
+    //     $firstposition="long";
+    // }else if(($finalema10<$finalema20)&&$firstposition==""&&$isfirstorder==1){
+    //     $firstposition="short";
+    // }
 
 
-    if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
+    // if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
+    //     $isfirstorder=0;
+    //     $position ="long to short";
+    //     logger2("start order");
+    // }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
+    //     $isfirstorder=0;
+    //     $position ="short to long";
+    //     logger2("start order");
+    // }
+
+    if(($finalema10<$finalema20)){
         $isfirstorder=0;
         $position ="long to short";
         logger2("start order");
-    }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
+    }else if(($finalema10>$finalema20)){
         $isfirstorder=0;
         $position ="short to long";
         logger2("start order");
     }
-
-
 
 
 
@@ -250,7 +258,8 @@ if($is_running_order==0){
 
 
     // if($finalema10>($finalema20+10)&&($currentprice>$finalema20)){
-    if(($finalema10>$finalema20)&&(($finalema10 - $finalema20)<50) &&($currentprice>$finalema20) &&($volume>250 )){
+    // if(($finalema10>$finalema20)&&(($finalema10 - $finalema20)<50) &&($currentprice>$finalema20) &&($volume>250 )){
+    if(($finalema10>$finalema20)&&($currentprice>$finalema20)&&($currentprice>$currentprice2)&&(($volume>100) && ($volume<300))&& ($volume<$volume2)){
         //做多
         logger2('position:'.$position);
 
@@ -323,7 +332,8 @@ if($is_running_order==0){
 
 
     // }else if(($finalema10+10)<$finalema20&&($currentprice<$finalema20)){
-    }else if(($finalema10<$finalema20)&&(($finalema20 - $finalema10)<50)&&($currentprice<$finalema20) &&($volume>250)){
+    // }else if(($finalema10<$finalema20)&&(($finalema20 - $finalema10)<50)&&($currentprice<$finalema20) &&($volume>250)){
+    }else if(($finalema10<$finalema20)&&($currentprice<$finalema20)&&($currentprice2>$currentprice)&&(($volume>100) && ($volume<300) && ($volume<$volume2))){
         //做空
       
         logger2('position:'.$position);
