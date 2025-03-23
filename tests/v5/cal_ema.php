@@ -291,3 +291,30 @@ function getearninglvleth($diffprice,$earninglvl) {
 
     return $earninglvl;
 }
+
+function getearninglvlsol($diffprice,$earninglvl) {
+   
+    $earninglvl=0; 
+
+    if ($diffprice > 65) {
+        $earninglvl = 65; 
+    }
+
+    if ($diffprice > 70) {
+        $earninglvl = 70; 
+    }
+
+    if ($diffprice > 80) {
+        $earninglvl = 80; 
+    } 
+
+    if ($diffprice > 90) {
+        $earninglvl = 90; 
+    }
+
+    if ($diffprice > 100) {
+        $earninglvl = 100; 
+    }
+    
+    return $earninglvl;
+}
