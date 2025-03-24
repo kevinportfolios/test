@@ -164,32 +164,32 @@ try {
 
    
     //checking for first trade
-    if(($finalema10>$finalema20)&&$firstposition==""&&$isfirstorder==1){
-        $firstposition="long";
-    }else if(($finalema10<$finalema20)&&$firstposition==""&&$isfirstorder==1){
-        $firstposition="short";
-    }
+    // if(($finalema10>$finalema20)&&$firstposition==""&&$isfirstorder==1){
+    //     $firstposition="long";
+    // }else if(($finalema10<$finalema20)&&$firstposition==""&&$isfirstorder==1){
+    //     $firstposition="short";
+    // }
 
 
-    // if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
-    if($firstposition=="long"&&($finalema20<$todayLowPrice)&&$isfirstorder==1){
-        $isfirstorder=0;
-        $position ="long to short";
-        logger2("start order");
-        $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
-        logger2($ordertime);
-    }else if($firstposition=="short"&&($todayLowPrice>$finalema20)&&$isfirstorder==1){
-    // }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
+    // // if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
+    // if($firstposition=="long"&&($finalema20<$todayLowPrice)&&$isfirstorder==1){
+    //     $isfirstorder=0;
+    //     $position ="long to short";
+    //     logger2("start order");
+    //     $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
+    //     logger2($ordertime);
+    // }else if($firstposition=="short"&&($todayLowPrice>$finalema20)&&$isfirstorder==1){
+    // // }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
         $isfirstorder=0;
         $position ="short to long";
-        logger2("start order");
-        $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
-        logger2($ordertime);
-    }
+        // logger2("start order");
+        // $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
+        // logger2($ordertime);
+    // }
 
 
     //start trade
-    if($isfirstorder==0){
+    if(($isfirstorder==0) && ($currentprice<130)){
         //check got order running or not
         try {
             $getRealTime=$bybit->position()->getList([
