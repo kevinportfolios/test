@@ -85,9 +85,13 @@ $currentTradeDate = date('Y-m-d',$time);
 
 //方便测试每10秒执行一次
 if(is_int($t/5)){
-    $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
-    logger2($processtime);
-
+    $currentMinute = (int)date('i', $time); // 获取当前分钟数
+    // 只有当前分钟是 00, 10, 20, 30, 40, 50 才写日志
+    if ($currentMinute % 10 === 0) {
+        $processtime = 'Process Time: ' . date('Y-m-d H:i:s', $time);
+        logger2($processtime);
+    }
+    
 try {
     //ema 10 is blue color
     //ema 100 is white color
@@ -160,36 +164,36 @@ try {
     $finalema= 'finalema10: '.$finalema10.' , '.'finalema20: '.$finalema20.' , '.'currentprice: '.$currentprice;
     // echo($finalema);
     // echo PHP_EOL; echo PHP_EOL; 
-    logger2($finalema);
+    // logger2($finalema);
 
    
-    //checking for first trade
-    // if(($finalema10>$finalema20)&&$firstposition==""&&$isfirstorder==1){
-    //     $firstposition="long";
-    // }else if(($finalema10<$finalema20)&&$firstposition==""&&$isfirstorder==1){
-    //     $firstposition="short";
-    // }
+    // checking for first trade
+    if(($finalema10>$finalema20)&&$firstposition==""&&$isfirstorder==1){
+        $firstposition="long";
+    }else if(($finalema10<$finalema20)&&$firstposition==""&&$isfirstorder==1){
+        $firstposition="short";
+    }
 
 
-    // // if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
-    // if($firstposition=="long"&&($finalema20<$todayLowPrice)&&$isfirstorder==1){
-    //     $isfirstorder=0;
-    //     $position ="long to short";
-    //     logger2("start order");
-    //     $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
-    //     logger2($ordertime);
-    // }else if($firstposition=="short"&&($todayLowPrice>$finalema20)&&$isfirstorder==1){
-    // // }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
+    // if($firstposition=="long"&&($finalema10<$finalema20)&&$isfirstorder==1){
+    if($firstposition=="long"&&($finalema20<$todayLowPrice)&&$isfirstorder==1){
+        $isfirstorder=0;
+        $position ="long to short";
+        logger2("start order");
+        $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
+        logger2($ordertime);
+    }else if($firstposition=="short"&&($todayLowPrice>$finalema20)&&$isfirstorder==1){
+    // }else if($firstposition=="short"&&($finalema10>$finalema20)&&$isfirstorder==1){
         $isfirstorder=0;
         $position ="short to long";
-        // logger2("start order");
-        // $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
-        // logger2($ordertime);
-    // }
+        logger2("start order");
+        $ordertime= 'Process Time:'.date('Y-m-d H:i:s',$time);
+        logger2($ordertime);
+    }
 
 
     //start trade
-    if(($isfirstorder==0) && ($currentprice<130)){
+    if($isfirstorder==0){
         //check got order running or not
         try {
             $getRealTime=$bybit->position()->getList([
@@ -231,6 +235,7 @@ try {
                 // if($finalema10>($finalema20)&&($todayLowPrice>$finalema20)&&(($todayLowPrice - $finalema20)<15)&&($lastTradeDate!=$currentTradeDate)){
                 if(($todayLowPrice>$finalema20)&&(($todayLowPrice - $finalema20)<15)&&($lastTradeDate!=$currentTradeDate)){
                     //做多
+                    logger2($finalema);
                     logger2('position:'.$position);
                     if($position !=""){
                         $buyingprice=$closePrice20[0];
@@ -299,6 +304,7 @@ try {
                 // }else if(($finalema10)<$finalema20&&($todayLowPrice<$finalema20)&&(($finalema20 - $todayLowPrice)<15)&&($lastTradeDate!=$currentTradeDate)){
                 }else if(($todayLowPrice<$finalema20)&&(($finalema20 - $todayLowPrice)<15)&&($lastTradeDate!=$currentTradeDate)){
                     //做空
+                    logger2($finalema);
                     logger2('position:'.$position);
 
                     if($position !=""){
@@ -424,6 +430,7 @@ try {
                 // $diffema=$finalema10-$finalema20;
                 // if(($diffema<0.1)||$allowtoclose==1){
                 if( $allowtoclose==1 ){
+                    logger2($finalema);
                     logger2('close 做多:'.date('Y-m-d H:i:s',$time));
                     try {
                         $result=$bybit->cancel()->postCancel([
@@ -521,6 +528,7 @@ try {
                 // $diffema=$finalema20-$finalema10;
                 // if(($diffema<0.1)||$allowtoclose==1){
                 if( $allowtoclose==1 ){
+                    logger2($finalema);
                     logger2('close 做空:'.date('Y-m-d H:i:s',$time));
                     try {
                         $result=$bybit->cancel()->postCancel([
