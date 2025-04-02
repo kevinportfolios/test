@@ -86,10 +86,16 @@ $currentTradeDate = date('Y-m-d',$time);
 //方便测试每10秒执行一次
 if(is_int($t/5)){
     $currentMinute = (int)date('i');
-    $currentSecond = (int)date('s');
-    if (in_array($currentMinute, [0, 10, 20, 30, 40, 50], true) && $currentSecond === 0) {
-        $processtime = 'Process Time: ' . date('Y-m-d H:i:s');
-        logger2($processtime);
+    switch ($currentMinute) {
+        case 0:
+        case 10:
+        case 25:
+        case 30:
+        case 40:
+        case 50:
+            $processtime= 'Process Time:'.date('Y-m-d H:i:s',$time);
+            logger2($processtime);
+            break;
     }
 try {
     //ema 10 is blue color
