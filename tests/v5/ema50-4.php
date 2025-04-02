@@ -85,13 +85,12 @@ $currentTradeDate = date('Y-m-d',$time);
 
 //方便测试每10秒执行一次
 if(is_int($t/5)){
-    $currentMinute = (int)date('i', $time); // 获取当前分钟数
-    // 只有当前分钟是 00, 10, 20, 30, 40, 50 才写日志
-    if ($currentMinute % 10 === 0) {
-        $processtime = 'Process Time: ' . date('Y-m-d H:i:s', $time);
+    $currentMinute = (int)date('i');
+    $currentSecond = (int)date('s');
+    if (in_array($currentMinute, [0, 10, 20, 30, 40, 50], true) && $currentSecond === 0) {
+        $processtime = 'Process Time: ' . date('Y-m-d H:i:s');
         logger2($processtime);
     }
-    
 try {
     //ema 10 is blue color
     //ema 100 is white color
