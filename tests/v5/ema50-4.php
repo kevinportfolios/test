@@ -262,7 +262,7 @@ try {
                                 'positionIdx'=> 0,
                                 'preCreateId'=>'',
                                 // 'price'=>'42838.8',
-                                'qty'=>'0.1',
+                                'qty'=>'5',
                                 'qtyType'=>0,
                                 'qtyTypeValue'=>0,
                                 //'qtyX'=>"100000",
@@ -332,7 +332,7 @@ try {
                                 'positionIdx'=> 0,
                                 'preCreateId'=>'',
                                 // 'price'=>'42803.2',
-                                'qty'=>'0.1',
+                                'qty'=>'5',
                                 'qtyType'=>0,
                                 'qtyTypeValue'=>0,
                                 //'qtyX'=>"100000",
@@ -448,7 +448,7 @@ try {
                             'orderType'=>'Market',
                             'positionIdx'=> '0',
                             'price'=>'0',
-                            'qty'=>'0.1',
+                            'qty'=>'5',
                             //'qtyX'=>"100000",
                             'side'=>"Sell",
                             'symbol'=>"SOLUSDT",
@@ -546,7 +546,7 @@ try {
                             'orderType'=>'Market',
                             'positionIdx'=> '0',
                             'price'=>'0',
-                            'qty'=>'0.1',
+                            'qty'=>'5',
                             //'qtyX'=>"100000",
                             'side'=>"Buy",
                             'symbol'=>"SOLUSDT",
@@ -604,7 +604,7 @@ $curentAccountBalance=$curentWalletBalance["result"]["list"][0]["totalWalletBala
 
 //if total loss more than 20%,closed and stop
 // if($curentAccountBalance<30.50){
-if($curentAccountBalance<($totalAccountBalance*0.8)){
+if($curentAccountBalance<($totalAccountBalance*0.7)){
     logger2('force stop:'.date('Y-m-d H:i:s',$time));
 
     if($action=="long"){
@@ -622,7 +622,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
                 'orderType'=>'Market',
                 'positionIdx'=> '0',
                 'price'=>'0',
-                'qty'=>'0.1',
+                'qty'=>'5',
                 //'qtyX'=>"100000",
                 'side'=>"Sell",
                 'symbol'=>"SOLUSDT",
@@ -652,7 +652,7 @@ if($curentAccountBalance<($totalAccountBalance*0.8)){
                 'orderType'=>'Market',
                 'positionIdx'=> '0',
                 'price'=>'0',
-                'qty'=>'0.1',
+                'qty'=>'5',
                 //'qtyX'=>"100000",
                 'side'=>"Buy",
                 'symbol'=>"SOLUSDT",
